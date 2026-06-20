@@ -1,0 +1,592 @@
+{
+  "id": "honmen-5",
+  "title": "Honmen Practice Test 5",
+  "type": "honmen",
+  "number": 5,
+  "source": "https://karimen-honmen.com/en/exam/honmen/5",
+  "passScore": 90,
+  "maxScore": 100,
+  "timeLimitMinutes": 50,
+  "questionCount": 95,
+  "questions": [
+    {
+      "q": "When intending to park, even if there is less than 3.5 meters of space on the right side of the vehicle, you parked because no other vehicles were passing.",
+      "answer": 0,
+      "explanation": "You must not park in a place where there is less than 3.5 meters of space on the right side of the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "In dense fog, even turning on the headlights cannot ensure visibility, so you should avoid driving.",
+      "answer": 0,
+      "explanation": "In dense fog, visibility is extremely poor, so you should avoid driving for safety.",
+      "points": 1
+    },
+    {
+      "q": "On straight, flat snowy or icy roads, if the vehicle is equipped with snow tires or tire chains, it will not skid or slide laterally.",
+      "answer": 0,
+      "explanation": "Even with winter tires, there are still risks of skidding or lateral sliding.",
+      "points": 1
+    },
+    {
+      "q": "If a two-wheeled vehicle is about to fall off a cliff, you should give up and let it fall.",
+      "answer": 0,
+      "explanation": "Do not give up; instead, let the side of the vehicle hit the cliff or crash into roadside dirt to stop.",
+      "points": 1
+    },
+    {
+      "q": "If a vehicle stalls at a railway crossing, calmly attempt to restart the engine; if unsuccessful, as an emergency measure, shift to a low gear or second gear and use the starter motor to move the vehicle (this method cannot be used for vehicles with automatic transmissions, etc.).",
+      "answer": 0,
+      "explanation": "This is a method to escape when a manual transmission car stalls at a railway crossing.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that the intersecting road ahead is a priority road when driving on a road with this sign.",
+      "answer": 0,
+      "explanation": "This is a 'right-of-way ahead' guide.",
+      "img": "assets/images/exams/honmen/5/85.png",
+      "points": 1
+    },
+    {
+      "q": "A fixed-route bus is traveling in a designated bus lane, but since an emergency vehicle is approaching, you entered the bus lane to yield to the emergency vehicle.",
+      "answer": 0,
+      "explanation": "Since emergency vehicles have priority, you may enter the designated bus lane to yield to them.",
+      "points": 1
+    },
+    {
+      "q": "At railway crossings and within 10 meters before and after them, parking is prohibited but stopping is allowed.",
+      "answer": 0,
+      "explanation": "At railway crossings and within 10 meters before and after them, both parking and stopping are prohibited.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates 'proceed slowly,' and vehicles must move at a speed allowing immediate stopping.",
+      "answer": 0,
+      "explanation": "This is a 'proceed slowly' regulatory sign, requiring vehicles to move at a speed where they can stop immediately.",
+      "img": "assets/images/exams/honmen/5/60.jpg",
+      "points": 1
+    },
+    {
+      "q": "Uneven tire pressure between the left and right sides can cause loss of steering control or tire deviation to one side.",
+      "answer": 0,
+      "explanation": "In principle, tire pressure should be kept equal on both sides.",
+      "points": 1
+    },
+    {
+      "q": "Many accidents occur at dusk, so turn on the headlights early to signal your vehicle's presence.",
+      "answer": 0,
+      "explanation": "At dusk, turn on the headlights early to signal your vehicle's presence and prevent accidents.",
+      "points": 1
+    },
+    {
+      "q": "The retention area symbol issued by the police chief can be attached anywhere on the vehicle.",
+      "answer": 0,
+      "explanation": "The symbol must be attached in a visible location from the rear, such as on the rear windshield of the car.",
+      "points": 1
+    },
+    {
+      "q": "If you have a large vehicle license, you can drive large special vehicles.",
+      "answer": 0,
+      "explanation": "You cannot drive large special vehicles with a large vehicle license; a special license for large vehicles is required.",
+      "points": 1
+    },
+    {
+      "q": "Traffic signs consist of main signs and auxiliary signs indicating traffic regulations, etc.",
+      "answer": 0,
+      "explanation": "There are main and auxiliary signs; main signs include four types: regulatory, instructional, directional, and warning signs.",
+      "points": 1
+    },
+    {
+      "q": "When parking a vehicle, if there is a sidewalk, you may drive onto the sidewalk to park.",
+      "answer": 0,
+      "explanation": "The sidewalk is for pedestrians, and you must not drive onto it to park.",
+      "points": 1
+    },
+    {
+      "q": "For two-wheeled vehicles with automatic transmissions, fully releasing the throttle at low speeds may cause the engine power not to transfer to the wheels, leading to instability.",
+      "answer": 0,
+      "explanation": "The engine power may not transfer to the wheels, causing instability.",
+      "points": 1
+    },
+    {
+      "q": "Regular vehicle maintenance and inspection are the driver's responsibility, and neglecting inspection will result in legal penalties.",
+      "answer": 0,
+      "explanation": "Regular vehicle inspection is necessary to ensure safety, and neglect will result in penalties.",
+      "points": 1
+    },
+    {
+      "q": "In addition to having knowledge of necessary first aid measures for traffic accidents, you should keep triangular bandages, gauze, and medical tape in the vehicle for emergencies.",
+      "answer": 0,
+      "explanation": "Prepare adequately in advance for unfortunate incidents.",
+      "points": 1
+    },
+    {
+      "q": "On highways without a specified speed limit, the maximum speed is 100 kilometers per hour.",
+      "answer": 0,
+      "explanation": "On highways, if there is no specific sign, the maximum speed is 100 kilometers per hour.",
+      "points": 1
+    },
+    {
+      "q": "When pressing the brake pedal and it feels light, air may have entered the brake hose or there may be a brake fluid leak.",
+      "answer": 0,
+      "explanation": "When brake fluid leaks or air enters, you will feel less resistance when pressing the brake pedal.",
+      "points": 1
+    },
+    {
+      "q": "Even though overtaking is prohibited by a sign, etc., since a slow-moving car is ahead, you changed lanes, passed alongside, and moved ahead.",
+      "answer": 0,
+      "explanation": "In a no-overtaking zone, you must not overtake even if the vehicle ahead is slow.",
+      "points": 1
+    },
+    {
+      "q": "When turning right at an intersection, you must not obstruct vehicles going straight or turning left.",
+      "answer": 0,
+      "explanation": "When turning right at an intersection, you must not obstruct the movement of vehicles going straight or turning left.",
+      "points": 1
+    },
+    {
+      "q": "When riding a bicycle at night, it is not necessary to turn on the front or rear lights, but you must wear reflective materials.",
+      "answer": 0,
+      "explanation": "At night, you must turn on the front and rear lights, and wearing reflective materials is also recommended.",
+      "points": 1
+    },
+    {
+      "q": "Two-wheeled vehicles are highly maneuverable, making sharp turns easy, so during traffic congestion, the rider can weave between vehicles.",
+      "answer": 0,
+      "explanation": "Driving in a way that causes concern to other drivers is extremely dangerous.",
+      "points": 1
+    },
+    {
+      "q": "Highways have better road conditions than regular roads, so driving for long periods will not cause excessive fatigue, and frequent rest is unnecessary.",
+      "answer": 0,
+      "explanation": "Driving at high speeds continuously for long periods is dangerous, so rest every 2 hours.",
+      "points": 1
+    },
+    {
+      "q": "When turning right at an intersection, you must temporarily stop even if there are no oncoming vehicles or pedestrians.",
+      "answer": 0,
+      "explanation": "If there is no temporary stop sign and no oncoming vehicles or pedestrians, you can turn right without stopping.",
+      "points": 1
+    },
+    {
+      "q": "Vehicles and trams facing this signal may proceed slowly into the intersection while paying attention to other traffic.",
+      "answer": 0,
+      "explanation": "You must temporarily stop at the designated position and proceed only if it is safe.",
+      "img": "assets/images/exams/honmen/5/8.png",
+      "points": 1
+    },
+    {
+      "q": "The height limit for cargo on motorized bicycles and regular two-wheeled motorcycles (except tricycles) is 2 meters or less from the ground.",
+      "answer": 0,
+      "explanation": "The cargo height limit for two-wheeled vehicles is 2 meters or less from the ground.",
+      "points": 1
+    },
+    {
+      "q": "The driver mistakenly signaled a left turn when intending to go straight at an intersection but proceeded straight without turning off the signal.",
+      "answer": 0,
+      "explanation": "Depending on the situation, you should immediately stop signaling or continue turning left to prevent accidents.",
+      "points": 1
+    },
+    {
+      "q": "Signaling a lane change too early may inconvenience other vehicles, so turning the steering wheel immediately after signaling is the safest method.",
+      "answer": 0,
+      "explanation": "Signal a lane change about 3 seconds before changing lanes.",
+      "points": 1
+    },
+    {
+      "q": "In the case of a 'temporary stop' sign without a stop line, the stopping position is just before the intersection.",
+      "answer": 0,
+      "explanation": "The stopping position when there is no stop line is just before the intersection.",
+      "points": 1
+    },
+    {
+      "q": "The engine brake of an automatic transmission vehicle is less effective, so use the foot brake and hand brake when going downhill.",
+      "answer": 0,
+      "explanation": "Shift to a lower gear to engage the engine brake and use the foot brake as needed.",
+      "points": 1
+    },
+    {
+      "q": "You may drive on the shoulder to overtake a vehicle ahead.",
+      "answer": 0,
+      "explanation": "Driving on the shoulder is prohibited, so you must wait for an opportunity to merge behind the vehicle ahead.",
+      "points": 1
+    },
+    {
+      "q": "On a road with good visibility and a width of less than 6 meters on the left side, you may cross to the right side from the center to overtake, except when overtaking is prohibited by signs or instructions or when there is oncoming traffic.",
+      "answer": 0,
+      "explanation": "In this case, you may cross to the right side to overtake.",
+      "points": 1
+    },
+    {
+      "q": "While driving a car, you looked closely at the phone screen to read an email.",
+      "answer": 0,
+      "explanation": "Due to many accidents, looking closely at a phone screen or using a mobile phone while driving is prohibited.",
+      "points": 1
+    },
+    {
+      "q": "The hydroplaning phenomenon occurs when air bubbles enter the brake fluid, causing the brakes to fail.",
+      "answer": 0,
+      "explanation": "When driving at high speeds in rain, tires may lift off the road, causing the steering and brakes to fail.",
+      "points": 1
+    },
+    {
+      "q": "When loading cargo on a two-wheeled motorcycle or motorized bicycle, cargo protruding up to 15 cm on both sides from the cargo bed is allowed.",
+      "answer": 0,
+      "explanation": "Cargo protruding up to 15 cm on both sides from the cargo bed is permitted.",
+      "points": 1
+    },
+    {
+      "q": "Children may become engrossed in objects they are interested in or suddenly dart onto the road, so drivers must be especially cautious when children are present.",
+      "answer": 0,
+      "explanation": "Children may act unpredictably, so drivers must be extremely cautious.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that vehicles must not travel below 30 km/h.",
+      "answer": 0,
+      "explanation": "This is a regulatory sign for 'minimum speed.'",
+      "img": "assets/images/exams/honmen/5/76.png",
+      "points": 1
+    },
+    {
+      "q": "Vehicle users should consider voluntary vehicle insurance to prepare for unfortunate incidents.",
+      "answer": 0,
+      "explanation": "To prepare for unfortunate incidents, voluntary insurance should be considered if possible.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates the 'end' of a no-parking zone.",
+      "answer": 0,
+      "explanation": "This is a regulatory sign for 'no parking' with an auxiliary 'end' sign.",
+      "img": "assets/images/exams/honmen/5/18.png",
+      "points": 1
+    },
+    {
+      "q": "When the traffic signal flashes yellow, you must temporarily stop and proceed slowly.",
+      "answer": 0,
+      "explanation": "You may pay attention to other traffic, such as pedestrians or vehicles, and proceed without stopping.",
+      "points": 1
+    },
+    {
+      "q": "Three children under the age of 12 are counted as two adults for seat capacity calculations.",
+      "answer": 0,
+      "explanation": "Under Japanese traffic law, children under 12 are counted as 1.5 children per adult. Therefore, three children are considered equivalent to two adults for capacity purposes.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates a no-stopping or no-parking zone.",
+      "answer": 0,
+      "explanation": "This is a regulatory sign for 'no stopping or parking,' prohibiting both stopping and parking.",
+      "img": "assets/images/exams/honmen/5/67.png",
+      "points": 1
+    },
+    {
+      "q": "The police hand signal as shown has the same meaning for the direction of the arrow.",
+      "answer": 0,
+      "explanation": "It has the same meaning as a red traffic light for traffic in the direction of the arrow.",
+      "img": "assets/images/exams/honmen/5/35-1.png",
+      "points": 1
+    },
+    {
+      "q": "When driving at night, switching the headlights to low beam is dangerous because it limits forward visibility, so you should not use low beam even when passing oncoming vehicles.",
+      "answer": 0,
+      "explanation": "If the oncoming vehicle is dazzled, it is dangerous, so switch the headlights to low beam.",
+      "points": 1
+    },
+    {
+      "q": "A parked two-wheeled vehicle may start moving even if it knows another two-wheeled vehicle is approaching from behind, so when driving a two-wheeled vehicle and noticing a parked vehicle ahead, you should first move close to the center of the road, accelerate, and pass.",
+      "answer": 0,
+      "explanation": "You must be extremely cautious of the parked vehicle's movements, maintain a safe distance, reduce speed, and then proceed.",
+      "points": 1
+    },
+    {
+      "q": "Users of vehicles with an abandonment confirmation sticker may be required by the Public Safety Commission to pay a fine for illegal abandonment.",
+      "answer": 0,
+      "explanation": "Vehicle users may be required by the Public Safety Commission to pay a fine for illegal abandonment.",
+      "points": 1
+    },
+    {
+      "q": "When turning left at an intersection, pay attention to pedestrians and cyclists and stop temporarily if necessary.",
+      "answer": 0,
+      "explanation": "To ensure the safety of pedestrians and cyclists, stop temporarily if necessary.",
+      "points": 1
+    },
+    {
+      "q": "For the riding position on a two-wheeled vehicle, you should extend both elbows horizontally and sit as far forward as possible.",
+      "answer": 0,
+      "explanation": "Keep your body compact, avoid leaning too far forward or backward, and choose a position for body stability.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that the road ahead is curved, so caution is needed when driving.",
+      "answer": 0,
+      "explanation": "This is a warning sign indicating a 'slippery road,' so caution is needed.",
+      "img": "assets/images/exams/honmen/5/28.png",
+      "points": 1
+    },
+    {
+      "q": "At an intersection, when a police officer raises their arm vertically while directing traffic, it has the same meaning as a yellow traffic light for traffic moving parallel to the officer's body.",
+      "answer": 0,
+      "explanation": "It is equivalent to a yellow traffic light for traffic parallel to the officer's body.",
+      "points": 1
+    },
+    {
+      "q": "You may drive a vehicle with alcohol in your system.",
+      "answer": 0,
+      "explanation": "Driving with alcohol in your system is prohibited.",
+      "points": 1
+    },
+    {
+      "q": "Illegal abandonment of a vehicle is creating a state where the vehicle cannot be driven immediately due to the driver leaving the vehicle in a prohibited parking area.",
+      "answer": 0,
+      "explanation": "Repeated illegal abandonment may result in a temporary ban on vehicle use.",
+      "points": 1
+    },
+    {
+      "q": "The approach to a bicycle crossing area should generally be considered the same as approaching a pedestrian crossing.",
+      "answer": 0,
+      "explanation": "Ensuring safety for pedestrians and cyclists at bicycle crossing areas and pedestrian crossings is similar.",
+      "points": 1
+    },
+    {
+      "q": "Maintaining a safe following distance helps prevent rear-end collisions.",
+      "answer": 0,
+      "explanation": "Maintaining a safe distance between vehicles helps prevent rear-end accidents.",
+      "points": 1
+    },
+    {
+      "q": "When stopping or parking on a road at night, if the area 50 meters behind is clearly visible due to road lighting, etc., it is not necessary to turn on hazard lights, parking lights, or tail lights.",
+      "answer": 0,
+      "explanation": "When stopping or parking in a place where visibility is clear for 50 meters behind, it is not necessary to turn on these lights.",
+      "points": 1
+    },
+    {
+      "q": "Understanding natural forces such as friction and centrifugal force during driving is useful for preventing traffic accidents.",
+      "answer": 0,
+      "explanation": "To avoid accidents, you should have accurate knowledge of natural forces.",
+      "points": 1
+    },
+    {
+      "q": "When gripping the steering wheel, if you place your thumbs on the inside of the wheel, sharply turning it may injure your wrist.",
+      "answer": 0,
+      "explanation": "When holding the steering wheel, place your thumbs on the outside to prevent injury from sudden maneuvers.",
+      "points": 1
+    },
+    {
+      "q": "When braking both the front and rear wheels of a two-wheeled vehicle, brake harder with the rear brake on slippery surfaces like snow, and harder with the front brake on dry surfaces.",
+      "answer": 0,
+      "explanation": "Brake slightly harder with the front brake on dry surfaces and slightly harder with the rear brake on slippery surfaces.",
+      "points": 1
+    },
+    {
+      "q": "When a traffic accident occurs, the driver must report to the police the accident location, number of injuries, injury severity, property damage, and cargo details, and await instructions.",
+      "answer": 0,
+      "explanation": "When a traffic accident occurs, the driver and crew have a duty to report to the police.",
+      "points": 1
+    },
+    {
+      "q": "For vehicles with automatic transmissions, fully pressing the accelerator while driving will automatically shift to a lower gear, allowing sudden acceleration.",
+      "answer": 0,
+      "explanation": "This is called 'kickdown,' used when overtaking or entering highways.",
+      "points": 1
+    },
+    {
+      "q": "In unavoidable cases such as breakdowns on highways, stopping or parking on the shoulder or a sufficiently wide roadside is permitted.",
+      "answer": 0,
+      "explanation": "In unavoidable cases such as breakdowns, stopping or parking on the shoulder or roadside is permitted.",
+      "points": 1
+    },
+    {
+      "q": "The vehicle's exhaust pipe was damaged, but since it did not affect driving, you continued to drive as is.",
+      "answer": 0,
+      "explanation": "You must not drive a vehicle with a damaged exhaust pipe (inadequately maintained vehicle).",
+      "points": 1
+    },
+    {
+      "q": "Even if a vehicle with a low maximum speed is overtaking, you must not accelerate until it has completely passed, but you do not need to yield.",
+      "answer": 0,
+      "explanation": "If there is insufficient space to overtake, you must pull to the left as much as possible and yield.",
+      "points": 1
+    },
+    {
+      "q": "You may sound the horn whenever necessary while driving.",
+      "answer": 0,
+      "explanation": "Except in unavoidable situations to prevent danger, drivers must not sound the horn arbitrarily.",
+      "points": 1
+    },
+    {
+      "q": "When turning through a curve on a two-wheeled vehicle, leaning the vehicle may cause lateral skidding, so you should turn by steering the handlebars without leaning.",
+      "answer": 0,
+      "explanation": "Do not steer the handlebars; instead, turn naturally by leaning the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "Vehicle speed and fuel consumption are closely related; the faster the speed, the less fuel is consumed.",
+      "answer": 0,
+      "explanation": "The faster the speed, the more fuel is consumed.",
+      "points": 1
+    },
+    {
+      "q": "When parking in a time-limited parking area with a parking ticket machine, you must immediately activate the parking ticket machine.",
+      "answer": 0,
+      "explanation": "After the meter recognizes the vehicle, you may park for the time indicated on the sign.",
+      "points": 1
+    },
+    {
+      "q": "When towing two broken-down vehicles, use a 5-meter rope for the first vehicle and a 10-meter rope for the second.",
+      "answer": 0,
+      "explanation": "The distance between each vehicle must be within 5 meters, and the total length must not exceed 25 meters.",
+      "points": 1
+    },
+    {
+      "q": "When driving in a swampy or wet area, even if mud or water splashes, the driver is not responsible if driving slowly.",
+      "answer": 0,
+      "explanation": "Even if driving slowly, the driver is responsible if mud or water splashes onto pedestrians.",
+      "points": 1
+    },
+    {
+      "q": "You must not stop in the designated no-stopping area in front of a fire station, but you may enter and stop in a no-stopping area if it is not a fire station.",
+      "answer": 0,
+      "explanation": "Even in areas not near a fire station, you must not enter or stop in a designated no-stopping area.",
+      "points": 1
+    },
+    {
+      "q": "When a driver is fatigued, it takes longer to recognize danger and make judgments, increasing the stopping distance.",
+      "answer": 0,
+      "explanation": "Fatigue reduces judgment and attention, lengthening the free-running distance and thus the stopping distance.",
+      "points": 1
+    },
+    {
+      "q": "While driving in a lane designated by a traffic sign for priority vehicles like fixed-route buses, you changed lanes because a school bus approached from behind.",
+      "answer": 0,
+      "explanation": "When a school bus approaches, you must promptly leave the priority lane and yield.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that vehicle entry is prohibited.",
+      "answer": 0,
+      "explanation": "This sign indicates no entry, and vehicles must not enter.",
+      "img": "assets/images/exams/honmen/5/48.png",
+      "points": 1
+    },
+    {
+      "q": "When mounting a two-wheeled vehicle, if the toes of one foot can lightly touch the ground and support the vehicle, it can be considered suitable for the rider's build.",
+      "answer": 0,
+      "explanation": "The vehicle must allow the toes of both feet to fully touch the ground.",
+      "points": 1
+    },
+    {
+      "q": "Vehicles must not overtake cars or motorized bicycles at railway crossings or within 30 meters before them.",
+      "answer": 0,
+      "explanation": "Railway crossings and the 30-meter area before them are no-overtaking zones.",
+      "points": 1
+    },
+    {
+      "q": "You can determine if the tire tread depth is sufficient by checking the wear indicator (slip mark) on the tire's sidewall.",
+      "answer": 0,
+      "explanation": "If the wear indicator appears, it is time to replace the tire.",
+      "points": 1
+    },
+    {
+      "q": "The braking distance is the distance from when the brakes begin to take effect until the vehicle stops.",
+      "answer": 0,
+      "explanation": "This is the braking distance.",
+      "points": 1
+    },
+    {
+      "q": "When overtaking on a highway, use the right lane and quickly return to the original lane after overtaking.",
+      "answer": 0,
+      "explanation": "Use the overtaking lane (right) and return to the original lane after ensuring safety.",
+      "points": 1
+    },
+    {
+      "q": "Even if you cannot drive the vehicle immediately due to being away for urgent business, you may stop in a no-stopping or no-parking zone if you can return quickly.",
+      "answer": 0,
+      "explanation": "You must not stop in a no-stopping or no-parking zone, even for a short time.",
+      "points": 1
+    },
+    {
+      "q": "The 0.5-meter area from the left edge of a road without a sidewalk or shoulder is considered the 'roadside,' so vehicles must not drive toward it.",
+      "answer": 0,
+      "explanation": "Cars (except two-wheeled vehicles) are prohibited from driving on the roadside.",
+      "points": 1
+    },
+    {
+      "q": "In principle, high-speed vehicles must drive close to the center of the road on roads without designated lanes.",
+      "answer": 0,
+      "explanation": "On roads without designated lanes, you must drive close to the left side of the road.",
+      "points": 1
+    },
+    {
+      "q": "When overtaking another vehicle on a highway, you may temporarily exceed the maximum speed limit.",
+      "answer": 0,
+      "explanation": "You must not exceed the maximum speed limit, even temporarily, when overtaking.",
+      "points": 1
+    },
+    {
+      "q": "When overtaking a vehicle ahead, you must pass on its right side, except when the vehicle ahead intends to change lanes to the right.",
+      "answer": 0,
+      "explanation": "In principle, you must pass on the right side of the vehicle being overtaken.",
+      "points": 1
+    },
+    {
+      "q": "When changing lanes, etc., you must confirm safety using mirrors, etc., and anticipate vehicles in areas not visible in the mirrors.",
+      "answer": 0,
+      "explanation": "For areas not visible in mirrors, you must confirm safety with your own eyes.",
+      "points": 1
+    },
+    {
+      "q": "To carry a passenger on a large or regular two-wheeled motorcycle, you must first be proficient in riding alone.",
+      "answer": 0,
+      "explanation": "Carry a passenger only after practicing proficiently.",
+      "points": 1
+    },
+    {
+      "q": "You must check for insufficient coolant or leaks in the cooling system, as these can cause overheating on highways, which is dangerous.",
+      "answer": 0,
+      "explanation": "Since these are causes of overheating, check the coolant level and for leaks.",
+      "points": 1
+    },
+    {
+      "q": "The smaller the radius of a curve, the greater the centrifugal force.",
+      "answer": 0,
+      "explanation": "The smaller the curve radius, the greater the centrifugal force.",
+      "points": 1
+    },
+    {
+      "q": "When passing through deep water, water may enter the brake drum, causing the brakes to malfunction, but there is no need to avoid puddles as the water will dry due to brake heat.",
+      "answer": 0,
+      "explanation": "Brakes may function less effectively, so you should avoid puddles as much as possible when passing through.",
+      "points": 1
+    },
+    {
+      "q": "You are driving at 30 km/h while heading straight toward an intersection. What should you pay attention to when driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/5/94.png",
+      "points": 2
+    },
+    {
+      "q": "You are driving through an area with beautiful scenery. What should you pay attention to when driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/5/95.png",
+      "points": 2
+    },
+    {
+      "q": "The oncoming lane is congested. What should you pay attention to when driving in this situation?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/5/91.png",
+      "points": 2
+    },
+    {
+      "q": "At night, you have reduced your speed to 10 km/h to turn right at an intersection. What should you pay attention to when driving in this situation?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/5/93.png",
+      "points": 2
+    },
+    {
+      "q": "You are stopped at an intersection waiting to turn right. What should you pay attention to when driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/5/92.png",
+      "points": 2
+    }
+  ]
+}

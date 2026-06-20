@@ -1,0 +1,553 @@
+{
+  "id": "honmen-2",
+  "title": "Honmen Practice Test 2",
+  "type": "honmen",
+  "number": 2,
+  "source": "https://karimen-honmen.com/en/exam/honmen/2",
+  "passScore": 90,
+  "maxScore": 100,
+  "timeLimitMinutes": 50,
+  "questionCount": 95,
+  "questions": [
+    {
+      "q": "The length of cargo loaded onto a regular truck may be up to 1.2 times the length of the vehicle.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When small children walking unattended, senior citizens, people with physical disabilities, or others with difficulty walking are passing, drivers must slow down or stop to allow them to pass safely.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The appropriate time to signal a left or right turn to exit the road is 30 meters before reaching the point where the turn will be made.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The pavement marking shown in Figure indicates that a pedestrian crossing or bicycle crossing is ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/b210.gif",
+      "points": 1
+    },
+    {
+      "q": "When starting a four-wheeled vehicle on an uphill slope, use the parking brake as much as possible so as not to roll back.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If travel plans put undue strain on the driver or vehicle, the driver’s care may be lacking, his or her attention may be reduced, and he or she may tend to drive too fast without noticing. Drivers should allow for leeway when making travel plans.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Driving at the same speed, the braking distance of a vehicle is less when loaded with heavy cargo than when loaded with light cargo.",
+      "answer": 0,
+      "explanation": "The braking distance increases when the vehicle is loaded with heavy cargo because of its large inertia force.",
+      "points": 1
+    },
+    {
+      "q": "When driving a two-wheeled vehicle in the summer, the driver should wear cool garments such as short-sleeved shirts and shorts.",
+      "answer": 0,
+      "explanation": "Drivers should wear clothing that reduces the exposure of their skin even if it is in the heat of summer in order to minimize injuries in case they fall off the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "When driving a two-wheeled vehicle in the summer, the driver should wear cool garments such as short-sleeved shirts and shorts.",
+      "answer": 0,
+      "explanation": "Drivers should wear clothing that reduces the exposure of their skin even if it is in the heat of summer in order to minimize injuries in case they fall off the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "In places where crossing and U-turns are prohibited by traffic signs or pavement markings, driving in reverse is also prohibited.",
+      "answer": 0,
+      "explanation": "Driving in reverse is not prohibited.",
+      "points": 1
+    },
+    {
+      "q": "The traffic sign shown in Figure designates that vehicles may park if the road is at least 6 meters wide.",
+      "answer": 0,
+      "explanation": "The sign designates that vehicles may not park unless they leave an open space of 6 meters or more to the right of the vehicle.",
+      "img": "assets/images/exams/honmen/2/A317.gif",
+      "points": 1
+    },
+    {
+      "q": "When choosing a two-wheeled vehicle, one must select a model appropriate for his or her body size. Even if he or she is confident of his or her strength, it is dangerous to suddenly try to ride a large vehicle.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Roads must not be used as personal parking places for automobiles.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "In a lane where there is a traffic sign as shown in Figure, regular motor vehicles may proceed at 8:00 p.m.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/A327-4-2.gif",
+      "points": 1
+    },
+    {
+      "q": "Vehicles must slow down at intersections with poor visibility to the left or right (excluding controlled intersections equipped with traffic signals, etc. and cases where the driver is proceeding on a road with the right of way), but depending on traffic conditions, it may be necessary to stop.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Close objects become more difficult to see when driving at 60 km/h than when driving at 30 km/h.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When the signal ahead is a red light and a green arrow pointing to the left at the same time, automobiles and general mopeds may proceed in the direction indicated by the arrow, but specified small mopeds and light vehicles may not proceed.",
+      "answer": 0,
+      "explanation": "Specified small mopeds and light vehicles may also execute a left turn when the green arrow points to the left.",
+      "points": 1
+    },
+    {
+      "q": "At an intersection where there is a pavement marking as shown in Figure, an automobile making a right turn must slow down outside the center of the intersection.",
+      "answer": 0,
+      "explanation": "Vehicles should follow the arrow and slow down inside the center of the intersection and then proceed.",
+      "img": "assets/images/exams/honmen/2/b111.gif",
+      "points": 1
+    },
+    {
+      "q": "It is advisable to check carefully around a stopped vehicle, including across the roof and under the vehicle, in order to be prepared for people who might emerge unexpectedly from behind it.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When depressing the brake pedal of a four-wheeled vehicle all the way, it is best if there is a little space between the pedal and the floorboard (pedal reserve distance).",
+      "answer": 0,
+      "explanation": "The brake doesn't function well and it is dangerous when there is little space between the pedal and the floorboard.",
+      "points": 1
+    },
+    {
+      "q": "Automatic transmission vehicles never need to change the position of the gear shift from \"D\" (drive) while driving, even on long or steep downward slopes.",
+      "answer": 0,
+      "explanation": "Driving on long or steep downward slopes would be dangerous unless the position of the gear shift is in \"L\" or \"2\".",
+      "points": 1
+    },
+    {
+      "q": "Colliding with a concrete wall at 60 km/h has the same impact force as falling from a height of about 14 meters (a five-story building).",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Driving while one is feeling uneasy, is extremely tired, or is in poor physical condition can lead to accidents. Drivers should not drive in these circumstances.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The frictional resistance between tires and the road surface has a strong relationship to reaction distance.",
+      "answer": 0,
+      "explanation": "It has a relationship to braking distance but not to reaction distance.",
+      "points": 1
+    },
+    {
+      "q": "Stopping and parking are prohibited inside railway crossings and areas within 10 meters of the front or rear edge of a railway crossing.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When moving into traffic from the edge of the road, it is not particularly necessary to signal if the driver makes sure there is no vehicle approaching from the rear.",
+      "answer": 0,
+      "explanation": "It is necessary to signal a lane change because the driver is changing lanes to the right.",
+      "points": 1
+    },
+    {
+      "q": "On a road where there is a traffic sign as shown in Figure, general mopeds must not exceed a speed of 30 km/h.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/A323-50.gif",
+      "points": 1
+    },
+    {
+      "q": "When parking or stopping a regular motor vehicle on an ordinary road without road illumination at night, the driver must turn on the hazard lights, parking lights, or tail lamps, or display an emergency warning reflector device, so that other drivers can see that his or her automobile is stopped or parked.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Passing too close to or cutting in front of a regular vehicle that is displaying a sign indicating a novice driver, senior driver, or physically disabled driver is prohibited, but there are no such regulations relating to a regular vehicle displaying a learner driver sign.",
+      "answer": 0,
+      "explanation": "Passing too close to or cutting in front of a vehicle displaying a learner driver sign is also prohibited.",
+      "points": 1
+    },
+    {
+      "q": "The hand signal shown in Figure is the signal for slowing down or stopping.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/C024-1.gif",
+      "points": 1
+    },
+    {
+      "q": "Vehicles crossing a sidewalk or side strip in order to enter or leave a roadside gas station must stop immediately before the sidewalk or side strip if there are pedestrians, but if no pedestrians are present, vehicles may slow down and proceed.",
+      "answer": 0,
+      "explanation": "Vehicles must stop immediately before the sidewalk or side strip even if there are no pedestrians.",
+      "points": 1
+    },
+    {
+      "q": "On a snow-covered road, the wheel prints made by previous vehicles are extremely slick, so drivers must avoid the prints as much as possible.",
+      "answer": 0,
+      "explanation": "It is safer and easier to drive on the ruts made by previous vehicles.",
+      "points": 1
+    },
+    {
+      "q": "On a road where there is a traffic sign as shown in Figure, mopeds may not proceed but large or regular motorcycles may proceed regardless of engine displacement.",
+      "answer": 0,
+      "explanation": "Regular motorcycles with engine displacement of 125 cc or less may not proceed.",
+      "img": "assets/images/exams/honmen/2/A325.gif",
+      "points": 1
+    },
+    {
+      "q": "Parking is prohibited within 3 meters of the entrance to a garage, but the owner of the garage or related persons may park in front of a garage.",
+      "answer": 0,
+      "explanation": "Even the owner of the garage or related persons may not park in front of a garage.",
+      "points": 1
+    },
+    {
+      "q": "In the situation shown in Figure, vehicle A must not overtake vehicle B, even if it is safe ahead and to the rear.",
+      "answer": 0,
+      "explanation": "Vehicle A may overtake vehicle B if it is safe because the road they are traveling on has right of way.",
+      "img": "assets/images/exams/honmen/2/C109.gif",
+      "points": 1
+    },
+    {
+      "q": "When driving at night, even with the headlights on one cannot see far away, so it is advisable to train one’s eyes immediately to the front of the vehicle.",
+      "answer": 0,
+      "explanation": "Drivers should try to train their eyes on a point as far away as possible to detect potential danger as soon as possible.",
+      "points": 1
+    },
+    {
+      "q": "Changing lanes unnecessarily creates a nuisance for drivers further behind, and can lead to accidents. Therefore, vehicles must remain in the same lane as they proceed as much as possible.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Carrying cargo in the cargo bed in such a manner that it obstructs a clear view of the vehicle’s direction indicators, tail lamps, brake lights, license plate, etc. is permitted if a person to observe the cargo rides along.",
+      "answer": 0,
+      "explanation": "Driving under such conditions is dangerous and should be avoided even if a person to observe the cargo rides along.",
+      "points": 1
+    },
+    {
+      "q": "When a local bus is stopped at a bus stop and indicating its intention to enter traffic, vehicles approaching from behind must not obstruct its progress, unless not blocking the bus would require them to brake or swerve suddenly.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Automotive emissions contain harmful gases such as carbon monoxide, hydrocarbons, and nitrogen oxides, and are a source of air pollution.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Overtaking a regular motor vehicle that is attempting to overtake a general moped is not prohibited double overtaking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "At the railway crossings where visibility is good, vehicles may slow down and proceed if safety can be ascertained.",
+      "answer": 0,
+      "explanation": "Vehicles must stop to ensure safety even if the visibility is good.",
+      "points": 1
+    },
+    {
+      "q": "There are only two types of traffic signs of the shape shown in Figure: “slow down” and “stop.”",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/A1006.gif",
+      "points": 1
+    },
+    {
+      "q": "When the lights of an oncoming vehicle are too bright, it is advisable not to stare but rather to move one’s gaze ahead somewhat to the left.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "In the main through lanes of motorways with no maximum speed limit indicated, the designated maximum speed for regular motor vehicles is 60 km/h.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If there is a person crossing a pedestrian crossing, but he or she stops when a vehicle approaches, the vehicle may continue to proceed as before.",
+      "answer": 0,
+      "explanation": "A vehicle must not force a pedestrian to sense danger but stop to give way to him or her.",
+      "points": 1
+    },
+    {
+      "q": "The traffic sign shown in Figure indicates that a push-button type traffic signal is ahead.",
+      "answer": 0,
+      "explanation": "The sign does not only indicate a push-button type.",
+      "img": "assets/images/exams/honmen/2/A208-2.gif",
+      "points": 1
+    },
+    {
+      "q": "When a police officer holds his or her arms straight out to the sides horizontally, this has the same meaning as a red light for traffic proceeding toward the front or back of the officer.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A maximum speed limit is designated on national expressways, so even when it is raining or the weather is bad, the driver must drive as quickly as possible.",
+      "answer": 0,
+      "explanation": "The driver is not forced to drive at a high speed. If dangerous, he or she may even drive below the minimum speed.",
+      "points": 1
+    },
+    {
+      "q": "When leaving a main through lane, reduce speed sufficiently while in the main through lane before entering the deceleration lane.",
+      "answer": 0,
+      "explanation": "It is dangerous to reduce speed too much in the main through lane. Reduce speed sufficiently after entering the deceleration lane.",
+      "points": 1
+    },
+    {
+      "q": "Overtaking is prohibited along steep downward slopes, but not steep upward slopes.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Using a mobile phone or looking at the screen of a car navigation system while driving is distracting and can lead to an accident, so drivers must not engage in these activities.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Large vehicles have a large wheelbase differential and there is also a blind spot (from the viewpoint of the driver) at the left rear, so drivers must be careful to avoid cutting off pedestrians or cyclists who may be proceeding on the left side of the vehicle.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When driving in fog, snowstorms or similar conditions, turn on fog lamps and headlights early, use the centerline, guard rail, and tail lamps of vehicles ahead as a guide, reduce speed, and if necessary sound the horn.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The engine oil level must be kept within the range indicated on the oil level gauge (between F and L).",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "In the situation shown in Figure, vehicle A may cross to the right to a minimum extent and overtake vehicle B.",
+      "answer": 0,
+      "explanation": "Vehicle A may not cross to the right in order to overtake vehicle B unless the width is less than 6 meters (e.g. 5.99 meters or less).",
+      "img": "assets/images/exams/honmen/2/ev008.png",
+      "points": 1
+    },
+    {
+      "q": "On the main through lanes of national expressways with two or more vehicular lanes, trailers must use the leftmost lane.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When overtaking a streetcar on a road where there are rails in the center, vehicles must pass on the right side.",
+      "answer": 0,
+      "explanation": "Vehicles must pass on the left side when there are rails in the center.",
+      "points": 1
+    },
+    {
+      "q": "At an intersection where there is a signboard as shown in Figure, automobiles and general mopeds may turn left even if the signal is yellow or red, but specified small mopeds and light vehicles may not.",
+      "answer": 0,
+      "explanation": "Specified small mopeds and light vehicles may also turn left.",
+      "img": "assets/images/exams/honmen/2/A1001.gif",
+      "points": 1
+    },
+    {
+      "q": "When drivers are unavoidably forced by an earthquake to leave their vehicle on the road and move to a safe location, they should pull over to the left and park, stop the engine, and leave the key in the ignition or in a visible place (such as the driver's seat). Drivers of four-wheeled vehicles should close the windows and leave the doors unlocked.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Daily checks include not only those performed when the vehicle is stopped, but also those performed during driving.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When checking the chain of a two-wheeled vehicle by pressing the middle of the chain with one’s finger, there should be no slack and it should be tight.",
+      "answer": 0,
+      "explanation": "The chain requires a proper amount of slack.",
+      "points": 1
+    },
+    {
+      "q": "Where there is a traffic sign as shown in Figure, only regular motor vehicles are allowed to drive on streetcar tracks.",
+      "answer": 0,
+      "explanation": "Not only regular motor vehicles but also all automobiles are allowed to drive on streetcar tracks.",
+      "img": "assets/images/exams/honmen/2/A402.gif",
+      "points": 1
+    },
+    {
+      "q": "Two people may not ride a general moped at one time.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When driving a regular motor vehicle, if the vehicle cannot be driven further on an expressway due to a breakdown, etc. the driver must place an emergency warning reflector device to the rear of the vehicle. At night (or during the day when visibility is 200 meters or less), in addition to putting out an emergency warning reflector device the driver must also turn on the hazard lights, parking lights, or tail lamps.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Drivers must take care that passengers do not open the doors carelessly.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If a cross street is a road with right of way or it is wider, a vehicle must slow down and, depending on the situation, it may have to stop so as not to obstruct the progress of vehicles proceeding on the cross street.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Where there is a traffic sign as shown in Figure, vehicles other than regular bicycles may not proceed.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/a325-3.gif",
+      "points": 1
+    },
+    {
+      "q": "According to the pavement markings shown in Figure, even if separate lanes for traffic proceeding in different directions are designated at an intersection, vehicles may proceed in another lane if an emergency vehicle is approaching or if it is unavoidable due to road construction, etc.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/B110-4-3.gif",
+      "points": 1
+    },
+    {
+      "q": "When there is a side strip designated by a single white line, a vehicle may enter the side strip to stop and park if there is 0.75 meters or more of space on the left side of the vehicle.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "On a road where the left side is less than 6 meters wide and the centerline is a solid yellow line, vehicles may not cross the line to enter the right-hand part of the road for the purpose of overtaking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A general moped executing a two-step right turn must keep its right turn signal on until it has proceeded straight ahead to the place at which it turns right.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If an automatic transmission vehicle’s engine stalls and will not turn over, it can be moved by putting the gear shift in \"D\" and using the starter motor as an emergency measure.",
+      "answer": 0,
+      "explanation": "Automatic transmission vehicles cannot move by using the starter motor.",
+      "points": 1
+    },
+    {
+      "q": "The maximum speed limit for regular motor vehicles with an engine displacement of 660 cc or less in the main through lanes of national expressways is 80 km/h.",
+      "answer": 0,
+      "explanation": "The maximum speed limit for regular motor vehicles is 100 km/h (excluding three-wheeled vehicles and towing vehicles).",
+      "points": 1
+    },
+    {
+      "q": "When passing around a curve it is advisable to reduce speed just before the curve and enter it slowly, and then gradually accelerate slightly before completing the turn around the curve.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Driver’s license and equivalent may be renewed within the period of time; starting two months prior to the birthday that is prior to the expiration date of the term of validity, up to the expiration date itself.",
+      "answer": 0,
+      "explanation": "A driver's license may be renewed one month prior to the birthday that is prior to the expiration date of the term of validity.",
+      "points": 1
+    },
+    {
+      "q": "Automobiles must be covered by compulsory automobile liability insurance or mutual relief system insurance, but mopeds need not be.",
+      "answer": 0,
+      "explanation": "Mopeds also need to be covered by insurance.",
+      "points": 1
+    },
+    {
+      "q": "When towing a broken-down vehicle using a towing rope, the distance between vehicles must be 5 meters or less and a red cloth with an area of 0.3 square meters or more must be attached to the center of the rope.",
+      "answer": 0,
+      "explanation": "Attach a white cloth not a red cloth.",
+      "points": 1
+    },
+    {
+      "q": "On the main through lanes of expressways, crossing and U-turns are prohibited, but reversing the minimum necessary distance is permitted.",
+      "answer": 0,
+      "explanation": "Reversing is also prohibited regardless of distance.",
+      "points": 1
+    },
+    {
+      "q": "When passing oncoming traffic on mountain roads, the vehicle going uphill should give way to the vehicle going downhill.",
+      "answer": 0,
+      "explanation": "It is driving etiquette that the vehicle going downhill gives way to the vehicle going uphill because the former can proceed more easily than the latter.",
+      "points": 1
+    },
+    {
+      "q": "When passing an oncoming vehicle at night, the driver should dim the headlights or change their angle to point down so that they are not too bright for the oncoming vehicle, but when driving directly behind another vehicle, this is not necessary.",
+      "answer": 0,
+      "explanation": "The driver should change the angle of their headlights to point down so as not to be too bright for the driver of the vehicle ahead.",
+      "points": 1
+    },
+    {
+      "q": "When it rains, pedestrians pay attention to their footing and their field of vision is blocked by rain gear, so they may not notice the approach of a vehicle. Therefore, drivers must pay careful attention to their movements.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Overtaking is prohibited at a pedestrian crossing or bicycle crossing or within 30 meters before one, but passing is not prohibited.",
+      "answer": 0,
+      "explanation": "Passing is also prohibited because passing in these areas is highly dangerous.",
+      "points": 1
+    },
+    {
+      "q": "When a police officer holds a lamp straight up, this lamp signal has the same meaning as a yellow light for traffic proceeding in all directions.",
+      "answer": 0,
+      "explanation": "This action has the same meaning as a red light for traffic approaching the front or back of the police officer.",
+      "points": 1
+    },
+    {
+      "q": "The traffic sign shown in Figure designates a bicycle path or a dedicated road for bicycles.",
+      "answer": 0,
+      "explanation": "This sign designates a bicycle crossing.",
+      "img": "assets/images/exams/honmen/2/A407-4.gif",
+      "points": 1
+    },
+    {
+      "q": "When intending to overtake another vehicle, a vehicle should reduce the clearance between it and the vehicle to be overtaken as much as possible in order to avoid a head-on collision with an oncoming vehicle.",
+      "answer": 0,
+      "explanation": "The driver must ensure that there is a safe passing clearance in order not to hit the side of the vehicle to be overtaken.",
+      "points": 1
+    },
+    {
+      "q": "Two-wheeled vehicles are often overlooked by the drivers of four-wheeled vehicles, so when riding a two-wheeled vehicle, wear bright colored clothes and a helmet that are highly visible.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Where there is a pavement marking as shown in Figure, vehicles traveling in lane A must not change lanes into lane B.",
+      "answer": 0,
+      "explanation": "Vehicles must not change lanes from B into A, but may change lanes from A to B.",
+      "img": "assets/images/exams/honmen/2/ev001.png",
+      "points": 1
+    },
+    {
+      "q": "Drivers of vehicles with a malfunctioning steering wheel or brakes must slow down and take care while driving.",
+      "answer": 0,
+      "explanation": "One must not drive vehicles with such dangerous malfunctions until they are repaired.",
+      "points": 1
+    },
+    {
+      "q": "The main through lane is the part of an expressway for ordinary high-speed traffic (not including acceleration lanes, deceleration lanes, slower traffic lanes, side strips, and road shoulders).",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "You are driving along at 30 km/h. What kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/K025.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 15 km/h. When you are turning left at an intersection where the light for pedestrians has begun to flash, what kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/K012.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 40 km/h. What kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/K048.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 30 km/h. What kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/K033.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 30 km/h. What kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/2/K051.jpg",
+      "points": 2
+    }
+  ]
+}

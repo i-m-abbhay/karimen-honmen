@@ -1,0 +1,294 @@
+{
+  "id": "karimen-7",
+  "title": "Karimen Practice Test 7",
+  "type": "karimen",
+  "number": 7,
+  "source": "https://karimen-honmen.com/en/exam/karimen/7",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "This sign indicates a railway crossing with a traffic signal.",
+      "answer": 0,
+      "explanation": "This is a sign indicating a traffic signal, not related to a railway crossing.",
+      "img": "assets/images/exams/karimen/7/img_301.jpg",
+      "points": 2
+    },
+    {
+      "q": "Compared to manual transmission motorcycles, automatic motorcycles generally have a longer wheelbase and are less maneuverable.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When replacing a tire due to a puncture, it is best to do so on a flat, soft surface.",
+      "answer": 0,
+      "explanation": "It is better to replace a tire on a flat, hard surface.",
+      "points": 2
+    },
+    {
+      "q": "The first step in overtaking is to check if the location is not a no-overtaking zone.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In a designated horn-use zone, the horn must be used at blind intersections, blind curves, and the crest of steep uphill slopes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "With an ordinary motorcycle license, you can drive a minicar.",
+      "answer": 0,
+      "explanation": "A standard, medium, or large vehicle license is required to drive a minicar.",
+      "points": 2
+    },
+    {
+      "q": "There are four types of main signs and one type of supplementary sign.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If it is clear that no pedestrians are crossing a pedestrian crossing, you may pass without slowing down.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Motorized bicycles are not considered vehicles.",
+      "answer": 0,
+      "explanation": "Motorized bicycles are considered vehicles.",
+      "points": 2
+    },
+    {
+      "q": "To drive a vehicle with a maximum load capacity of 4 tons, a medium license (including a restricted medium license) or a large license is required.",
+      "answer": 0,
+      "explanation": "A non-restricted quasi-medium license is also sufficient.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a designated lane for towed vehicles on a vehicle-only road, requiring towed vehicles to use the rightmost lane.",
+      "answer": 0,
+      "explanation": "Towed vehicles must use the leftmost lane.",
+      "img": "assets/images/exams/karimen/7/img_311.jpg",
+      "points": 2
+    },
+    {
+      "q": "The signal for a U-turn must be given 30 meters before the point of the turn.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Attaching dark-tinted film to the windshield or driver/passenger windows, or modifying the muffler by cutting or using a straight pipe, is prohibited.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When counting passenger capacity, the driver is not included.",
+      "answer": 0,
+      "explanation": "The driver is included in the passenger capacity count.",
+      "points": 2
+    },
+    {
+      "q": "Private ordinary vehicles must undergo regular inspections every year.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When carrying children under 6 years old in a vehicle, the use of a child seat is mandatory.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If an accident occurs due to a passenger carelessly opening a door, the driver is not responsible.",
+      "answer": 0,
+      "explanation": "The driver is also responsible for such accidents.",
+      "points": 2
+    },
+    {
+      "q": "When placing a person on a truck bed to watch over cargo, permission from the police chief at the departure point is required.",
+      "answer": 0,
+      "explanation": "No permission is needed if the minimum number of people is involved.",
+      "points": 2
+    },
+    {
+      "q": "In the event of a traffic accident, the vehicle must not be moved until the police arrive to preserve the accident scene.",
+      "answer": 0,
+      "explanation": "The vehicle should be moved to prevent further accidents.",
+      "points": 2
+    },
+    {
+      "q": "The maximum speed for an ordinary motorcycle on a road with a speed limit of 50 km/h is 50 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This marking indicates approaching a safety zone or a restricted entry area.",
+      "answer": 0,
+      "explanation": "The marking indicates approaching a safety zone or road obstacle.",
+      "img": "assets/images/exams/karimen/7/img_321.jpg",
+      "points": 2
+    },
+    {
+      "q": "Proceeding slowly means driving at a speed where the vehicle can stop within approximately 1 meter after braking.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited within 5 meters of fire-fighting equipment, fire-fighting water tanks, or their road-adjacent entrances.",
+      "answer": 0,
+      "explanation": "Only parking is prohibited in these areas.",
+      "points": 2
+    },
+    {
+      "q": "Tire pressure should be checked by observing the deflection of the tire’s contact area.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Drivers must anticipate the worst-case scenario with a 'what if' mindset and avoid self-centered assumptions like 'it’s probably fine.'",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This marking indicates a no-stopping zone, and vehicles must not enter if they are likely to stop within it.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/7/img_326.jpg",
+      "points": 2
+    },
+    {
+      "q": "Except for motorcycles, vehicle owners must secure a storage location for their vehicle within 5 kilometers of their primary place of use.",
+      "answer": 0,
+      "explanation": "The storage location must be within 2 kilometers.",
+      "points": 2
+    },
+    {
+      "q": "When parking in a time-restricted parking zone with a parking meter, the meter must be activated immediately.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Minicars cannot travel on vehicle-only roads.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Bus stops on highways can be used for parking or stopping outside of bus operating hours.",
+      "answer": 0,
+      "explanation": "Parking or stopping is prohibited even outside bus operating hours.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a rotary (roundabout) ahead.",
+      "answer": 0,
+      "explanation": "This sign indicates a railway crossing ahead.",
+      "img": "assets/images/exams/karimen/7/img_331.jpg",
+      "points": 2
+    },
+    {
+      "q": "When passing the side of a vehicle stopped at a pedestrian crossing, you must slow down before moving ahead.",
+      "answer": 0,
+      "explanation": "You must stop temporarily before moving ahead.",
+      "points": 2
+    },
+    {
+      "q": "With permission from the police chief at the departure point, cargo can be loaded on the truck bed or areas other than seats.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When braking on a motorcycle, it is better to disengage the clutch to utilize engine braking.",
+      "answer": 0,
+      "explanation": "Disengaging the clutch prevents engine braking.",
+      "points": 2
+    },
+    {
+      "q": "Rain is more slippery and dangerous at the start than when it continues to rain.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that motorized bicycles must perform a two-stage right turn.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/7/img_336.jpg",
+      "points": 2
+    },
+    {
+      "q": "When a traffic officer’s hand signal differs from the traffic signal, the hand signal takes precedence.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On steep downhill slopes, vehicles must proceed slowly.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When braking suddenly at 40 km/h on a paved road, the reaction distance is approximately 22 meters.",
+      "answer": 0,
+      "explanation": "The reaction distance is approximately 11 meters; the total stopping distance is about 22 meters.",
+      "points": 2
+    },
+    {
+      "q": "School buses must turn on their hazard lights when stopping to pick up or drop off children.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This marking indicates a safety zone.",
+      "answer": 0,
+      "explanation": "The marking indicates parallel parking.",
+      "img": "assets/images/exams/karimen/7/img_341.jpg",
+      "points": 2
+    },
+    {
+      "q": "When the signal is yellow, pedestrians may begin crossing.",
+      "answer": 0,
+      "explanation": "Pedestrians must not begin crossing on a yellow signal.",
+      "points": 2
+    },
+    {
+      "q": "When driving, the seatback should not be reclined excessively, and you should sit shallowly on the seat.",
+      "answer": 0,
+      "explanation": "You should sit deeply in the seat for proper control.",
+      "points": 2
+    },
+    {
+      "q": "When there is a risk of roads freezing, it is advisable to sprinkle water in advance.",
+      "answer": 0,
+      "explanation": "Sprinkling water can worsen freezing conditions.",
+      "points": 2
+    },
+    {
+      "q": "In foggy conditions, headlights should be turned on early, and the horn should be used as needed.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Drivers must not engage in actions like revving the engine, sudden starts, or rapid acceleration that disturb others.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At night, headlights from your vehicle and oncoming vehicles may make pedestrians near the road center less visible.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When passing near pedestrians, vehicles must maintain a safe distance, but bicycles do not need to worry about this.",
+      "answer": 0,
+      "explanation": "Bicycles must also maintain a safe distance from pedestrians.",
+      "points": 2
+    },
+    {
+      "q": "On a flat, straight road, the stopping distance of an express train using emergency brakes is approximately 550 meters.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Within a railway crossing, shifting gears is prohibited to prevent stalling.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

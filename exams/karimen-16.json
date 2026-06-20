@@ -1,0 +1,303 @@
+{
+  "id": "karimen-16",
+  "title": "Karimen Practice Test 16",
+  "type": "karimen",
+  "number": 16,
+  "source": "https://karimen-honmen.com/en/exam/karimen/16",
+  "passScore": 90,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "When an obstacle blocks one side of the road, vehicles on that side must yield by stopping or slowing down for oncoming traffic.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The traffic sign in the figure prohibits trucks with a capacity of 2 tons or more and heavy special vehicles.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/16/A305-4.gif",
+      "points": 2
+    },
+    {
+      "q": "Overtaking requires changing lanes to pass a vehicle ahead, a complex action that drivers should avoid whenever possible.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking a vehicle that is passing a general sarguson moped is considered double overtaking.",
+      "answer": 0,
+      "explanation": "This is not classified as double overtaking in Japan.",
+      "points": 2
+    },
+    {
+      "q": "When turning right on a one-way street, a vehicle must first approach the right edge of the road and decelerate near the intersection's center, adhering to any arrow markings (except at roundabouts).",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The three traffic signals in the figure provide identical instructions for vehicles approaching from either direction.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/16/C003-1.gif",
+      "points": 2
+    },
+    {
+      "q": "When overtaking a bicycle to turn left, a driver may sound the horn to warn the cyclist and proceed.",
+      "answer": 0,
+      "explanation": "Drivers must slow down or stop to allow the bicycle to pass first.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle can pass a stopped streetcar if no passengers are boarding or alighting in the safety zone.",
+      "answer": 0,
+      "explanation": "Vehicles must reduce speed in a safety zone with a stopped streetcar, even without passengers.",
+      "points": 2
+    },
+    {
+      "q": "When a police officer at an intersection raises their arms vertically after extending them horizontally in an east-west direction, vehicles traveling east or west must stop at the designated spot.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At a pedestrian or bicycle crossing, vehicles must stop immediately before the thick white line, if present.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The traffic sign in the figure forbids vehicles from making right turns or proceeding straight through the intersection.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/16/A311-2.gif",
+      "points": 2
+    },
+    {
+      "q": "Vehicles must reduce speed on both steep uphill and downhill slopes.",
+      "answer": 0,
+      "explanation": "There is no mandatory speed reduction for steep uphill slopes.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle experiences a wheelbase differential when making left or right turns.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On a road with two lanes per direction, ordinary vehicles must use the right-hand lane for travel.",
+      "answer": 0,
+      "explanation": "Vehicles must generally use the left-hand lane, except when overtaking or in specific circumstances.",
+      "points": 2
+    },
+    {
+      "q": "The traffic sign in the figure indicates a student pedestrian crossing ahead.",
+      "answer": 0,
+      "explanation": "This sign warns of nearby schools, kindergartens, or nurseries.",
+      "img": "assets/images/exams/karimen/16/A208.gif",
+      "points": 2
+    },
+    {
+      "q": "No signal is required when a driver reverses their vehicle.",
+      "answer": 0,
+      "explanation": "Drivers must use reverse lights or hand signals when backing up.",
+      "points": 2
+    },
+    {
+      "q": "To overtake, a driver should first signal with the turn indicator and then check for safety behind.",
+      "answer": 0,
+      "explanation": "Safety behind must be checked before signaling to overtake.",
+      "points": 2
+    },
+    {
+      "q": "A single driver or pedestrian ignoring traffic rules can cause confusion and potential accidents.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving in rain or feeling fatigued, a driver should increase the following distance due to extended stopping distances.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "General mopeds in Japan are restricted to a maximum speed of 30 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The traffic sign shown in the figure alerts drivers to an upcoming intersection.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/16/A201-1-1.gif",
+      "points": 2
+    },
+    {
+      "q": "Drivers must stop or reduce speed to ensure safe passage for people using wheelchairs, guide dogs, or white/yellow canes, indicating physical disabilities.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In the lanes depicted in the figure, vehicles in lane A may move to lane B, but vehicles in lane B cannot move to lane A.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/16/ev001.png",
+      "points": 2
+    },
+    {
+      "q": "On a lightly trafficked road, changing lanes only requires signaling without a safety check.",
+      "answer": 0,
+      "explanation": "A safety check is mandatory when changing lanes, regardless of traffic volume.",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is not permitted at or within 30 meters before a pedestrian crossing.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Vehicles are allowed to cross sidewalks or bicycle paths to enter or exit roadside areas.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A flashing red traffic light mandates a stop at the designated line, with vehicles proceeding only after confirming safety.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At an intersection with the traffic signal shown in the figure, vehicles can freely choose to go straight, turn left, or turn right.",
+      "answer": 0,
+      "explanation": "Mopeds or light vehicles using the two-step right turn method are not allowed to make a right turn at this signal.",
+      "img": "assets/images/exams/karimen/16/C001.gif",
+      "points": 2
+    },
+    {
+      "q": "In Japan, operating a vehicle while wearing sandals without heel straps or high-heeled shoes is not allowed.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A driver in Japan must carry a valid driver's license or an Individual Number Card with license details at all times while driving.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A standard Japanese driver's license allows the operation of both ordinary mopeds and small special vehicles.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Japanese traffic law requires that children under 6 years old be secured in an approved child restraint system when riding in a vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If there is enough space on the left side of a vehicle ahead, overtaking can be performed by passing on the left.",
+      "answer": 0,
+      "explanation": "Overtaking must generally be done on the right side of the vehicle being overtaken, as per Japanese traffic rules.",
+      "points": 2
+    },
+    {
+      "q": "If a pedestrian is crossing near an intersection without a crosswalk, a vehicle should use the horn to warn them and continue.",
+      "answer": 0,
+      "explanation": "Vehicles must slow down or stop to allow pedestrians to cross safely, without using the horn.",
+      "points": 2
+    },
+    {
+      "q": "When seeing the traffic sign shown in the figure, a driver is required to stop their vehicle completely, even if no vehicles or pedestrians are present on either side.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/16/A330.gif",
+      "points": 2
+    },
+    {
+      "q": "In Japan, it is illegal to operate a vehicle while holding and using a mobile phone for calls or texting.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The pavement marking shown in the figure designates a zone where entry is prohibited.",
+      "answer": 0,
+      "explanation": "This marking indicates a zone where stopping is prohibited.",
+      "img": "assets/images/exams/karimen/16/b107.gif",
+      "points": 2
+    },
+    {
+      "q": "The default speed limit for passenger cars on Japanese expressways, unless otherwise indicated, is 100 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A yellow traffic light allows vehicles to proceed with caution while monitoring other traffic.",
+      "answer": 0,
+      "explanation": "Vehicles must stop at the stop line when the light is yellow, unless stopping safely is not feasible.",
+      "points": 2
+    },
+    {
+      "q": "After changing lanes, a driver should stop signaling about 3 seconds after completing the maneuver.",
+      "answer": 0,
+      "explanation": "Signaling must cease immediately after the lane change is complete.",
+      "points": 2
+    },
+    {
+      "q": "In Japan, drivers must ensure that all passengers, including those in the rear seats, wear seatbelts during vehicle operation.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Worn tires shorten braking distance due to a larger contact area with the road.",
+      "answer": 0,
+      "explanation": "Worn tires reduce traction, resulting in a longer braking distance.",
+      "points": 2
+    },
+    {
+      "q": "Following the arrow in the figure is the correct way to enter a gas station on the right side of the road.",
+      "answer": 0,
+      "explanation": "Vehicles must first move toward the road's center before turning right.",
+      "img": "assets/images/exams/karimen/16/ev005.png",
+      "points": 2
+    },
+    {
+      "q": "The traffic sign shown in the figure prohibits vehicles from making U-turns.",
+      "answer": 0,
+      "explanation": "This sign prohibits vehicles from crossing the road.",
+      "img": "assets/images/exams/karimen/16/A312.gif",
+      "points": 2
+    },
+    {
+      "q": "The traffic sign shown permits non-bus vehicles to use the lane when no buses are nearby or traffic is low, except for special light vehicles, mopeds, and light vehicles.",
+      "answer": 0,
+      "explanation": "Non-bus vehicles may use the bus lane only in unavoidable cases, such as road construction or left turns.",
+      "img": "assets/images/exams/karimen/16/A327-4.gif",
+      "points": 2
+    },
+    {
+      "q": "The pavement marking shown in the figure marks the end of a 50 km/h speed limit zone.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/16/B115-1.gif",
+      "points": 2
+    },
+    {
+      "q": "In the situation shown in the figure, vehicle B may pass before vehicle A.",
+      "answer": 0,
+      "explanation": "Vehicle A has priority, so vehicle B must wait.",
+      "img": "assets/images/exams/karimen/16/C103-2.gif",
+      "points": 2
+    },
+    {
+      "q": "The traffic sign in the figure bans all traffic from passing through the road.",
+      "answer": 0,
+      "explanation": "This sign prohibits vehicle passage, but pedestrians and small remote-controlled vehicles are permitted.",
+      "img": "assets/images/exams/karimen/16/A302.gif",
+      "points": 2
+    },
+    {
+      "q": "The traffic sign in the figure mandates that general mopeds use a two-step right turn method.",
+      "answer": 0,
+      "explanation": "This sign requires general mopeds to make a direct right turn, like automobiles.",
+      "img": "assets/images/exams/karimen/16/a327-9.gif",
+      "points": 2
+    },
+    {
+      "q": "If a local bus at a stop signals to merge, other vehicles can pass by using the horn to alert it.",
+      "answer": 0,
+      "explanation": "Other vehicles must slow down to avoid obstructing the bus merging into traffic.",
+      "points": 2
+    }
+  ],
+  "maxScore": 100
+}

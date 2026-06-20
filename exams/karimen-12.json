@@ -1,0 +1,300 @@
+{
+  "id": "karimen-12",
+  "title": "Karimen Practice Test 12",
+  "type": "karimen",
+  "number": 12,
+  "source": "https://karimen-honmen.com/en/exam/karimen/12",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "On a road with this sign, large or regular motorcycles are prohibited from carrying a passenger.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/12/img_51.jpg",
+      "points": 2
+    },
+    {
+      "q": "When braking a motorcycle, it is better to apply the front and rear brakes simultaneously.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal minimum speed on an automobile-only road is set at 30 km/h.",
+      "answer": 0,
+      "explanation": "There is no legal minimum speed set for automobile-only roads.",
+      "points": 2
+    },
+    {
+      "q": "When reversing a vehicle, the driver is exempt from wearing a seatbelt.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At a flashing red light, pedestrians can proceed while being cautious of other traffic.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At a location with this sign, vehicles must stop immediately before the stop line (or the intersection if there is no stop line).",
+      "answer": 0,
+      "explanation": "This is a 'no vehicle entry' sign, typically placed at the exit of a one-way road.",
+      "img": "assets/images/exams/karimen/12/img_56.jpg",
+      "points": 2
+    },
+    {
+      "q": "If you have a regular car driver’s license, you can also drive a small special vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed for a motorized bicycle is 30 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the risk of strong crosswinds that could affect steering.",
+      "answer": 0,
+      "explanation": "This is a warning sign indicating a slippery road surface.",
+      "img": "assets/images/exams/karimen/12/img_59.jpg",
+      "points": 2
+    },
+    {
+      "q": "Guide signs are blue for highways and green for general roads.",
+      "answer": 0,
+      "explanation": "Blue signs are for general roads, and green signs are for highways.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a warning for a narrowing road width.",
+      "answer": 0,
+      "explanation": "This is a sign indicating a reduction in the number of lanes.",
+      "img": "assets/images/exams/karimen/12/img_61.jpg",
+      "points": 2
+    },
+    {
+      "q": "When receiving a call on a mobile phone while driving, you must quickly end the conversation to focus on driving.",
+      "answer": 0,
+      "explanation": "Using a mobile phone while driving is prohibited.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle equipped with airbags is exempt from mandatory seatbelt use.",
+      "answer": 0,
+      "explanation": "Seatbelt use is mandatory regardless of airbags.",
+      "points": 2
+    },
+    {
+      "q": "When an emergency vehicle approaches from the oncoming lane, I pulled over to the left edge of the road to yield.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Worn tires or rain can increase braking distance.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that vehicles are prohibited from traveling on tram tracks.",
+      "answer": 0,
+      "explanation": "This sign indicates that vehicles are allowed to travel on tram tracks.",
+      "img": "assets/images/exams/karimen/12/img_66.jpg",
+      "points": 2
+    },
+    {
+      "q": "The center line is not always located at the exact center of the road.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A motorcycle is not considered a pedestrian even if the engine is off and it is being pushed, so it cannot travel on the sidewalk.",
+      "answer": 0,
+      "explanation": "It is treated as a pedestrian and can travel on the sidewalk.",
+      "points": 2
+    },
+    {
+      "q": "The inner wheel difference is the difference in the paths of the front and rear wheels when a vehicle makes a turn, with the rear wheels passing closer to the inside.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When passing through a railway crossing without a traffic light, you must stop and check for safety even if following another vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the risk of falling rocks.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/12/img_71.jpg",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a tram stop ahead.",
+      "answer": 0,
+      "explanation": "This is a warning sign indicating a railway crossing.",
+      "img": "assets/images/exams/karimen/12/img_72.jpg",
+      "points": 2
+    },
+    {
+      "q": "When turning left or right at an intersection, you must drive slowly regardless of the presence of a traffic light.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Even while driving on a road with a center line extending into the intersection, overtaking is prohibited within the intersection.",
+      "answer": 0,
+      "explanation": "Overtaking is allowed in the intersection on a priority road.",
+      "points": 2
+    },
+    {
+      "q": "To prevent stalling in a railway crossing, shift to a high gear while passing through.",
+      "answer": 0,
+      "explanation": "To prevent stalling, pass through in a low gear without shifting.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that the road ahead is under construction.",
+      "answer": 0,
+      "explanation": "This is a warning sign for 'other hazards'.",
+      "img": "assets/images/exams/karimen/12/img_76.jpg",
+      "points": 2
+    },
+    {
+      "q": "Without a 'tram track passage permitted' sign, vehicles are generally prohibited from traveling on tram tracks.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the presence of a traffic light ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/12/img_78.jpg",
+      "points": 2
+    },
+    {
+      "q": "In a natural disaster requiring evacuation, park the vehicle on the left side of the road, close the windows, turn off the engine, leave the doors unlocked, and leave the key in the ignition.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A person who has held a motorcycle license for less than three years cannot carry a passenger.",
+      "answer": 0,
+      "explanation": "The restriction applies for less than one year.",
+      "points": 2
+    },
+    {
+      "q": "This sign allows left or right turns but prohibits going straight.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/12/img_81.jpg",
+      "points": 2
+    },
+    {
+      "q": "Instruction signs indicate location names, directions, or distances to facilitate traffic.",
+      "answer": 0,
+      "explanation": "Instruction signs specify traffic methods or designated locations.",
+      "points": 2
+    },
+    {
+      "q": "When parking an automatic vehicle, do not shift the gear lever to P until the vehicle is completely stopped.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Stopping a vehicle for 3 minutes in a ready-to-move state to wait for a person is considered stopping.",
+      "answer": 0,
+      "explanation": "Waiting for a person, passenger, or cargo is considered parking.",
+      "points": 2
+    },
+    {
+      "q": "When practicing driving with a provisional license, learner signs must be attached to both the front and rear of the vehicle at designated positions.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a bicycle crossing zone.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/12/img_86.jpg",
+      "points": 2
+    },
+    {
+      "q": "Driving slowly means proceeding at a speed that allows the vehicle to stop immediately.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The signal for reversing should preferably be given 3 seconds before reversing.",
+      "answer": 0,
+      "explanation": "The signal should be given when reversing begins.",
+      "points": 2
+    },
+    {
+      "q": "If you have a regular motorcycle license, you can drive a small special vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If you have a small special vehicle license, you can drive a motorized bicycle.",
+      "answer": 0,
+      "explanation": "A small special vehicle license only allows driving small special vehicles.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that the road is under construction and vehicles cannot pass.",
+      "answer": 0,
+      "explanation": "The sign indicates construction but does not restrict passage.",
+      "img": "assets/images/exams/karimen/12/img_91.jpg",
+      "points": 2
+    },
+    {
+      "q": "When driving in a priority bus lane and a school or kindergarten bus approaches from behind, you must leave the lane.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At an intersection of roads with similar widths, you must not interfere with vehicles approaching from the right.",
+      "answer": 0,
+      "explanation": "You must not interfere with vehicles approaching from the left.",
+      "points": 2
+    },
+    {
+      "q": "If a vehicle breaks down and becomes immobile in a railway crossing, you must immediately inform the driver and move the vehicle out of the crossing.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Since side mirrors have blind spots, it is important to visually check for safety when changing lanes, turning, or making a U-turn.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates no parking, allowing stopping but prohibiting parking.",
+      "answer": 0,
+      "explanation": "This is a 'no vehicle passage' sign.",
+      "img": "assets/images/exams/karimen/12/img_96.jpg",
+      "points": 2
+    },
+    {
+      "q": "Vehicle insurance, a type of voluntary insurance, covers damage caused to another person’s vehicle.",
+      "answer": 0,
+      "explanation": "Vehicle insurance covers collisions, theft, or other damage to your own vehicle.",
+      "points": 2
+    },
+    {
+      "q": "The license plate color for private vehicles with a displacement of 660cc or less is yellow.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Private regular passenger cars must undergo vehicle inspection (shaken) every three years.",
+      "answer": 0,
+      "explanation": "Inspections are required every two years, with three years only for new vehicle registration.",
+      "points": 2
+    },
+    {
+      "q": "If you witness a hit-and-run vehicle, assist the injured and report the vehicle’s color, license plate, and model to the police.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

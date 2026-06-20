@@ -1,0 +1,298 @@
+{
+  "id": "karimen-13",
+  "title": "Karimen Practice Test 13",
+  "type": "karimen",
+  "number": 13,
+  "source": "https://karimen-honmen.com/en/exam/karimen/13",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "This sign indicates the center of the road or the center line.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/13/img_101.jpg",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that the traffic restriction shown applies to the road ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/13/img_102.jpg",
+      "points": 2
+    },
+    {
+      "q": "Driving with an expired license is considered driving without a license.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking a vehicle that is overtaking another regular car is considered double overtaking and is a violation.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When lanes are separated by a yellow line, you must not cross the yellow line to change lanes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a steep uphill slope ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/13/img_106.jpg",
+      "points": 2
+    },
+    {
+      "q": "During a driver’s license renewal, tests for vision, hearing, and other aptitudes are conducted.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On a dry road where the friction coefficient is higher, the stopping distance of a vehicle decreases.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On a road with a white broken center line, you must not overtake by crossing into the right side of the road.",
+      "answer": 0,
+      "explanation": "A white solid line prohibits crossing for overtaking.",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited in tunnels unless there are marked lanes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign prohibits passage of all light vehicles.",
+      "answer": 0,
+      "explanation": "The sign prohibits passage of light vehicles except bicycles (e.g., rickshaws).",
+      "img": "assets/images/exams/karimen/13/img_111.jpg",
+      "points": 2
+    },
+    {
+      "q": "If there is a change in the name or address listed on a driver’s license, it must be reported to the Public Safety Commission of the place of residence.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The driver’s license point system exists, and if there have been no suspensions in the past three years, a license suspension occurs with 6 to 14 points.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In the event of a traffic accident, reporting to the police takes precedence over preventing further accidents or aiding the injured.",
+      "answer": 0,
+      "explanation": "Preventing further accidents and aiding the injured come first.",
+      "points": 2
+    },
+    {
+      "q": "Even if more than one year has passed since obtaining a regular motorcycle license, a newly obtained large motorcycle license requires one year before carrying a passenger.",
+      "answer": 0,
+      "explanation": "You can carry a passenger immediately with a large motorcycle license.",
+      "points": 2
+    },
+    {
+      "q": "The stopping position at a location with this sign is 3 meters before the sign.",
+      "answer": 0,
+      "explanation": "The stopping position is immediately before the sign.",
+      "img": "assets/images/exams/karimen/13/img_116.jpg",
+      "points": 2
+    },
+    {
+      "q": "The validity period of an international driver’s license is three years from the issuance date.",
+      "answer": 0,
+      "explanation": "The validity period is one year from the issuance date.",
+      "points": 2
+    },
+    {
+      "q": "Police cars, fire trucks, and ambulances are emergency vehicles, but emergency work vehicles are not included.",
+      "answer": 0,
+      "explanation": "Emergency work vehicles are also considered emergency vehicles.",
+      "points": 2
+    },
+    {
+      "q": "If you have a motorized bicycle license, you can drive a small special vehicle.",
+      "answer": 0,
+      "explanation": "A motorized bicycle license only allows driving motorized bicycles.",
+      "points": 2
+    },
+    {
+      "q": "When driving a bus or taxi for repositioning without passengers, a second-class license is not required.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign prohibits pedestrian passage, and a motorized bicycle cannot pass even if the engine is off and it is being pushed.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/13/img_121.jpg",
+      "points": 2
+    },
+    {
+      "q": "When visibility is poor due to fog, it is better to drive with low beam headlights as high beams worsen visibility.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking is prohibited within 3 meters of a fire alarm.",
+      "answer": 0,
+      "explanation": "Parking is prohibited within 1 meter of a fire alarm.",
+      "points": 2
+    },
+    {
+      "q": "At an intersection with three or more lanes in the direction of travel and traffic signals, a motorized bicycle must perform a two-stage right turn unless a two-stage right turn prohibition sign is present.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Signals for left turns, right turns, or U-turns should be given 30 meters before the location.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign prohibits passage of large trucks, large special vehicles, and specific medium trucks.",
+      "answer": 0,
+      "explanation": "This is a sign prohibiting passage of large passenger vehicles.",
+      "img": "assets/images/exams/karimen/13/img_126.jpg",
+      "points": 2
+    },
+    {
+      "q": "The braking distance is the distance from feeling danger and pressing the brake pedal until the brakes start to take effect.",
+      "answer": 0,
+      "explanation": "This is the free-running distance.",
+      "points": 2
+    },
+    {
+      "q": "The maximum load capacity for a motorized bicycle is 60 kg.",
+      "answer": 0,
+      "explanation": "The maximum load capacity is 30 kg.",
+      "points": 2
+    },
+    {
+      "q": "When passing a tram boarding area equipped with barriers for passengers, you only need to drive slowly through.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "You must drive slowly on a steep uphill slope.",
+      "answer": 0,
+      "explanation": "Slow driving is required on a steep downhill slope.",
+      "points": 2
+    },
+    {
+      "q": "This sign prohibits vehicles from proceeding in directions other than the arrow.",
+      "answer": 0,
+      "explanation": "This sign indicates lane assignments for specific directions at an intersection.",
+      "img": "assets/images/exams/karimen/13/img_131.jpg",
+      "points": 2
+    },
+    {
+      "q": "Loading or unloading cargo is considered stopping if within 5 minutes, and parking if exceeding 5 minutes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Even in a no-U-turn zone, U-turns are allowed within an intersection.",
+      "answer": 0,
+      "explanation": "U-turns are prohibited in such zones, including within intersections.",
+      "points": 2
+    },
+    {
+      "q": "The signal for changing lanes should be given 3 seconds before the change.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited within 5 meters of the edge of a roadwork zone.",
+      "answer": 0,
+      "explanation": "Only parking is prohibited within this distance.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a pedestrian crossing.",
+      "answer": 0,
+      "explanation": "This is a sign for a pedestrian-only road.",
+      "img": "assets/images/exams/karimen/13/img_136.jpg",
+      "points": 2
+    },
+    {
+      "q": "When overtaking another vehicle, you must confirm that the location is not a no-overtaking zone.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is generally prohibited on highways.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving past a school bus stopped to pick up or drop off children, you must come to a complete stop.",
+      "answer": 0,
+      "explanation": "Drivers only need to slow down and proceed with caution when passing a stopped school bus with its hazard lights on; a full stop is not required.",
+      "points": 2
+    },
+    {
+      "q": "You do not need to drive slowly near a road curve if visibility is good.",
+      "answer": 0,
+      "explanation": "Slow driving is required near curves regardless of visibility.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a dedicated lane where only designated vehicles, small special vehicles, motorized bicycles, and light vehicles can pass.",
+      "answer": 0,
+      "explanation": "This is a priority bus lane sign.",
+      "img": "assets/images/exams/karimen/13/img_141.jpg",
+      "points": 2
+    },
+    {
+      "q": "When applying emergency brakes in a vehicle with ABS, it is best to press the pedal fully and hold it to activate the ABS.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited on highways, but temporary stopping is allowed if unavoidable.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is when a vehicle changes its path to move ahead of a vehicle in front.",
+      "answer": 0,
+      "explanation": "Overtaking does not involve changing paths; that is passing.",
+      "points": 2
+    },
+    {
+      "q": "A motorcycle suitable for the rider’s physique is one where both toes touch the ground when straddling it.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign prohibits passage of all vehicles, including motorized bicycles and light vehicles.",
+      "answer": 0,
+      "explanation": "The sign prohibits passage of all traffic, including pedestrians.",
+      "img": "assets/images/exams/karimen/13/img_146.jpg",
+      "points": 2
+    },
+    {
+      "q": "Braking distance is generally proportional to the square of the speed.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Police hand signals take precedence over traffic light signals.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "During a major earthquake, it is better to evacuate by car than on foot.",
+      "answer": 0,
+      "explanation": "Evacuation by car is prohibited during major earthquakes.",
+      "points": 2
+    },
+    {
+      "q": "Driving continuously for long periods on highways is dangerous, so it is advisable to take a break every two hours.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

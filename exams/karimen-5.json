@@ -1,0 +1,303 @@
+{
+  "id": "karimen-5",
+  "title": "Karimen Practice Test 5",
+  "type": "karimen",
+  "number": 5,
+  "source": "https://karimen-honmen.com/en/exam/karimen/5",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "Even where there is a traffic sign as shown in the figure, a  vehicle may overtake unless it crosses the centerline.",
+      "answer": 0,
+      "explanation": "Overtaking is prohibited whether or not a vehicle crosses the centerline.",
+      "img": "assets/images/exams/karimen/5/A314-2.gif",
+      "points": 2
+    },
+    {
+      "q": "When overtaking, it is advisable for a driver to give a signal by turning on the direction indicator, then after about 3 seconds, change the lane while gradually accelerating.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "It is dangerous if a driver cannot pay enough attention to the traffic conditions. Therefore, a driver must not, in principle, use a mobile phone while driving.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "It is advisable for a driver to sound the horn when proceeding near a bicycle to alert the cyclist.",
+      "answer": 0,
+      "explanation": "A driver must proceed while maintaining a safe distance from a bicycle or slowing down, and not alerting the cyclist by sounding the horn.",
+      "points": 2
+    },
+    {
+      "q": "When approaching a pedestrian crossing, a vehicle must sufficiently reduce speed to be able to stop immediately before the pedestrian crossing, even when it is clear that there are no people crossing the road.",
+      "answer": 0,
+      "explanation": "When there are apparently no pedestrians, a vehicle does not have to reduce speed so as to be able to stop.",
+      "points": 2
+    },
+    {
+      "q": "A signal as shown in the figure (viewed from behind) indicates that the vehicle is attempting to execute a right turn or U-turn, or move into the right lane while traveling in the same direction.",
+      "answer": 0,
+      "explanation": "This is a signal when making a left turn or changing lanes to the left.",
+      "img": "assets/images/exams/karimen/5/C022.gif",
+      "points": 2
+    },
+    {
+      "q": "If the traffic signal ahead is a yellow light, a vehicle must not proceed beyond the stop line. However, if the signal changes to yellow when the vehicle has nearly reached the stop line, and the vehicle is not able to stop safely it may proceed without stopping.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When a person with a learner’s permit drives a vehicle for the purpose of practice, he or she must have a person in the front passenger seat as an instructor. That person must have held a first-class license for that type of vehicle for 3 years or more, or a second-class license for that type of vehicle and be at least 21 years of age or older.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On a general road, the designated maximum speed limit for three-wheeled regular trucks or regular trucks with a displacement of 660 cc or less is 50 km/h.",
+      "answer": 0,
+      "explanation": "On a general road, a designated maximum speed limit for regular motor vehicles is 60km/h.",
+      "points": 2
+    },
+    {
+      "q": "When a police officer holds his or her arms straight out to the sides horizontally, this has the same meaning as a red light for traffic proceeding in the direction that is parallel to the officer’s arms.",
+      "answer": 0,
+      "explanation": "This hand signal has the same meaning as the green light of a traffic signal.",
+      "points": 2
+    },
+    {
+      "q": "The hand signals of a police officer as shown in the figures have the same meaning for traffic traveling towards the front and back of the officer.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/5/C014-1.gif",
+      "points": 2
+    },
+    {
+      "q": "Vehicles must slow down when executing a left or right turn.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "With an arrow signal as shown in the figure, automobiles, mopeds and light vehicles may proceed straight through the intersection.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/5/20121128_3.png",
+      "points": 2
+    },
+    {
+      "q": "A vehicle may overtake at a corner when visibility is good.",
+      "answer": 0,
+      "explanation": "As a corner is a dangerous location, a vehicle must not overtake, even if visibility is good.",
+      "points": 2
+    },
+    {
+      "q": "On a road where there is a pavement marking as shown in the figure, automobiles must not proceed at a speed over 50 km/h, and general mopeds must not proceed at a speed over 30 km/h.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/5/B105-50.gif",
+      "points": 2
+    },
+    {
+      "q": "When an emergency vehicle is approaching from behind at an intersection, vehicles must immediately stop where they are.",
+      "answer": 0,
+      "explanation": "A vehicle must leave the intersection and stop on the left side of the road (except on a one-way street).",
+      "points": 2
+    },
+    {
+      "q": "When passing the side of a local bus stopped at a bus stop to allow passengers to get on or off, a vehicle must proceed at a speed slow enough to stop, in anticipation that a passenger may unexpectedly appear in front of the vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Giving consideration not to interfere with other traffic or to ensure the safety of others results in following traffic regulations.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Signals notify other traffic of how the vehicle will move. As other traffic will rely on the given signals, the driver of that vehicle must give correct signals with appropriate timing.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When executing a left or right turn, or a U-turn, a driver must give a signal approximately 30 meters before the point where he or she takes the action.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The distance from the point where a driver senses danger and depresses the brake pedal to the point where the vehicle stops is always the same, regardless of the conditions of the road surface, assuming that the vehicle proceeds at the same speed.",
+      "answer": 0,
+      "explanation": "Stopping distance is largely affected by the conditions of the road surface. (It becomes longer on wet road surfaces.)",
+      "points": 2
+    },
+    {
+      "q": "When a road is congested, vehicles may proceed by crossing the centerline into the right side of the road.",
+      "answer": 0,
+      "explanation": "Traffic congestion does not provide an exception to driving on the left side of the road.",
+      "points": 2
+    },
+    {
+      "q": "Executing a left or right turn is prohibited at an intersection where there is a traffic sign as shown in the figure.",
+      "answer": 0,
+      "explanation": "This sign designates that vehicles may only execute a left or right turn and may not proceed straight through.",
+      "img": "assets/images/exams/karimen/5/A311-4.gif",
+      "points": 2
+    },
+    {
+      "q": "It is advisable for a driver to sound the horn as much as possible at an intersection where visibility is poor.",
+      "answer": 0,
+      "explanation": "A driver must slow down and must not sound the horn unnecessarily.",
+      "points": 2
+    },
+    {
+      "q": "Even when being overtaken by the vehicle behind, a vehicle may overtake the vehicle ahead before being overtaken, because vehicles proceeding in front have right of way.",
+      "answer": 0,
+      "explanation": "A vehicle must not overtake when a vehicle behind is attempting to overtake it.",
+      "points": 2
+    },
+    {
+      "q": "On a road with heavy traffic, it is advisable for a driver to get into or out of a vehicle from the left door as much as possible.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "One may drive a minibus with a seating capacity of 11 passengers with a regular license.",
+      "answer": 0,
+      "explanation": "A vehicle with a seating capacity of 11 passengers is a medium vehicle and the therefore cannot be driven with a regular motor vehicle license.",
+      "points": 2
+    },
+    {
+      "q": "On a road where there is a pavement marking as shown in the figure, regular passenger vehicles must proceed in lanes other than the leftmost lane.",
+      "answer": 0,
+      "explanation": "This traffic sign designates a vehicular lane only for large-size trucks and special heavy equipment. Other types of vehicle must proceed following the general rules.",
+      "img": "assets/images/exams/karimen/5/A327-2.gif",
+      "points": 2
+    },
+    {
+      "q": "A driver must not obstruct the movement of the vehicle ahead when it is giving a signal for changing lanes to make a left or right turn, unless not obstructing the vehicle would require the driver to brake or swerve suddenly.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The precautions of approaching a bicycle crossing are basically the same as those of approaching a pedestrian crossing.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When proceeding along the left edge of a road and approaching a traffic sign as shown in the figure, a driver must pay enough attention to vehicles behind, because the sign indicates that the road ahead narrows.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/5/A212.gif",
+      "points": 2
+    },
+    {
+      "q": "When entering an intersection where there is a traffic sign as shown in the figure, a vehicle does not need to stop if it is clearly safe.",
+      "answer": 0,
+      "explanation": "This sign is displayed at dangerous locations, so a vehicle must stop and ensure safety.",
+      "img": "assets/images/exams/karimen/5/A330.gif",
+      "points": 2
+    },
+    {
+      "q": "The traffic sign and pavement marking shown in the figures have the same meaning.",
+      "answer": 0,
+      "explanation": "The traffic sign designates the start of a “no U-turn” regulation and the pavement marking designates the end of that regulation.",
+      "img": "assets/images/exams/karimen/5/20121202_1.png",
+      "points": 2
+    },
+    {
+      "q": "At an intersection where there is a traffic sign as shown in the figure, vehicles other than large-size trucks, specified medium vehicles, and special heavy equipment must not proceed straight through the intersection.",
+      "answer": 0,
+      "explanation": "Vehicles other than large-size trucks, specified medium vehicles, and special heavy equipment may proceed in any direction.",
+      "img": "assets/images/exams/karimen/5/A311-3-1.gif",
+      "points": 2
+    },
+    {
+      "q": "If a driver senses even a small amount of danger in the traffic conditions during driving, the first thing for him or her to do is to reduce the vehicle’s speed.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The timing and method of the signal for a U-turn are the same as those for the signal for a right turn. (Except roundabout.)",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When overtaking, it is advisable for a driver to check the safety to the right and behind to the right using a rearview mirror, as well as to check the situation in front.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "It is important for a driver to understand the features of his or her own vehicle, such as the blind spot, the wheelbase differential, and other similar features.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A vehicle must not enter a safety zone only when there are pedestrians in the area.",
+      "answer": 0,
+      "explanation": "A vehicle must not enter the zone even when there are no pedestrians.",
+      "points": 2
+    },
+    {
+      "q": "A driver must proceed with attention on a road where there is a traffic sign as shown in the figure, because there may be oncoming traffic.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/5/A212-2.gif",
+      "points": 2
+    },
+    {
+      "q": "At an intersection where there are traffic signals as shown in the figure, a general moped must proceed as indicated by the arrow when executing a right turn.",
+      "answer": 0,
+      "explanation": "A general moped must make a two-step right turn on a road where there are three lanes in each direction.",
+      "img": "assets/images/exams/karimen/5/c112.gif",
+      "points": 2
+    },
+    {
+      "q": "Using side mirrors allow a driver to visually gauge the distance between his or her vehicle and the vehicle behind better than using a rearview mirror.",
+      "answer": 0,
+      "explanation": "Things look smaller on side mirrors than their actual size, so it is difficult to gauge the distance.",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited in a tunnel where there are no vehicular lanes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Vehicles must proceed carefully, especially on a narrow road or a road where visibility is poor, because a child may suddenly appear on the road.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In the situation shown in the figure, when vehicle X passes on the side of stopped vehicle Y, vehicle X must stop at position A, even when there are no pedestrians.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/5/k05_20.png",
+      "points": 2
+    },
+    {
+      "q": "On a road with three or more lanes in each direction, the rightmost lane should be kept for overtaking vehicles etc., and vehicles must proceed in the other lanes according to traveling speed.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "It is advisable for a driver to adjust his or her seat to a position where their knees shall be fully stretched when depressing the clutch pedal.",
+      "answer": 0,
+      "explanation": "A driver’s knees should be slightly bent.",
+      "points": 2
+    },
+    {
+      "q": "Light vehicles or mopeds may proceed on a road where there is a traffic sign as shown in the figure.",
+      "answer": 0,
+      "explanation": "In principle, even light vehicles or mopeds must not proceed.",
+      "img": "assets/images/exams/karimen/5/a325-4.gif",
+      "points": 2
+    },
+    {
+      "q": "A vehicle must slow down at a corner if visibility is poor, but does not need to slow down if visibility is good.",
+      "answer": 0,
+      "explanation": "A vehicle must slow down whether visibility is good or poor.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle must slow down when passing a pedestrian that is in a safety zone.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

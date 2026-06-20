@@ -1,0 +1,544 @@
+{
+  "id": "honmen-7",
+  "title": "Honmen Practice Test 7",
+  "type": "honmen",
+  "number": 7,
+  "source": "https://karimen-honmen.com/en/exam/honmen/7",
+  "passScore": 90,
+  "maxScore": 100,
+  "timeLimitMinutes": 50,
+  "questionCount": 95,
+  "questions": [
+    {
+      "q": "When driving a borrowed vehicle, since it’s not your own, it’s not an issue if the vehicle inspection certificate has expired or it lacks mandatory insurance.",
+      "answer": 0,
+      "explanation": "Even with a borrowed vehicle, driving one with an expired inspection certificate or without mandatory insurance is a serious offense. Always check. 【This is the mistake!】 When driving a borrowed vehicle, since it’s not your own, it’s not an issue if the vehicle inspection certificate has expired or it lacks mandatory insurance.",
+      "points": 1
+    },
+    {
+      "q": "Having gone the wrong direction on the highway, I made a U-turn at a gap in the median strip.",
+      "answer": 0,
+      "explanation": "U-turns or reversing are prohibited on the main highway. 【This is the mistake!】 Having gone the wrong direction on the highway, I made a U-turn at a gap in the median strip.",
+      "points": 1
+    },
+    {
+      "q": "If you have a large special vehicle license, you can also drive an ordinary car.",
+      "answer": 0,
+      "explanation": "A large special vehicle license allows driving large special vehicles, small special vehicles, and general motorized bicycles. Organize and memorize license types and permitted vehicles. 【This is the mistake!】 If you have a large special vehicle license, you can also drive an ordinary car.",
+      "points": 1
+    },
+    {
+      "q": "When attempting to overtake, if you feel even slight unease about road conditions, traffic, vehicle performance, or driving skills, it’s best to cancel the maneuver.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When an earthquake occurred, I stopped the vehicle on the shoulder, turned off the engine, and locked the doors to prevent theft before evacuating.",
+      "answer": 0,
+      "explanation": "When evacuating due to an earthquake, do not lock the doors so the vehicle can be moved if it obstructs emergency vehicles. 【This is the mistake!】 When an earthquake occurred, I stopped the vehicle on the shoulder, turned off the engine, and locked the doors to prevent theft before evacuating.",
+      "points": 1
+    },
+    {
+      "q": "When passing through an intersection with poor visibility, you may miss other vehicles or pedestrians suddenly appearing, so you need to proceed slowly and cautiously.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When the foot brake fails, all brakes become ineffective, so using the hand brake has no effect.",
+      "answer": 0,
+      "explanation": "The foot brake and hand brake are separate systems. Even if the foot brake fails, the hand brake may still work in some cases. 【This is the mistake!】 When the foot brake fails, all brakes become ineffective, so using the hand brake has no effect.",
+      "points": 1
+    },
+    {
+      "q": "Knowledge of natural forces like friction or centrifugal force acting during driving is not directly necessary for riding a motorcycle.",
+      "answer": 0,
+      "explanation": "Both motorcycles and cars are driven under the influence of natural forces. Knowing the characteristics of these forces is important for safe driving. 【This is the mistake!】 Knowledge of natural forces like friction or centrifugal force acting during driving is not directly necessary for riding a motorcycle.",
+      "points": 1
+    },
+    {
+      "q": "While waiting to merge from the acceleration lane to the main road but finding no gap, I drove on the shoulder to merge.",
+      "answer": 0,
+      "explanation": "Except in unavoidable cases like a breakdown, driving on the shoulder is prohibited. 【This is the mistake!】 While waiting to merge from the acceleration lane to the main road but finding no gap, I drove on the shoulder to merge.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that the road ahead is winding, requiring careful driving.",
+      "answer": 0,
+      "explanation": "This is a sign indicating a slippery road surface, requiring caution. It is unrelated to road shape, so don’t confuse it. 【This is the mistake!】 This sign indicates that the road ahead is winding, requiring careful driving.",
+      "img": "assets/images/exams/honmen/7/A209.gif",
+      "points": 1
+    },
+    {
+      "q": "When I should have gone straight at the intersection ahead, I mistakenly signaled a left turn but continued straight without turning off the indicator.",
+      "answer": 0,
+      "explanation": "Continuing to drive with an incorrect signal can cause confusion or anxiety for surrounding vehicles. If you signal incorrectly, turn it off immediately or proceed in the signaled direction even if it’s not your intended route. 【This is the mistake!】 When I should have gone straight at the intersection ahead, I mistakenly signaled a left turn but continued straight without turning off the indicator.",
+      "points": 1
+    },
+    {
+      "q": "The D position of an automatic car’s gear lever has low engine braking effect, and continuous braking in this position may cause vapor lock, rendering the brakes ineffective.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Immediately after starting an automatic car’s engine or when the air conditioner is on, the engine RPM increases, but it is automatically adjusted, so there is no risk of sudden acceleration.",
+      "answer": 0,
+      "explanation": "When engine RPM is high, sudden acceleration can occur. It is not always automatically adjusted, so operate with caution. 【This is the mistake!】 Immediately after starting an automatic car’s engine or when the air conditioner is on, the engine RPM increases, but it is automatically adjusted, so there is no risk of sudden acceleration.",
+      "points": 1
+    },
+    {
+      "q": "When being overtaken by another vehicle, if there isn’t enough space for overtaking, you must move as far left as possible and yield the way.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Vehicles must not overtake cars or general motorized bicycles within 30 meters before a pedestrian crossing or bicycle crossing.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When the left side of the road is congested, you can travel on the right side from the centerline.",
+      "answer": 0,
+      "explanation": "Traveling on the right side of the centerline is allowed only on one-way roads or when obstacles prevent passage on the left. You cannot do so just because of congestion. 【This is the mistake!】 When the left side of the road is congested, you can travel on the right side from the centerline.",
+      "points": 1
+    },
+    {
+      "q": "When traveling on highways, you must carry emergency signal devices or stopping indicators, but they are not required on regular roads.",
+      "answer": 0,
+      "explanation": "Even on regular roads, using a stopping indicator during a breakdown is appropriate. Prepare one whenever possible. 【This is the mistake!】 When traveling on highways, you must carry emergency signal devices or stopping indicators, but they are not required on regular roads.",
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle on a gravel road, use a low gear and reduce speed to proceed.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If a vehicle gets stuck on a railway crossing, use a flare or other means to signal the train as quickly as possible.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Overtaking near a road curve is dangerous due to the risk of collision with oncoming vehicles or cyclists/pedestrians emerging from behind them, so it is prohibited.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When unavoidably parking on a highway, enter the roadside strip and stop along the left edge of the road.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Motorcycle braking methods include the front brake using the lever, the rear brake using the pedal, and engine braking by easing the throttle or shifting to a lower gear.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "High-speed driving reduces the time to approach other vehicles, pedestrians, or road obstacles, leaving no margin to avoid accidents.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "This marking indicates that you must not stop within this area.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/7/b107.gif",
+      "points": 1
+    },
+    {
+      "q": "When the intersecting road ahead is a priority road, you must slow down and not obstruct vehicles or trams traveling on that road.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "This sign prohibits large and ordinary motorcycles from carrying two people.",
+      "answer": 0,
+      "explanation": "This sign prohibits the passage of motorcycles and general motorized bicycles entirely. It is similar to the sign prohibiting two-person riding, so be careful not to confuse them. 【This is the mistake!】 This sign prohibits large and ordinary motorcycles from carrying two people.",
+      "img": "assets/images/exams/honmen/7/a307.gif",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that there is a wide intersection ahead.",
+      "answer": 0,
+      "explanation": "This is a priority road sign. Learn to correctly associate the sign’s design with its meaning. 【This is the mistake!】 This sign indicates that there is a wide intersection ahead.",
+      "img": "assets/images/exams/honmen/7/A405.gif",
+      "points": 1
+    },
+    {
+      "q": "Tire pressure must be balanced on both sides, or it may cause loss of control or uneven tire wear.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The stop line marked before an intersection or pedestrian crossing is a guide for stopping, so it’s permissible to stop slightly beyond it.",
+      "answer": 0,
+      "explanation": "The stop line designates where to stop. You must stop immediately before the stop line. 【This is the mistake!】 The stop line marked before an intersection or pedestrian crossing is a guide for stopping, so it’s permissible to stop slightly beyond it.",
+      "points": 1
+    },
+    {
+      "q": "When driving through or near an intersection and an emergency vehicle approaches, you must avoid the intersection, move to the left side of the road, and slow down to yield.",
+      "answer": 0,
+      "explanation": "When yielding to an emergency vehicle at or near an intersection, you must pull to the left side of the road and stop temporarily. Slowing down alone is insufficient. 【This is the mistake!】 When driving through or near an intersection and an emergency vehicle approaches, you must avoid the intersection, move to the left side of the road, and slow down to yield.",
+      "points": 1
+    },
+    {
+      "q": "The seatbelt’s lap belt should be worn loosely around the abdomen.",
+      "answer": 0,
+      "explanation": "Wearing it around the abdomen may cause abdominal compression in an accident. Also, a loose belt reduces effectiveness. Wear the seatbelt correctly for proper protection. 【This is the mistake!】 The seatbelt’s lap belt should be worn loosely around the abdomen.",
+      "points": 1
+    },
+    {
+      "q": "While driving, even if there are clearly no pedestrians at a crossing, you must slow down or stop when approaching the crossing.",
+      "answer": 0,
+      "explanation": "If it’s clear to everyone that no pedestrians are crossing, you can pass at the current speed. 【This is the mistake!】 While driving, even if there are clearly no pedestrians at a crossing, you must slow down or stop when approaching the crossing.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that vehicles with a width, including cargo, exceeding 2.2 meters cannot pass.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/7/A322.gif",
+      "points": 1
+    },
+    {
+      "q": "When the vehicle ahead is changing lanes to the right to make a right turn, overtaking on the right is dangerous and prohibited.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Even when leaving the vehicle for a short time, to prevent danger, you must turn off the engine and engage the hand brake.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Using a handheld mobile phone while driving is dangerous, so it’s advisable to turn off the phone or switch to driving mode before driving to prevent ringtones or other sounds.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "You must not overtake an ordinary car displaying a learner’s or novice driver’s sign.",
+      "answer": 0,
+      "explanation": "You must not cut in or crowd vehicles with learner’s or novice driver’s signs, but overtaking is not prohibited. 【This is the mistake!】 You must not overtake an ordinary car displaying a learner’s or novice driver’s sign.",
+      "points": 1
+    },
+    {
+      "q": "When passing a child walking alone, you must not only slow down but always stop temporarily.",
+      "answer": 0,
+      "explanation": "When passing a child, you need to slow down or stop temporarily. If safety is ensured, you can pass slowly instead of stopping. 【This is the mistake!】 When passing a child walking alone, you must not only slow down but always stop temporarily.",
+      "points": 1
+    },
+    {
+      "q": "Road markings are lines, symbols, or characters marked on the road surface with paint or studs, and they are divided into two types: regulatory markings and instructional markings.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "At night, visibility is poor, and the gaze tends to focus far ahead, so it’s best to concentrate on driving just in front of the vehicle.",
+      "answer": 0,
+      "explanation": "At night, direct your gaze far and wide to detect hazards as early as possible. 【This is the mistake!】 At night, visibility is poor, and the gaze tends to focus far ahead, so it’s best to concentrate on driving just in front of the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "Near toll booth gates on highways, to pass quickly, choose an empty lane and frequently change lanes.",
+      "answer": 0,
+      "explanation": "Near toll booth gates, all vehicles focus on the gates, so sudden lane changes may be hard to handle. To avoid disrupting traffic flow, choose a lane early and avoid changing it. 【This is the mistake!】 Near toll booth gates on highways, to pass quickly, choose an empty lane and frequently change lanes.",
+      "points": 1
+    },
+    {
+      "q": "On rainy days, when pedestrians along the road or in front of shops use umbrellas to avoid mud splashes, you don’t need to slow down.",
+      "answer": 0,
+      "explanation": "It’s the driver’s duty to prevent water or mud from splashing. Even if pedestrians use umbrellas, slow down to avoid splashing. 【This is the mistake!】 On rainy days, when pedestrians along the road or in front of shops use umbrellas to avoid mud splashes, you don’t need to slow down.",
+      "points": 1
+    },
+    {
+      "q": "Even with a sports-type general motorized bicycle, if driven by someone with a standard or large motorcycle license, it can travel on highways.",
+      "answer": 0,
+      "explanation": "General motorized bicycles are not allowed on highways. The type of vehicle or the driver’s license is irrelevant. 【This is the mistake!】 Even with a sports-type general motorized bicycle, if driven by someone with a standard or large motorcycle license, it can travel on highways.",
+      "points": 1
+    },
+    {
+      "q": "At the junction of a highway’s main road, if a sign designates the main road ahead as having priority, you must not obstruct vehicles traveling on that main road.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When signs or markings indicate a maximum speed of 30 km/h or less, you must not drive faster than this speed.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The cargo weight of a truck may exceed the maximum load specified in the vehicle inspection certificate by up to 10%.",
+      "answer": 0,
+      "explanation": "The maximum load specified in the vehicle inspection certificate must be strictly adhered to. 【This is the mistake!】 The cargo weight of a truck may exceed the maximum load specified in the vehicle inspection certificate by up to 10%.",
+      "points": 1
+    },
+    {
+      "q": "When a traffic accident occurs, the driver must report to the police the accident location, number and extent of injuries, degree of property damage, and cargo on the accident vehicle, and follow instructions.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Where there is no pedestrian crossing, vehicles have priority over pedestrians crossing.",
+      "answer": 0,
+      "explanation": "Basically, always prioritize pedestrians. Even without a pedestrian crossing, you must not obstruct pedestrians crossing. 【This is the mistake!】 Where there is no pedestrian crossing, vehicles have priority over pedestrians crossing.",
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle through a curve, disengage the clutch when entering the curve and shift gears to accelerate in the latter half of the curve.",
+      "answer": 0,
+      "explanation": "Disengaging the clutch (when power is not transmitted to the wheels) while turning makes driving unstable. Do not disengage the clutch in a curve. 【This is the mistake!】 When riding a motorcycle through a curve, disengage the clutch when entering the curve and shift gears to accelerate in the latter half of the curve.",
+      "points": 1
+    },
+    {
+      "q": "When getting in or out of a car in heavy traffic, it’s better to use the left-side door.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "At dusk, it can suddenly get dark, and vision remains impaired until your eyes adjust, so turn on the headlights early.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When a four-wheeled vehicle has a tire puncture while driving, first hold the steering wheel firmly and correct the vehicle’s direction.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle in hot weather, exposing more of the body reduces fatigue and leads to safer driving.",
+      "answer": 0,
+      "explanation": "Exposing more of the body increases the risk of serious injury in a fall. For safety, wear clothing that minimizes exposed areas. 【This is the mistake!】 When riding a motorcycle in hot weather, exposing more of the body reduces fatigue and leads to safer driving.",
+      "points": 1
+    },
+    {
+      "q": "While driving and changing lanes to the left in the same direction, the signal should be given when you start turning the steering wheel.",
+      "answer": 0,
+      "explanation": "Signaling when you start turning the steering wheel does not give surrounding vehicles enough time to react. The signal for changing lanes must be given 3 seconds before starting to turn the wheel. 【This is the mistake!】 While driving and changing lanes to the left in the same direction, the signal should be given when you start turning the steering wheel.",
+      "points": 1
+    },
+    {
+      "q": "Applying the front brake of a motorcycle may cause a fall, so it should only be used for emergency stops.",
+      "answer": 0,
+      "explanation": "Applying the front brake too strongly may cause a fall, so you should balance the front and rear brakes simultaneously. 【This is the mistake!】 Applying the front brake of a motorcycle may cause a fall, so it should only be used for emergency stops.",
+      "points": 1
+    },
+    {
+      "q": "The higher the speed, the greater the centrifugal force affecting the vehicle, making it harder to drive, with a higher risk of losing control or skidding sideways.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Those who remove a motorcycle’s muffler or modify the handlebars to a deformed shape are subject to penalties.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If you lend a vehicle to someone who is drunk or unlicensed, the vehicle owner or the person who lent it will also be penalized.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When driving with a young child to shop nearby, a child seat is not necessary.",
+      "answer": 0,
+      "explanation": "Even for short trips, an accident can cause significant harm. A child seat must always be used. 【This is the mistake!】 When driving with a young child to shop nearby, a child seat is not necessary.",
+      "points": 1
+    },
+    {
+      "q": "When choosing a motorcycle, even though my toes didn’t touch the ground when seated, I chose a larger one thinking it would be more stable.",
+      "answer": 0,
+      "explanation": "If both toes don’t touch the ground, you cannot properly support the vehicle when stopped. 【This is the mistake!】 When choosing a motorcycle, even though my toes didn’t touch the ground when seated, I chose a larger one thinking it would be more stable.",
+      "points": 1
+    },
+    {
+      "q": "When turning right or left at an intersection, the inner wheel difference increases with larger vehicles, so extra caution is needed when driving a large vehicle and turning left.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When a pedestrian signal is marked “Pedestrians and Bicycles Only,” both specific small motorized bicycles and bicycles must follow that signal.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Vehicle owners must report the storage location of the vehicle to the police chief.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Drunk driving is extremely dangerous due to risks of misjudgment, oversight, or operational errors and must absolutely be avoided.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "On a highway, when unavoidably parking on the shoulder or roadside due to a breakdown, you must place a stopping indicator in a location clearly visible to drivers approaching from behind.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The driver must check the safety of the rear when opening the vehicle door or getting out.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "While driving on a highway, if cargo falls and needs to be removed, use the emergency phone to request its removal.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When witnessing a hit-and-run, you should assist the injured and report the vehicle’s license plate number, type, color, and other characteristics to the police via 110.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When a vehicle stops continuously for loading or unloading cargo, it is always considered parking.",
+      "answer": 0,
+      "explanation": "Stopping for loading or unloading cargo is generally considered parking, but if it’s within 5 minutes, it’s considered stopping. 【This is the mistake!】 When a vehicle stops continuously for loading or unloading cargo, it is always considered parking.",
+      "points": 1
+    },
+    {
+      "q": "The correct riding posture for a motorcycle is to place the arch of the foot on the peg, with the left toe under the shift pedal for easy operation at any time.",
+      "answer": 0,
+      "explanation": "Do not place the toes under the shift pedal; the foot should be placed flat on the peg. 【This is the mistake!】 The correct riding posture for a motorcycle is to place the arch of the foot on the peg, with the left toe under the shift pedal for easy operation at any time.",
+      "points": 1
+    },
+    {
+      "q": "On the road, a traffic patrol officer was directing traffic with hand signals, but since they were not a police officer, I did not follow those signals.",
+      "answer": 0,
+      "explanation": "Like police officers, you must follow the hand signals of traffic patrol officers. 【This is the mistake!】 On the road, a traffic patrol officer was directing traffic with hand signals, but since they were not a police officer, I did not follow those signals.",
+      "points": 1
+    },
+    {
+      "q": "When checking a motorcycle’s chain, with the center stand up, press the middle of the chain with your finger; it should be just right if it feels overly tight.",
+      "answer": 0,
+      "explanation": "When pressing the middle of the chain, it should have moderate slack, neither too tight nor too loose. 【This is the mistake!】 When checking a motorcycle’s chain, with the center stand up, press the middle of the chain with your finger; it should be just right if it feels overly tight.",
+      "points": 1
+    },
+    {
+      "q": "While driving, instead of focusing on one point, it’s better to vaguely observe the surroundings.",
+      "answer": 0,
+      "explanation": "Keep moving your gaze and pay attention evenly to the surroundings. Instead of looking vaguely, strive to gather information. 【This is the mistake!】 While driving, instead of focusing on one point, it’s better to vaguely observe the surroundings.",
+      "points": 1
+    },
+    {
+      "q": "At a railway crossing, for safety, you must stop just before the crossing (or at the stop line if present), but at a crossing with good visibility, you can pass slowly.",
+      "answer": 0,
+      "explanation": "At a railway crossing, unless there is a specific crossing signal, you must always stop temporarily. This rule is not exempt even with good visibility, so remember it. 【This is the mistake!】 At a railway crossing, for safety, you must stop just before the crossing (or at the stop line if present), but at a crossing with good visibility, you can pass slowly.",
+      "points": 1
+    },
+    {
+      "q": "Driving an automatic car requires understanding the basics, following procedures, and operating accurately.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When a vehicle carries heavy cargo, the weight improves braking efficiency and shortens the stopping distance.",
+      "answer": 0,
+      "explanation": "The heavier the vehicle, the harder it is to slow down, so the stopping distance increases. When carrying heavy cargo or many passengers, drive with this in mind. 【This is the mistake!】 When a vehicle carries heavy cargo, the weight improves braking efficiency and shortens the stopping distance.",
+      "points": 1
+    },
+    {
+      "q": "Motorcycles traveling on the left edge of the road may move toward the center to avoid obstacles like drains, road bumps, or puddles, so caution is required.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "On snowy or icy roads, you need to skillfully use engine braking and foot braking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Vision decreases when moving suddenly from a bright to a dark place, but it does not change when moving from a dark to a bright place.",
+      "answer": 0,
+      "explanation": "When moving from a dark to a bright place, “adaptation” occurs, and vision decreases. 【This is the mistake!】 Vision decreases when moving suddenly from a bright to a dark place, but it does not change when moving from a dark to a bright place.",
+      "points": 1
+    },
+    {
+      "q": "Even if the lanes before an intersection are marked with a yellow line, you may cross the yellow line to change lanes for a right or left turn at the intersection.",
+      "answer": 0,
+      "explanation": "A yellow lane boundary line indicates no lane changes. Except when yielding to emergency vehicles or during road construction, lane changes are not allowed. 【This is the mistake!】 Even if the lanes before an intersection are marked with a yellow line, you may cross the yellow line to change lanes for a right or left turn at the intersection.",
+      "points": 1
+    },
+    {
+      "q": "At night, when parking or stopping on the road, even if visible from 50 meters behind due to streetlights, you must always turn on hazard lights, parking lights, or tail lights.",
+      "answer": 0,
+      "explanation": "If visible from 50 meters behind, there is no need to turn on lights. 【This is the mistake!】 At night, when parking or stopping on the road, even if visible from 50 meters behind due to streetlights, you must always turn on hazard lights, parking lights, or tail lights.",
+      "points": 1
+    },
+    {
+      "q": "The left side of a safety zone and within 10 meters before and after it are no-parking or stopping zones.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Motorcycles are highly maneuverable, but weaving between cars or zigzagging is not only extremely dangerous but also causes anxiety for surrounding drivers.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When trying to overtake the vehicle ahead, it didn’t notice and suddenly changed lanes to the right, so I had to sound the horn to prevent danger.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "This sign indicates the start of a section where overtaking by crossing to the right is prohibited.",
+      "answer": 0,
+      "explanation": "The auxiliary sign with a left-pointing arrow indicates the end of the section. Pay attention to the arrow’s direction. 【This is the mistake!】 This sign indicates the start of a section where overtaking by crossing to the right is prohibited.",
+      "img": "assets/images/exams/honmen/7/A314-106.gif",
+      "points": 1
+    },
+    {
+      "q": "When turning left from a one-way road at an intersection ahead (except roundabouts), you must keep to the left edge of the road in advance and proceed slowly along the intersection’s edge.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A driver’s license or license information card must be readily available to present immediately when requested by a police officer while driving.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "On rainy days, when windows fog up and impair visibility, it’s advisable to slightly open the side windows to let in outside air or turn on the air conditioner to clear the fog.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "You must not throw objects onto the road or direct blinding light toward the road.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Vehicles or trams facing this signal can enter the intersection slowly while paying attention to other traffic.",
+      "answer": 0,
+      "explanation": "A red flashing signal indicates that you must stop temporarily and proceed only after confirming safety. You cannot enter the intersection without stopping. 【This is the mistake!】 Vehicles or trams facing this signal can enter the intersection slowly while paying attention to other traffic.",
+      "img": "assets/images/exams/honmen/7/C007.png",
+      "points": 1
+    },
+    {
+      "q": "You are driving at 30 km/h. What should you pay attention to while driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/7/K051.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 40 km/h. What should you pay attention to when going straight through an intersection?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/7/K003.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 50 km/h. What should you pay attention to while driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/7/K066.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 30 km/h. What should you pay attention to while driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/7/K020.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 40 km/h. What should you pay attention to while driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/7/K036.jpg",
+      "points": 2
+    }
+  ]
+}

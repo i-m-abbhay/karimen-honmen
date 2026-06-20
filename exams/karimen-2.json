@@ -1,0 +1,297 @@
+{
+  "id": "karimen-2",
+  "title": "Karimen Practice Test 2",
+  "type": "karimen",
+  "number": 2,
+  "source": "https://karimen-honmen.com/en/exam/karimen/2",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "Overtaking is prohibited near the top of an uphill or along a steep downward slope.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A vehicle must not cross the road or make a U-turn even where there are no “no U-turn” or “no vehicle crossing” signs, when it might hinder the normal progress of pedestrians or other vehicles.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Drivers are required to obtain not only driving knowledge and skill, but also good morals as a member of society.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A vehicle may cross to the right to a minimum extent when it cannot proceed on the left side of the road due to road constructions, road damage or other similar situations.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "An automobile executing a left or right turn must not proceed in a vehicular lane where there is a pavement marking as shown in the figure.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/b110-2.gif",
+      "points": 2
+    },
+    {
+      "q": "A police officer’s hand signal as shown in the figure has the same meaning as the yellow traffic light of a traffic signal for traffic proceeding in the direction of the arrows.",
+      "answer": 0,
+      "explanation": "This hand signal has the same meaning as a red traffic light.",
+      "img": "assets/images/exams/karimen/2/C011-1-2.gif",
+      "points": 2
+    },
+    {
+      "q": "A general moped must make a two-step right turn at a controlled intersection where there is a traffic sign as shown in the figure.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/a327-8.gif",
+      "points": 2
+    },
+    {
+      "q": "Automobiles and general mopeds must not exceed a speed of 30 km/h on a road where there is a traffic sign as shown in the figure.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/A323-30.gif",
+      "points": 2
+    },
+    {
+      "q": "The pavement marking shown in the figure designates that vehicles must not enter this area.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/B106.gif",
+      "points": 2
+    },
+    {
+      "q": "Leaving plenty of space while driving, such as keeping enough distance from the vehicle ahead and giving consideration to passing clearance, gives a driver extra time for reacting to an incident, and as a result, he or she may cover up his, her or others’ driving mistakes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If a driver obeys the traffic regulations, he or she might not cause a traffic accident, even if he or she does not consider others’ situations.",
+      "answer": 0,
+      "explanation": "A driver may cause an accident unless he or she consider others’ situations and has a give-and-take spirit.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle must not change lanes or pass vehicles or general mopeds for the purpose of overtaking at an intersection or within 30 meters before one (excluding cases when the vehicle is proceeding on a road with right of way).",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In the situation shown in the figure, if vehicle B entered the intersection first, it may execute a right turn before vehicle A proceeds straight ahead.",
+      "answer": 0,
+      "explanation": "Even when entering the intersection first, vehicle B (making a right turn) must give way to vehicle A (proceeding straight ahead).",
+      "img": "assets/images/exams/karimen/2/C103-3.gif",
+      "points": 2
+    },
+    {
+      "q": "A vehicle that has already executed a right turn at an intersection may continue to proceed even when the signal ahead turns red.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A driver must be careful when proceeding on a road where there is a traffic sign as shown in the figure, because children might suddenly run onto the road.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/A208.gif",
+      "points": 2
+    },
+    {
+      "q": "When a vehicle is attempting to change lanes and a vehicle is approaching from behind, that vehicle should give way to the vehicle behind and not change lanes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When changing to the left or right lane while proceeding in the same direction, a driver is not required to give a signal because that is not executing a left or right turn.",
+      "answer": 0,
+      "explanation": "A driver must give a signal in order to alert other traffic to his or her intention to change lanes.",
+      "points": 2
+    },
+    {
+      "q": "When approaching a pedestrian crossing, vehicles are not required to slow down and may continue to proceed at the same speed as before, if there are apparently no pedestrians nearby.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Seatbelts can help a driver be in a suitable driving posture and lessen the driver’s fatigue during driving.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A driver must choose an appropriate vehicle speed according to the traffic or road conditions, climate or visibility, even when proceeding at a speed within the designated speed limit.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This traffic sign warns that the road is bumpy.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/A209-3.gif",
+      "points": 2
+    },
+    {
+      "q": "When making a left turn at an intersection, a driver must be careful because the rear wheels might hit pedestrians, specified small mopeds or cyclists due to a wheelbase differential.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A vehicle may proceed straddling two vehicular lanes when traffic is congested.",
+      "answer": 0,
+      "explanation": "Proceeding straddling two lanes causes further traffic congestion. A vehicle must not proceed like this.",
+      "points": 2
+    },
+    {
+      "q": "When there is a school or kindergarten bus and children are getting on and off, a vehicle must slow down to pass the bus while paying attention to children who might suddenly run onto the road.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When a vehicle is passing a specified small moped or cyclist, the same precautions are required as when passing a pedestrian.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When braking, a driver must first depress the brake pedal as strongly as possible.",
+      "answer": 0,
+      "explanation": "A driver must first depress the brake pedal as lightly as possible.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle must not use a lane where there is a pavement marking as shown in the figure, when traffic congestion might prevent the vehicle from leaving the lane immediately if a local bus approaches.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/b109-7-2.gif",
+      "points": 2
+    },
+    {
+      "q": "Vehicles other than regular passenger vehicles may proceed on a road where there is a traffic sign as shown in the figure.",
+      "answer": 0,
+      "explanation": "A road where this sign is displayed is closed for vehicles other than motorcycles.",
+      "img": "assets/images/exams/karimen/2/A304.gif",
+      "points": 2
+    },
+    {
+      "q": "Even when there are people getting on or off a streetcar at a streetcar stop where there is no safety zone, a vehicle may slow down and continue to proceed if there is a clearance of 1.5 meters or more between the vehicle and the streetcar.",
+      "answer": 0,
+      "explanation": "When there is no safety zone and people are getting on or off a streetcar, a vehicle must stop behind the streetcar and wait.",
+      "points": 2
+    },
+    {
+      "q": "It is not necessary to slow down near the top of an uphill.",
+      "answer": 0,
+      "explanation": "It is dangerous near the top of a hill because visibility is poor. A vehicle must slow down.",
+      "points": 2
+    },
+    {
+      "q": "When proceeding through a railway crossing, even if one train has just passed by in one direction, there may be another train approaching from the opposite direction immediately afterward. Therefore, drivers must be sure to check the safety of the opposite direction.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In separated lanes where there are pavement markings for traffic directions as shown in the figure, vehicles must proceed only in the directions designated by the markings.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/A327-7-1.gif",
+      "points": 2
+    },
+    {
+      "q": "Only streetcars may make a left turn at a traffic signal as shown in the figure.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/C005-2.png",
+      "points": 2
+    },
+    {
+      "q": "When proceeding behind a vehicle, a driver must maintain enough distance between vehicles so as to avoid colliding with the vehicle ahead if it stops suddenly. In that case, when the vehicles are proceeding faster, the distance must be larger.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A driver must sound the vehicle’s horn where there is a traffic sign as shown in the figure, even if he or she does not observe danger.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/A328.gif",
+      "points": 2
+    },
+    {
+      "q": "A vehicle, in principle, must not proceed on streetcar tracks. It is allowed to, however, when crossing streetcar tracks in order to make a left or right turn, or to make a U-turn.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When executing a right turn at an intersection (except roundabout), an automobile must initially approach as close as possible to the center of the road and slow down to proceed closely inside the center point of the intersection. (Excluding cases when the automobile is proceeding on a one-way street.)",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This traffic sign designates “no overtaking.”",
+      "answer": 0,
+      "explanation": "The traffic sign designates that proceeding on the right side of the road for the purpose of overtaking is prohibited.",
+      "img": "assets/images/exams/karimen/2/A314.gif",
+      "points": 2
+    },
+    {
+      "q": "A person who obtains only a regular driver’s license may not ride a large-size motorcycle or a regular motorcycle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Yellow pavement markings indicate stronger regulations than those indicated with white pavement markings.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If the cross street is a road with right of way or is wider, a vehicle must stop completely and must not obstruct the progress of the crossing traffic.",
+      "answer": 0,
+      "explanation": "A vehicle must slow down but does not need to stop.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle is not required to stop when proceeding through a railway crossing with an alarm if the alarm is not sounding.",
+      "answer": 0,
+      "explanation": "A vehicle must stop and ensure safety even when an alarm is not sounding.",
+      "points": 2
+    },
+    {
+      "q": "When starting the vehicle, it is advisable for a driver to check the vehicle’s surroundings, give a signal that you are about to move, and check the safety around the vehicle again after the signal.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that there are schools, kindergartens or nursery schools close by.",
+      "answer": 0,
+      "explanation": "The sign indicates that there is a pedestrian crossing close by.",
+      "img": "assets/images/exams/karimen/2/A407-2.gif",
+      "points": 2
+    },
+    {
+      "q": "If a person applying for a renewal of license and equivalent is the age of 65 or over at the renewal period expiration date, that person must take a senior driver’s course within six months of the expiration date.",
+      "answer": 0,
+      "explanation": "A person who is the age of 70 or over must take a senior driver’s course.",
+      "points": 2
+    },
+    {
+      "q": "At an intersection where general mopeds must execute a two-step right turn, general mopeds can execute a right turn when the green arrow points to the right.",
+      "answer": 0,
+      "explanation": "At an intersection where general mopeds must execute a two-step right turn, general mopeds cannot execute a right turn when the green arrow points to the right.",
+      "points": 2
+    },
+    {
+      "q": "A driver must not attempt to overtake when the vehicle ahead is about to change lanes. For example, to make a right turn.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The hand signal shown in the figure means that the rider will make a left turn or change to the left lane.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/2/C022-1.gif",
+      "points": 2
+    },
+    {
+      "q": "It would be advisable for a driver not to check the safety to the rear too often, because by doing so the vehicle speed decreases and it may cause traffic congestion.",
+      "answer": 0,
+      "explanation": "A driver cannot drive safely without checking the safety of the rear enough.",
+      "points": 2
+    },
+    {
+      "q": "When overtaking, a vehicle may temporarily exceed the maximum speed limit displayed on traffic signs or designated by regulations.",
+      "answer": 0,
+      "explanation": "Exceeding the maximum speed limit is prohibited, even when overtaking.",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "id": "honmen-6",
+  "title": "Honmen Practice Test 6",
+  "type": "honmen",
+  "number": 6,
+  "source": "https://karimen-honmen.com/en/exam/honmen/6",
+  "passScore": 90,
+  "maxScore": 100,
+  "timeLimitMinutes": 50,
+  "questionCount": 95,
+  "questions": [
+    {
+      "q": "This sign indicates that stopping is prohibited.",
+      "answer": 0,
+      "explanation": "The sign indicates that stopping is permitted. Stopping is allowed only where this sign is present. [Incorrect!] This sign indicates that stopping is prohibited.",
+      "img": "assets/images/exams/honmen/6/A404.gif",
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle and the engine RPM rises and does not decrease, it is best to continue driving with the clutch partially engaged.",
+      "answer": 0,
+      "explanation": "When the engine RPM does not decrease, it is important to cut the driving force to prevent runaway. For motorcycles, first turn off the engine switch to reduce engine RPM. [Incorrect!] When riding a motorcycle and the engine RPM rises and does not decrease, it is best to continue driving with the clutch partially engaged.",
+      "points": 1
+    },
+    {
+      "q": "When a vehicle stops for loading or unloading cargo, it is always considered stopping.",
+      "answer": 0,
+      "explanation": "Loading or unloading cargo is considered stopping only if it takes 5 minutes or less; beyond that, it is parking. [Incorrect!] When a vehicle stops for loading or unloading cargo, it is always considered stopping.",
+      "points": 1
+    },
+    {
+      "q": "At night in busy urban areas, drive with low-beam headlights, and when oncoming vehicle lights are dazzling, shift your gaze slightly to the left front to avoid being blinded.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The distance from when the driver applies the brakes after sensing danger until the vehicle stops is called the stopping distance.",
+      "answer": 0,
+      "explanation": "The distance from when the brakes start to take effect until the vehicle stops is called the braking distance. The stopping distance is the total distance from when the driver senses danger until the vehicle stops. [Incorrect!] The distance from when the driver applies the brakes after sensing danger until the vehicle stops is called the stopping distance.",
+      "points": 1
+    },
+    {
+      "q": "Parking is prohibited where fire hydrants or firefighting water signs are present or within 5 meters of the intake of a firefighting water tank.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When starting a vehicle, it is not necessary to signal with the turn indicator.",
+      "answer": 0,
+      "explanation": "For following vehicles, a stopped vehicle suddenly starting is a threat. Always signal before starting. [Incorrect!] When starting a vehicle, it is not necessary to signal with the turn indicator.",
+      "points": 1
+    },
+    {
+      "q": "When parking in a time-restricted parking zone with a parking meter, it is best to activate the parking meter within 5 minutes.",
+      "answer": 0,
+      "explanation": "The parking meter must be activated immediately after parking. [Incorrect!] When parking in a time-restricted parking zone with a parking meter, it is best to activate the parking meter within 5 minutes.",
+      "points": 1
+    },
+    {
+      "q": "Overtaking requires a long distance, so it is important to accurately judge the distance and time needed for overtaking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that parking is prohibited from 8 a.m. to 8 p.m.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/A316-1.gif",
+      "points": 1
+    },
+    {
+      "q": "Since motorcycles have two brake systems—front and rear—you can drive to a repair shop even if one fails.",
+      "answer": 0,
+      "explanation": "If one brake fails, the motorcycle is an 'unmaintained vehicle' and cannot be driven safely. Transport it with a cargo vehicle or have it repaired on-site. [Incorrect!] Since motorcycles have two brake systems—front and rear—you can drive to a repair shop even if one fails.",
+      "points": 1
+    },
+    {
+      "q": "Overtaking is prohibited within 30 meters of a bus stop.",
+      "answer": 0,
+      "explanation": "Overtaking is not specifically prohibited around bus stops. Be careful not to confuse this with no-parking or no-stopping zones. [Incorrect!] Overtaking is prohibited within 30 meters of a bus stop.",
+      "points": 1
+    },
+    {
+      "q": "If cargo cannot be divided and exceeds weight, size, or loading method regulations, you can obtain permission by reporting to the police station chief at the point of departure.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "In areas where passage is prohibited under the Disaster Countermeasures Basic Act, if a vehicle obstructs emergency vehicles, the driver may be ordered by a police officer to take necessary measures.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "An emergency vehicle was approaching the intersection, but since the traffic signal in the direction of travel was green, I entered the intersection without yielding.",
+      "answer": 0,
+      "explanation": "When an emergency vehicle approaches near an intersection, you must not enter the intersection, pull to the left, and stop temporarily. [Incorrect!] An emergency vehicle was approaching the intersection, but since the traffic signal in the direction of travel was green, I entered the intersection without yielding.",
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle with the engine off down a slope, you may use the roadside strip.",
+      "answer": 0,
+      "explanation": "A motorcycle with the engine off is treated as a pedestrian only when pushed on foot. You must not ride it on the roadside strip. [Incorrect!] When riding a motorcycle with the engine off down a slope, you may use the roadside strip.",
+      "points": 1
+    },
+    {
+      "q": "When loading cargo onto an ordinary cargo vehicle, it may protrude up to one-tenth of the vehicle's length from both the front and rear.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When the vehicle ahead is stopped or driving slowly at an intersection or railway crossing, you must not cut in front or cross in front of it.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A child seat does not need to be used in unavoidable cases, such as illness.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When turning right or left at an intersection with low traffic (except roundabouts), it is acceptable to signal just before the turn.",
+      "answer": 0,
+      "explanation": "Even with low traffic, late signaling can inconvenience others. Always follow the rule and signal 30 meters before the turn (except at roundabouts). [Incorrect!] When turning right or left at an intersection with low traffic (except roundabouts), it is acceptable to signal just before the turn.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that there is a traffic signal ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/A208-2.gif",
+      "points": 1
+    },
+    {
+      "q": "You do not need to drive slowly near road curves if visibility is good.",
+      "answer": 0,
+      "explanation": "Regardless of good or poor visibility, you must drive slowly near curves due to the potential for operational errors. [Incorrect!] You do not need to drive slowly near road curves if visibility is good.",
+      "points": 1
+    },
+    {
+      "q": "During the day, when unavoidably parking on a general road, place a stop indicator behind the vehicle or open the trunk to alert other vehicles of the parked vehicle’s presence.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Since ordinary motorcycles are highly maneuverable, when making a right turn (except at roundabouts), it is better to change course from the left lane to near the center line in as short a distance as possible.",
+      "answer": 0,
+      "explanation": "Motorcycles are highly maneuverable, but changing course abruptly in a short distance is dangerous. Change course gradually with ample time. [Incorrect!] Since ordinary motorcycles are highly maneuverable, when making a right turn (except at roundabouts), it is better to change course from the left lane to near the center line in as short a distance as possible.",
+      "points": 1
+    },
+    {
+      "q": "An ordinary driver's license allows driving only ordinary vehicles and general mopeds.",
+      "answer": 0,
+      "explanation": "An ordinary driver's license allows driving ordinary vehicles, general mopeds, and small special vehicles. [Incorrect!] An ordinary driver's license allows driving only ordinary vehicles and general mopeds.",
+      "points": 1
+    },
+    {
+      "q": "When passing through a railway crossing, drive slightly toward the center to avoid wheel drop.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A person aged 20 or older who has held an ordinary motorcycle license for at least 3 years can carry a passenger on a highway.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If the driver's license or license information record card specifies 'glasses, etc.' in the conditions section, this includes the use of contact lenses.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When entering a dark tunnel from a bright area, visibility decreases sharply, so reduce speed before entering the tunnel.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If the wheels spin on muddy or gravel roads, it is best to shift to a low gear and accelerate quickly without using anti-slip measures.",
+      "answer": 0,
+      "explanation": "When wheels are spinning, pressing the accelerator is ineffective. Use branches or mats as anti-slip measures to escape. [Incorrect!] If the wheels spin on muddy or gravel roads, it is best to shift to a low gear and accelerate quickly without using anti-slip measures.",
+      "points": 1
+    },
+    {
+      "q": "On a road with no houses around, there is no danger, so it is okay to throw objects out of the vehicle.",
+      "answer": 0,
+      "explanation": "Throwing objects is not only dangerous but also pollutes the environment and causes inconvenience. You must not throw objects out of the vehicle. [Incorrect!] On a road with no houses around, there is no danger, so it is okay to throw objects out of the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "When approaching a crosswalk, unless it is clear there are no pedestrians crossing, you must proceed at a speed that allows stopping before the crosswalk.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "At a location other than an intersection, with no crosswalk, bicycle crossing, or railway crossing, when a police officer raises both arms parallel, vehicles facing the officer must stop 1 meter before them.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Since motorcycles naturally turn when tilted, there is no need to reduce speed on any curve.",
+      "answer": 0,
+      "explanation": "Without reducing speed, a force pulls the motorcycle toward the outside of the curve, making it impossible to tilt and turn stably. [Incorrect!] Since motorcycles naturally turn when tilted, there is no need to reduce speed on any curve.",
+      "points": 1
+    },
+    {
+      "q": "When passing a stopped vehicle, doors may open suddenly or people may jump out from behind, so it is best to proceed at a safe speed and manner.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle, position your feet in an inverted V-shape with your toes under the brake pedal.",
+      "answer": 0,
+      "explanation": "The correct foot position is to point your toes forward, keeping the soles of your feet nearly horizontal. Placing your toes under the brake pedal prevents quick braking. [Incorrect!] When riding a motorcycle, position your feet in an inverted V-shape with your toes under the brake pedal.",
+      "points": 1
+    },
+    {
+      "q": "You must not park or stop parallel to a vehicle already parked or stopped (double parking/stopping).",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When being overtaken by another vehicle, you must not increase speed until the overtaking is complete.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "On roads with designated lanes, you must not straddle two lanes except in unavoidable circumstances.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "While driving in a residential area and approaching a blind alley, I sounded the horn and passed through.",
+      "answer": 0,
+      "explanation": "Blind alleys or intersections are places to drive slowly. Proceed cautiously, prepared for vehicles or pedestrians. Do not use the horn casually unless specified by a sign. [Incorrect!] While driving in a residential area and approaching a blind alley, I sounded the horn and passed through.",
+      "points": 1
+    },
+    {
+      "q": "There are three types of braking methods for motorcycles: using the brake lever, using the brake pedal, and using engine braking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A school bus with flashing emergency lights was stopped on the road ahead, but thinking children wouldn’t jump out immediately, I passed by at the same speed without slowing down.",
+      "answer": 0,
+      "explanation": "Assuming 'children won’t jump out' leaves you unprepared for emergencies. A school bus with flashing emergency lights indicates children may be boarding or alighting, so you must slow down. [Incorrect!] A school bus with flashing emergency lights was stopped on the road ahead, but thinking children wouldn’t jump out immediately, I passed by at the same speed without slowing down.",
+      "points": 1
+    },
+    {
+      "q": "When tires are worn, the friction between the tire and the road decreases, increasing the braking distance but not affecting the free-running distance.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When a pedestrian is crossing a road without a crosswalk, it may be unavoidable to obstruct their crossing.",
+      "answer": 0,
+      "explanation": "Even on roads without crosswalks, pedestrians must always be protected. Slow down to avoid obstructing their crossing. [Incorrect!] When a pedestrian is crossing a road without a crosswalk, it may be unavoidable to obstruct their crossing.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates a priority lane for route buses, and other vehicles must promptly leave the lane when a route bus approaches.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/A327-5.gif",
+      "points": 1
+    },
+    {
+      "q": "When a vehicle breaks down on a highway, stop on the roadside strip and, for safety, evacuate to a safe place instead of staying in the vehicle.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When passing near pedestrians, specific small mopeds, or bicycles, you must always drive slowly, even if there is a safe distance.",
+      "answer": 0,
+      "explanation": "When passing near pedestrians, specific small mopeds, or bicycles, maintain a safe distance or drive slowly if that is not possible. Both are not required simultaneously. [Incorrect!] When passing near pedestrians, specific small mopeds, or bicycles, you must always drive slowly, even if there is a safe distance.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that changing course for overtaking is a violation.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/A314-2.gif",
+      "points": 1
+    },
+    {
+      "q": "On the main carriageway of an expressway, the legal speed limit for ordinary vehicles (excluding three-wheeled vehicles) is 100 km/h for passenger cars and 80 km/h for cargo vehicles.",
+      "answer": 0,
+      "explanation": "Even for cargo vehicles, the legal speed limit for ordinary cargo vehicles, quasi-medium cargo vehicles, or medium cargo vehicles that do not exceed the designated size is 100 km/h. [Incorrect!] On the main carriageway of an expressway, the legal speed limit for ordinary vehicles (excluding three-wheeled vehicles) is 100 km/h for passenger cars and 80 km/h for cargo vehicles.",
+      "points": 1
+    },
+    {
+      "q": "This marking indicates that parking or stopping within the roadside strip is prohibited, and light vehicles are also not allowed to pass through.",
+      "answer": 0,
+      "explanation": "The marking is a 'no parking or stopping roadside strip.' Parking and stopping are prohibited, but light vehicles can pass through. [Incorrect!] This marking indicates that parking or stopping within the roadside strip is prohibited, and light vehicles are also not allowed to pass through.",
+      "img": "assets/images/exams/honmen/6/b108-2.gif",
+      "points": 1
+    },
+    {
+      "q": "On rainy days, there are fewer pedestrians and vehicles, and other drivers are more cautious, so the level of danger is lower than on clear days.",
+      "answer": 0,
+      "explanation": "On rainy days, visibility is reduced, and attention may be distracted by the rain, so it cannot be said that the level of danger is lower. [Incorrect!] On rainy days, there are fewer pedestrians and vehicles, and other drivers are more cautious, so the level of danger is lower than on clear days.",
+      "points": 1
+    },
+    {
+      "q": "When passing through an intersection (except roundabouts), you must proceed with caution for pedestrians or vehicles entering, using the safest possible speed and method.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When passing through areas with poor visibility due to thick fog or blizzards, it is necessary to turn on headlights to alert other traffic of your presence and use the horn as needed to prevent danger.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A small amount of alcohol can relieve tension and sharpen the mind, so it is okay to drink while driving to reduce fatigue.",
+      "answer": 0,
+      "explanation": "You must not drive a vehicle after drinking any amount of alcohol. [Incorrect!] A small amount of alcohol can relieve tension and sharpen the mind, so it is okay to drink while driving to reduce fatigue.",
+      "points": 1
+    },
+    {
+      "q": "The creep phenomenon in automatic vehicles refers to the vehicle moving slowly forward when the gear lever is shifted to any position other than 'P' or 'N' without pressing the accelerator pedal.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When making a right turn at an intersection (except roundabouts), if a motorcycle is coming straight from the opposite direction, your vehicle has priority, so you can turn right first.",
+      "answer": 0,
+      "explanation": "When making a right turn (except at roundabouts), you must not obstruct vehicles going straight or turning left. Even if the other vehicle is a motorcycle or you entered the intersection first, you must prioritize the other vehicle. [Incorrect!] When making a right turn at an intersection (except roundabouts), if a motorcycle is coming straight from the opposite direction, your vehicle has priority, so you can turn right first.",
+      "points": 1
+    },
+    {
+      "q": "The responsibility for a traffic accident lies solely with the driver who caused it, and the owner who carelessly lent the vehicle has no responsibility.",
+      "answer": 0,
+      "explanation": "Vehicle management is also the owner's responsibility. You must prevent unauthorized use or lending to unlicensed individuals. [Incorrect!] The responsibility for a traffic accident lies solely with the driver who caused it, and the owner who carelessly lent the vehicle has no responsibility.",
+      "points": 1
+    },
+    {
+      "q": "When overtaking a tram, you must pass on its left side.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When turning a curve, centrifugal force acts due to the vehicle's inertia, and if the speed doubles, the centrifugal force doubles.",
+      "answer": 0,
+      "explanation": "Centrifugal force is proportional to the square of the speed. If the speed doubles, the centrifugal force quadruples. [Incorrect!] When turning a curve, centrifugal force acts due to the vehicle's inertia, and if the speed doubles, the centrifugal force doubles.",
+      "points": 1
+    },
+    {
+      "q": "When parking or stopping on a road with a roadside strip, if the strip is 0.75 meters or less in width, you must stop along the roadway.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Engine braking provides greater braking force in lower gears.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "While driving, obeying traffic rules is fundamental for safe road use, but if you are confident you won’t cause an accident, it’s not always necessary to follow them.",
+      "answer": 0,
+      "explanation": "Traffic society functions based on adherence to rules. You must not decide whether to follow rules based on personal confidence alone. [Incorrect!] While driving, obeying traffic rules is fundamental for safe road use, but if you are confident you won’t cause an accident, it’s not always necessary to follow them.",
+      "points": 1
+    },
+    {
+      "q": "When you see someone in trouble due to a traffic accident or breakdown, it is important to cooperate by contacting authorities or providing assistance.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When leaving the vehicle, it is best to put the gear in reverse on flat ground or downhill slopes and in low gear on uphill slopes.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "At night, it is best to look far ahead to quickly detect and avoid obstacles.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A vehicle displaying a novice driver mark was driving slower than the maximum speed limit, so I sounded the horn to make it move to the left side of the road and passed.",
+      "answer": 0,
+      "explanation": "Even if a slow vehicle is driving, you must not intimidate it to pass. The horn must not be used except in unavoidable situations to avoid danger. [Incorrect!] A vehicle displaying a novice driver mark was driving slower than the maximum speed limit, so I sounded the horn to make it move to the left side of the road and passed.",
+      "points": 1
+    },
+    {
+      "q": "At an intersection, when the traffic signal in your direction is flashing red, you must stop temporarily, check the intersection's safety, and then proceed.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle on muddy or gravel roads, it is best to avoid braking or large steering movements and control speed with the throttle.",
+      "answer": 0,
+      "explanation": "Varying speed while driving may cause slipping or loss of steering control. Maintain a constant speed with the throttle. [Incorrect!] When riding a motorcycle on muddy or gravel roads, it is best to avoid braking or large steering movements and control speed with the throttle.",
+      "points": 1
+    },
+    {
+      "q": "Driver's licenses are classified into three types: first-class driver's license, second-class driver's license, and provisional driver's license.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "To safely stop a motorcycle quickly, use the front brake as an auxiliary and apply the rear brake as strongly as possible.",
+      "answer": 0,
+      "explanation": "During emergency braking, use the front brake strongly. Poor balance between front and rear brake strength can cause skidding or falling. [Incorrect!] To safely stop a motorcycle quickly, use the front brake as an auxiliary and apply the rear brake as strongly as possible.",
+      "points": 1
+    },
+    {
+      "q": "This sign indicates that you can proceed slowly after confirming safety.",
+      "answer": 0,
+      "explanation": "At a 'stop' sign, you must always stop temporarily. [Incorrect!] This sign indicates that you can proceed slowly after confirming safety.",
+      "img": "assets/images/exams/honmen/6/A330.gif",
+      "points": 1
+    },
+    {
+      "q": "Vehicles are prohibited from crossing over the center of the road (or the center line, if present) to the right side, regardless of road conditions or other traffic.",
+      "answer": 0,
+      "explanation": "You may drive on the right side of the road when the left side is impassable due to construction or when the road is one-way. [Incorrect!] Vehicles are prohibited from crossing over the center of the road (or the center line, if present) to the right side, regardless of road conditions or other traffic.",
+      "points": 1
+    },
+    {
+      "q": "An ordinary passenger car with a seating capacity of 5 can carry 3 adults and 3 children under 12 years old.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "While driving on a highway, stopping on the main carriageway or suddenly changing course due to confusion about the destination is dangerous, so planning ahead is essential.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When driving a vehicle, it is important to respect the perspective of pedestrians and other drivers, and to have a spirit of courtesy and consideration, rather than being self-centered.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Since many accidents occur during twilight, turn on your lights early to make your vehicle’s presence known.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Being busy with work and short on time, I watched a favorite TV program on the car TV while driving.",
+      "answer": 0,
+      "explanation": "You must not watch TV while driving, as it significantly reduces attention to the road and is highly dangerous. [Incorrect!] Being busy with work and short on time, I watched a favorite TV program on the car TV while driving.",
+      "points": 1
+    },
+    {
+      "q": "Motorcycles maintain stability through the rider's body while moving but lose stability when stopped, a structural characteristic fundamentally different from four-wheeled vehicles.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When riding a motorcycle for short distances or with frequent mounting and dismounting, it is not necessary to wear a helmet.",
+      "answer": 0,
+      "explanation": "There are no circumstances where a helmet is not required. You must always wear a helmet when riding a motorcycle. [Incorrect!] When riding a motorcycle for short distances or with frequent mounting and dismounting, it is not necessary to wear a helmet.",
+      "points": 1
+    },
+    {
+      "q": "While driving on a highway, using the white line on the left as a guide and staying slightly to the left of the lane helps maintain sufficient space for overtaking vehicles, preventing collisions.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When closing the car door after getting in, it is best to pause slightly before closing it firmly.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When operating the gear lever of an automatic vehicle, failing to firmly press the brake pedal may cause sudden acceleration or reversing.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "This marking indicates that there is an intersection ahead.",
+      "answer": 0,
+      "explanation": "The marking indicates that there is a crosswalk or bicycle crossing ahead. Drive while anticipating possible pedestrians. [Incorrect!] This marking indicates that there is an intersection ahead.",
+      "img": "assets/images/exams/honmen/6/b210.gif",
+      "points": 1
+    },
+    {
+      "q": "When turning left, checking for potential entrapment with the rearview mirror is sufficient, and there is no need to drive slowly.",
+      "answer": 0,
+      "explanation": "When turning left or right, you must always drive slowly to prevent confirmation or operation errors. [Incorrect!] When turning left, checking for potential entrapment with the rearview mirror is sufficient, and there is no need to drive slowly.",
+      "points": 1
+    },
+    {
+      "q": "On roads with low traffic, a vehicle with a faulty foot brake can still be driven using engine braking and the hand brake.",
+      "answer": 0,
+      "explanation": "You must not drive a vehicle with faulty driving equipment, such as brakes. [Incorrect!] On roads with low traffic, a vehicle with a faulty foot brake can still be driven using engine braking and the hand brake.",
+      "points": 1
+    },
+    {
+      "q": "The hydroplaning phenomenon refers to air bubbles entering the brake fluid, causing the brakes to fail.",
+      "answer": 0,
+      "explanation": "Air bubbles in brake fluid causing brake failure is called the 'vapor lock phenomenon.' Hydroplaning occurs when a film of water forms between the road and tires during high-speed driving, causing loss of brake or steering control. [Incorrect!] The hydroplaning phenomenon refers to air bubbles entering the brake fluid, causing the brakes to fail.",
+      "points": 1
+    },
+    {
+      "q": "Crashing into a concrete wall at 60 km/h results in an impact force equivalent to falling from a height of about 14 meters (approximately a 5-story building).",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The main carriageway of a highway does not include acceleration or deceleration lanes.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When passing through a railway crossing, it is sufficient to stop just before the crossing (or at the stop line, if present) and check left and right safety with your own eyes.",
+      "answer": 0,
+      "explanation": "Checking only the visible range left and right is not sufficient. You must also check the warning lights, the situation beyond the crossing, and open the window to listen for approaching trains or alarms. [Incorrect!] When passing through a railway crossing, it is sufficient to stop just before the crossing (or at the stop line, if present) and check left and right safety with your own eyes.",
+      "points": 1
+    },
+    {
+      "q": "When entering the main carriageway from the acceleration lane, you should drive slowly.",
+      "answer": 0,
+      "explanation": "Accelerate sufficiently to smoothly merge with other vehicles traveling at high speed on the main carriageway, minimizing speed differences. [Incorrect!] When entering the main carriageway from the acceleration lane, you should drive slowly.",
+      "points": 1
+    },
+    {
+      "q": "You are driving at 30 km/h. What should you pay attention to while driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/K050.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 20 km/h. What should you pay attention to while driving?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/K072.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 20 km/h. What should you pay attention to when turning left at an intersection?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/K045.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 30 km/h. What should you pay attention to when going straight through an intersection?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/K001.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving at 60 km/h on a highway acceleration lane. What should you pay attention to when merging onto the main carriageway?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/6/K084.jpg",
+      "points": 2
+    }
+  ]
+}

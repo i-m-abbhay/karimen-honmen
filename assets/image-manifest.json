@@ -1,0 +1,1183 @@
+{
+  "chapterImages": {
+    "safety-zone": [
+      {
+        "src": "assets/images/images/shiji11.jpg",
+        "alt": "Safety Zone Sign",
+        "caption": "Safety Zone Sign"
+      },
+      {
+        "src": "assets/images/images/p16.jpg",
+        "alt": "When passing through a safety zone",
+        "caption": "When passing through a safety zone"
+      }
+    ],
+    "horn-usage": [
+      {
+        "src": "assets/images/images/kisei43m.jpg",
+        "alt": "Honk sign",
+        "caption": "Honk sign"
+      },
+      {
+        "src": "assets/images/images/kisei44m.jpg",
+        "alt": "Horn-required area sign",
+        "caption": "Horn-required area sign"
+      }
+    ],
+    "no-space-parking": [
+      {
+        "src": "assets/images/images/kisei20.jpg",
+        "alt": "Parking space requirement sign",
+        "caption": "Parking space requirement sign"
+      }
+    ],
+    "priority-intersections": [
+      {
+        "src": "assets/images/images/shiji05.jpg",
+        "alt": "Priority road sign",
+        "caption": "Priority road sign"
+      },
+      {
+        "src": "assets/images/images/p27_01.jpg",
+        "alt": "Centerline extending into intersection",
+        "caption": "Centerline extending into intersection"
+      },
+      {
+        "src": "assets/images/images/p27_02.jpg",
+        "alt": "Priority by direction of travel",
+        "caption": "Priority by direction of travel"
+      }
+    ]
+  },
+  "trafficSignCategories": [
+    {
+      "name": "Prohibition signs (regulations)",
+      "signs": [
+        {
+          "src": "/hyoushiki/kisei/images/kisei01.jpg",
+          "alt": "kisei01.jpg",
+          "title": "kisei01.jpg",
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei01.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei02.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei02.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei03.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei03.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei04.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei04.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei05.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei05.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei06.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei06.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei07.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei07.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei08.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei08.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei09.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei09.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei10.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei10.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei11.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei11.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei12.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei12.png"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei13.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei13.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei14.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei14.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei15.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei15.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei16.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei16.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei17.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei17.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei18.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei18.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei19.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei19.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei20.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei20.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei21.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei21.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei22.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei22.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei23.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei23.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei24.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei24.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei25.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei25.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei26.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei26.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei27.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei27.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei28.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei28.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei29.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei29.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei30.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei30.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei31.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei31.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei32.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei32.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei33.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei33.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei34.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei34.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei35.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei35.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei36.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei36.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei37.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei37.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei38.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei38.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei39.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei39.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei40.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei40.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei41.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei41.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei42.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei42.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei43.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei43.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei44.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei44.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei45.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei45.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei46.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei46.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei47.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei47.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei48.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei48.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei49.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei49.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei50.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei50.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei51.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei51.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei52.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei52.jpg"
+        },
+        {
+          "src": "/hyoushiki/kisei/images/kisei53.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/kisei/images/kisei53.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Guide signs",
+      "signs": [
+        {
+          "src": "/hyoushiki/shiji/images/shiji01.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji01.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji02.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji02.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji03.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji03.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji04.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji04.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji05.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji05.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji06.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji06.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji07.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji07.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji08.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji08.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji09.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji09.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji10.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji10.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji11.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji11.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji12.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji12.jpg"
+        },
+        {
+          "src": "/hyoushiki/shiji/images/shiji13.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/shiji/images/shiji13.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Warning signs",
+      "signs": [
+        {
+          "src": "/hyoushiki/keikai/images/keikai01.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai01.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai02.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai02.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai03.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai03.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai04.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai04.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai05.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai05.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai06.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai06.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai07.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai07.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai08.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai08.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai09.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai09.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai10.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai10.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai11.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai11.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai12.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai12.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai13.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai13.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai14.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai14.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai15.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai15.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai16.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai16.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai17.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai17.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai18.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai18.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai19.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai19.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai20.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai20.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai21.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai21.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai22.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai22.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai23.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai23.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai24.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai24.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai25.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai25.jpg"
+        },
+        {
+          "src": "/hyoushiki/keikai/images/keikai26.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/keikai/images/keikai26.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Guide signs (instructions)",
+      "signs": [
+        {
+          "src": "/hyoushiki/annai/images/annai01.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai01.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai02.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai02.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai03.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai03.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai04.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai04.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai05.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai05.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai06.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai06.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai07.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai07.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai08.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai08.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai09.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai09.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai10.gif",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai10.gif"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai11.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai11.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai12.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai12.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai13.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai13.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai14.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai14.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai15.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai15.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai16.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai16.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai17.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai17.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai18.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai18.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai19.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai19.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai20.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai20.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai21.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai21.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai22.gif",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai22.gif"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai23.gif",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai23.gif"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai24.gif",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai24.gif"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai25.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai25.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai26.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai26.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai27.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai27.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai28.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai28.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai29.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai29.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai30.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai30.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai31.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai31.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai32.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai32.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai33.png",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai33.png"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai34.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai34.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai35.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai35.jpg"
+        },
+        {
+          "src": "/hyoushiki/annai/images/annai36.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/annai/images/annai36.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Auxiliary signs (supplementary information)",
+      "signs": [
+        {
+          "src": "/hyoushiki/hojo/images/hojo01.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo01.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo02.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo02.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo03.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo03.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo04.gif",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo04.gif"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo05.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo05.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo06.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo06.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo07.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo07.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo08.gif",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo08.gif"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo09.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo09.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo10.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo10.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo11.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo11.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo12.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo12.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo13.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo13.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo14.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo14.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo15.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo15.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo16.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo16.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo17.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo17.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo18.gif",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo18.gif"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo19.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo19.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo20.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo20.jpg"
+        },
+        {
+          "src": "/hyoushiki/hojo/images/hojo21.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/hojo/images/hojo21.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "signs": [
+        {
+          "src": "/hyoushiki/etc/images/etc01.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc01.jpg"
+        },
+        {
+          "src": "/hyoushiki/etc/images/etc02.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc02.jpg"
+        },
+        {
+          "src": "/hyoushiki/etc/images/etc03.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc03.jpg"
+        },
+        {
+          "src": "/hyoushiki/etc/images/etc04.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc04.jpg"
+        },
+        {
+          "src": "/hyoushiki/etc/images/etc05.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc05.jpg"
+        },
+        {
+          "src": "/hyoushiki/etc/images/etc06.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc06.jpg"
+        },
+        {
+          "src": "/hyoushiki/etc/images/etc07.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc07.jpg"
+        },
+        {
+          "src": "/hyoushiki/etc/images/etc08.jpg",
+          "alt": null,
+          "title": null,
+          "desc": "",
+          "local": "assets/images/hyoushiki/etc/images/etc08.jpg"
+        }
+      ]
+    }
+  ]
+}

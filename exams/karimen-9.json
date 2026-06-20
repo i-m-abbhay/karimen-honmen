@@ -1,0 +1,286 @@
+{
+  "id": "karimen-9",
+  "title": "Karimen Practice Test 9",
+  "type": "karimen",
+  "number": 9,
+  "source": "https://karimen-honmen.com/en/exam/karimen/9",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "When moving suddenly from a dark place to a bright one, vision temporarily decreases.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "You must not drive in a way that causes danger or inconvenience to other vehicles or people.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving on snowy roads, avoid tire tracks and drive elsewhere.",
+      "answer": 0,
+      "explanation": "It is safer to drive in the tire tracks (ruts) on snowy roads.",
+      "points": 2
+    },
+    {
+      "q": "When driving at night, it is better to turn on the interior light.",
+      "answer": 0,
+      "explanation": "The interior light should be turned off to avoid glare and maintain visibility.",
+      "points": 2
+    },
+    {
+      "q": "When passing an oncoming vehicle at night, switch headlights to low beam.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On general roads, a person with a motorcycle license for less than one year must not carry a passenger.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The brakes of a motorcycle should basically use only the front brake.",
+      "answer": 0,
+      "explanation": "Both front and rear brakes should be used simultaneously for effective braking.",
+      "points": 2
+    },
+    {
+      "q": "In principle, parking is prohibited if there is less than 3.5 meters of clearance on the left side of the road.",
+      "answer": 0,
+      "explanation": "The clearance requirement applies to the right side, not the left.",
+      "points": 2
+    },
+    {
+      "q": "If the width of the roadside strip is 0.75 meters or less, stop the vehicle along the left edge of the road without entering the strip.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is allowed in a tunnel only if there are designated lanes.",
+      "answer": 0,
+      "explanation": "Parking or stopping is prohibited in tunnels regardless of designated lanes.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates two-way traffic.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/9/img_411.jpg",
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited within tram tracks.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Within 5 meters of an intersection or its edges, parking is prohibited, but stopping is allowed.",
+      "answer": 0,
+      "explanation": "Both parking and stopping are prohibited within 5 meters of an intersection.",
+      "points": 2
+    },
+    {
+      "q": "When driving on highways, tire pressure should be slightly higher.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The hydroplaning phenomenon occurs during high-speed driving in rain, where tires lose traction, and steering or braking becomes ineffective.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a vehicle passage prohibition.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/9/img_416.jpg",
+      "points": 2
+    },
+    {
+      "q": "Small special vehicles cannot travel on expressways.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A vehicle towing an accident vehicle with a rope cannot travel on expressways.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Except for motorcycles, vehicle owners must secure a storage location within 5 kilometers of their primary place of use.",
+      "answer": 0,
+      "explanation": "The storage location must be within 2 kilometers.",
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited within 5 meters of a road curve.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A large motorcycle is a two-wheeled vehicle with an engine displacement exceeding 400cc.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A vehicle with a maximum load capacity of 3,000 kilograms is a quasi-medium vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited on steep uphill slopes.",
+      "answer": 0,
+      "explanation": "Overtaking is not prohibited on steep uphill slopes.",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited on steep downhill slopes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited in tunnels regardless of the presence of designated lanes.",
+      "answer": 0,
+      "explanation": "Overtaking is allowed in tunnels if there are designated lanes.",
+      "points": 2
+    },
+    {
+      "q": "When driving for long periods, it is advisable to take a break at least every 2 hours.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "With a motorized bicycle license, you can drive a small special vehicle.",
+      "answer": 0,
+      "explanation": "A motorized bicycle license only allows driving motorized bicycles.",
+      "points": 2
+    },
+    {
+      "q": "Commercial vehicles such as buses and taxis must undergo regular inspections every 3 months.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On a road with two lanes per direction, vehicles should generally travel in the right lane, keeping the left lane open for overtaking.",
+      "answer": 0,
+      "explanation": "Vehicles should travel in the left lane, keeping the right lane open for overtaking.",
+      "points": 2
+    },
+    {
+      "q": "Pedestrian roads can be used by driving slowly and paying attention to pedestrians without special permission.",
+      "answer": 0,
+      "explanation": "Vehicles cannot use pedestrian roads without special permission.",
+      "points": 2
+    },
+    {
+      "q": "In principle, vehicles cannot travel on tram tracks, but they may do so for right turns or unavoidable reasons like road construction.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When passing near a safety zone with pedestrians, vehicles must stop temporarily.",
+      "answer": 0,
+      "explanation": "Vehicles must proceed slowly, not stop, near safety zones with pedestrians.",
+      "points": 2
+    },
+    {
+      "q": "When passing a stopped vehicle, be cautious as its door may open suddenly.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When approaching a pedestrian crossing and it is clear no pedestrians are crossing, you may proceed without stopping.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When approaching a pedestrian crossing and it is unclear whether pedestrians are crossing, you must stop temporarily.",
+      "answer": 0,
+      "explanation": "You must proceed at a speed that allows stopping if necessary.",
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for towing a vehicle with a gross weight of 2,000 kg or less using a vehicle with at least three times that weight is 40 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When carrying children under 12 years old, three children are counted as one adult.",
+      "answer": 0,
+      "explanation": "Three children under 12 are counted as two adults.",
+      "points": 2
+    },
+    {
+      "q": "Fire trucks are not considered emergency vehicles.",
+      "answer": 0,
+      "explanation": "Fire trucks are included as emergency vehicles.",
+      "points": 2
+    },
+    {
+      "q": "When an emergency vehicle approaches near an intersection, move to the left side of the road, stop temporarily, and yield the way.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At an intersection of roads with similar widths, the vehicle on the left has priority.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A U-turn refers to turning the vehicle around.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When making a right or left turn, the signal must be stopped immediately after completing the action.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Stopping for more than 5 minutes for passengers to board or alight is considered parking.",
+      "answer": 0,
+      "explanation": "Stopping for passengers, regardless of duration, is considered stopping, not parking.",
+      "points": 2
+    },
+    {
+      "q": "Parking is prohibited within 1 meter of a fire alarm.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for large cargo vehicles on expressways is 80 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If cargo falls onto a highway, request its removal via an emergency telephone and do not handle it yourself due to safety concerns.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Small special vehicles cannot travel on vehicle-only roads without a specified minimum speed.",
+      "answer": 0,
+      "explanation": "Small special vehicles are allowed on such roads.",
+      "points": 2
+    },
+    {
+      "q": "Ordinary motorcycles with a displacement of 125cc or less cannot travel on vehicle-only roads.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving, focus on a single point and avoid being distracted by surrounding traffic.",
+      "answer": 0,
+      "explanation": "Drivers should maintain awareness of surrounding traffic rather than focusing on a single point.",
+      "points": 2
+    },
+    {
+      "q": "Inertial force refers to the force acting between the tire and the road surface.",
+      "answer": 0,
+      "explanation": "Inertial force is the force that causes a vehicle to continue moving.",
+      "points": 2
+    }
+  ]
+}

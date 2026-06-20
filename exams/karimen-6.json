@@ -1,0 +1,305 @@
+{
+  "id": "karimen-6",
+  "title": "Karimen Practice Test 6",
+  "type": "karimen",
+  "number": 6,
+  "source": "https://karimen-honmen.com/en/exam/karimen/6",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "This sign is a warning sign indicating crosswinds.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/6/img_251.jpg",
+      "points": 2
+    },
+    {
+      "q": "When turning right from a one-way road, you must first move to the center of the road and proceed slowly.",
+      "answer": 0,
+      "explanation": "You must move to the right side of the road when turning right.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a rotary (roundabout) ahead.",
+      "answer": 0,
+      "explanation": "This is a warning sign indicating two-way traffic.",
+      "img": "assets/images/exams/karimen/6/img_253.jpg",
+      "points": 2
+    },
+    {
+      "q": "When a traffic officer raises their arm horizontally, traffic parallel to their body is treated as a red signal.",
+      "answer": 0,
+      "explanation": "Traffic parallel to the officer’s body is treated as a green signal.",
+      "points": 2
+    },
+    {
+      "q": "Large and ordinary motorcycles can tow a maximum of two vehicles at the same time.",
+      "answer": 0,
+      "explanation": "Only one vehicle can be towed at a time.",
+      "points": 2
+    },
+    {
+      "q": "This sign is a warning sign indicating a steep downhill slope.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/6/img_256.jpg",
+      "points": 2
+    },
+    {
+      "q": "When traveling on a priority road, it is possible to overtake automobiles or motorized bicycles at an intersection or within 30 meters before it.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited on the left side of a safety zone and within 10 meters before or after it.",
+      "answer": 0,
+      "explanation": "Overtaking is allowed, but stopping or parking is prohibited.",
+      "points": 2
+    },
+    {
+      "q": "High-speed driving can cause the tire surface to peel off and burst, a phenomenon called the standing wave.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "An ordinary motorcycle with a displacement of 125cc can travel on highways.",
+      "answer": 0,
+      "explanation": "Ordinary motorcycles with 125cc or less cannot travel on highways.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that the road ahead is a priority road, and vehicles and trams must proceed slowly.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/6/img_261.jpg",
+      "points": 2
+    },
+    {
+      "q": "At a railway crossing with a traffic signal, even if the signal is green, you must stop temporarily to check for safety.",
+      "answer": 0,
+      "explanation": "You can proceed without stopping if the signal is green.",
+      "points": 2
+    },
+    {
+      "q": "When getting in or out of a vehicle, check the surroundings carefully, and in heavy traffic, exit from the left door.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "With a large motorcycle license, you can drive an ordinary motorcycle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Automatic motorcycles have strong engine braking, so it’s better not to overuse the front and rear brakes.",
+      "answer": 0,
+      "explanation": "Automatic motorcycles have weaker engine braking.",
+      "points": 2
+    },
+    {
+      "q": "This marking indicates the method for making a left turn at an intersection.",
+      "answer": 0,
+      "explanation": "This marking indicates the method for making a right turn.",
+      "img": "assets/images/exams/karimen/6/img_266.jpg",
+      "points": 2
+    },
+    {
+      "q": "The distance from braking to stopping is always constant regardless of road conditions if the speed is the same.",
+      "answer": 0,
+      "explanation": "Stopping distance varies depending on road and tire conditions.",
+      "points": 2
+    },
+    {
+      "q": "When driving while fatigued, it takes longer to make judgments, resulting in a longer reaction distance.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "An inner wheel difference occurs when a vehicle turns left but not when it turns right.",
+      "answer": 0,
+      "explanation": "An inner wheel difference occurs during both left and right turns.",
+      "points": 2
+    },
+    {
+      "q": "The center line is always located in the middle of the road.",
+      "answer": 0,
+      "explanation": "The center line is not always in the middle of the road.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a railway crossing ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/6/img_271.jpg",
+      "points": 2
+    },
+    {
+      "q": "When the battery fluid level is low, it should be topped up with distilled water.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Lights must be turned on when visibility is less than 50 meters, such as inside a tunnel.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On downhill slopes, speed increases and stopping distance becomes longer, so it’s better to keep a narrower gap with the vehicle ahead.",
+      "answer": 0,
+      "explanation": "A wider gap should be maintained with the vehicle ahead.",
+      "points": 2
+    },
+    {
+      "q": "When there is an obstacle ahead, oncoming traffic has priority, so you must stop or slow down to yield.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This marking indicates a prohibition on U-turns.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/6/img_276.jpg",
+      "points": 2
+    },
+    {
+      "q": "The maximum load capacity of a motorcycle is 50 kg.",
+      "answer": 0,
+      "explanation": "The maximum load capacity is 60 kg.",
+      "points": 2
+    },
+    {
+      "q": "Parking is prohibited within 5 meters of the entrance or exit of a parking lot or garage for vehicles.",
+      "answer": 0,
+      "explanation": "Parking is prohibited within 3 meters of such entrances or exits.",
+      "points": 2
+    },
+    {
+      "q": "At a railway crossing without a signal, you must stop temporarily and check safety with both eyes and ears.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Drivers who have held a license for less than one year must display a beginner mark on either the front or rear of the vehicle.",
+      "answer": 0,
+      "explanation": "The beginner mark must be displayed on both the front and rear of the vehicle.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the type of vehicle, in this case, large passenger vehicles or specific medium passenger vehicles.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/6/img_281.jpg",
+      "points": 2
+    },
+    {
+      "q": "The braking distance is proportional to the reaction distance.",
+      "answer": 0,
+      "explanation": "Braking distance and reaction distance are calculated differently.",
+      "points": 2
+    },
+    {
+      "q": "When a person with a white or yellow cane is walking, vehicles must stop or slow down to allow safe passage.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When riding a motorized bicycle on a road with three or more lanes, it is best to use the middle lane.",
+      "answer": 0,
+      "explanation": "Motorized bicycles must use the leftmost lane.",
+      "points": 2
+    },
+    {
+      "q": "When the signal at an intersection ahead turns yellow, you may enter the intersection with caution even if you can stop safely.",
+      "answer": 0,
+      "explanation": "You may enter only if you cannot stop safely.",
+      "points": 2
+    },
+    {
+      "q": "This supplementary sign indicates the start of a traffic restriction zone or section specified by the main sign.",
+      "answer": 0,
+      "explanation": "This supplementary sign indicates the end of the restriction.",
+      "img": "assets/images/exams/karimen/6/img_286.jpg",
+      "points": 2
+    },
+    {
+      "q": "When driving through a curve or corner, if the speed doubles, the centrifugal force also doubles.",
+      "answer": 0,
+      "explanation": "Centrifugal force is proportional to the square of the speed, so it increases approximately fourfold.",
+      "points": 2
+    },
+    {
+      "q": "When a police officer raises their arm vertically, traffic parallel to their body has the same meaning as a yellow signal.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When the signal ahead is flashing red, vehicles can proceed with caution to other traffic.",
+      "answer": 0,
+      "explanation": "Vehicles and trams must stop at the stop line.",
+      "points": 2
+    },
+    {
+      "q": "Self-centered driving not only inconveniences other vehicles but can also cause accidents, so it must be avoided.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that vehicles cannot pass through the road ahead.",
+      "answer": 0,
+      "explanation": "This is a sign indicating a T-shaped road intersection.",
+      "img": "assets/images/exams/karimen/6/img_291.jpg",
+      "points": 2
+    },
+    {
+      "q": "When overtaking, you must first signal with the indicator, then check if the location is safe and confirm the surroundings.",
+      "answer": 0,
+      "explanation": "You must check safety first, then signal with the indicator.",
+      "points": 2
+    },
+    {
+      "q": "Unnecessary lane changes cause traffic disruptions and accidents, so they must be avoided.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When parking on flat ground, it is not necessary to engage the handbrake.",
+      "answer": 0,
+      "explanation": "The handbrake must always be engaged, even on flat ground.",
+      "points": 2
+    },
+    {
+      "q": "When a motorcycle negotiates a curve, it is best to gradually reduce speed while turning.",
+      "answer": 0,
+      "explanation": "Reduce speed sufficiently before entering the curve.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the presence of a pedestrian crossing and a bicycle crossing lane.",
+      "answer": 0,
+      "explanation": "This is a regulatory sign indicating a lane exclusively for pedestrians and bicycles; other vehicles cannot pass.",
+      "img": "assets/images/exams/karimen/6/img_296.jpg",
+      "points": 2
+    },
+    {
+      "q": "It is better to drive at night with the interior light on.",
+      "answer": 0,
+      "explanation": "The interior light should be turned off while driving.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that vehicles with a gross weight exceeding 5.5 tons cannot pass.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/6/img_298.jpg",
+      "points": 2
+    },
+    {
+      "q": "When a driver extends their arm diagonally downward out of the vehicle’s window, with the palm facing backward and moving the arm back and forth, it signals reversing.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "While driving, focusing on a single point rather than maintaining a wide field of view makes it easier to predict hazards.",
+      "answer": 0,
+      "explanation": "A wider field of view makes it easier to predict hazards.",
+      "points": 2
+    }
+  ]
+}

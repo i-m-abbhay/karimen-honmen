@@ -1,0 +1,300 @@
+{
+  "id": "karimen-14",
+  "title": "Karimen Practice Test 14",
+  "type": "karimen",
+  "number": 14,
+  "source": "https://karimen-honmen.com/en/exam/karimen/14",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "This sign indicates a T-shaped road intersection ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/14/img_731.jpg",
+      "points": 2
+    },
+    {
+      "q": "When making a right turn and an oncoming straight-moving vehicle yields, you must turn quickly.",
+      "answer": 0,
+      "explanation": "Safety checks for hidden motorcycles or pedestrians are necessary.",
+      "points": 2
+    },
+    {
+      "q": "When a vehicle breaks down in a railway crossing, you should use the crossing obstruction alert device to notify the train driver and avoid using flares to prevent fire hazards.",
+      "answer": 0,
+      "explanation": "If no obstruction alert device is available, flares should be used.",
+      "points": 2
+    },
+    {
+      "q": "Starting from the roadside is not considered a lane change.",
+      "answer": 0,
+      "explanation": "Starting from the roadside is also considered a lane change.",
+      "points": 2
+    },
+    {
+      "q": "Even in a no-lane-change zone, you may change lanes if roadwork prevents passage.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a T-shaped road intersection ahead.",
+      "answer": 0,
+      "explanation": "This is a sign indicating merging traffic ahead.",
+      "img": "assets/images/exams/karimen/14/img_156.jpg",
+      "points": 2
+    },
+    {
+      "q": "Signs are divided into main signs and auxiliary signs, with main signs consisting of four types: regulatory, instruction, warning, and guide signs.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Light vehicles cannot travel on a roadside strip marked by two solid white lines.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving on a road without a sidewalk or roadside strip, vehicles must not veer onto the shoulder.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When crossing a sidewalk to enter a store, you may drive slowly if it is clear there are no pedestrians.",
+      "answer": 0,
+      "explanation": "You must stop temporarily when crossing a sidewalk.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a maximum speed of 50 km/h, allowing regular cars, regular motorcycles, and motorized bicycles to reach up to 50 km/h.",
+      "answer": 0,
+      "explanation": "Motorized bicycles are limited to a legal speed of 30 km/h.",
+      "img": "assets/images/exams/karimen/14/img_161.jpg",
+      "points": 2
+    },
+    {
+      "q": "The stopping distance for a regular car traveling at 50 km/h is approximately 32 meters.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Driver’s licenses are divided into two categories: first-class and second-class licenses.",
+      "answer": 0,
+      "explanation": "There are three categories: first-class, second-class, and provisional licenses.",
+      "points": 2
+    },
+    {
+      "q": "You must not carry passengers in areas other than seats, but in a cargo vehicle, a minimum number of people can ride in the cargo area to monitor the load.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited within 10 meters of an intersection and its edges.",
+      "answer": 0,
+      "explanation": "The restriction applies within 5 meters of an intersection.",
+      "points": 2
+    },
+    {
+      "q": "At an intersection with this sign and no stop line, you must stop immediately before the intersection.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/14/img_166.jpg",
+      "points": 2
+    },
+    {
+      "q": "At an unregulated intersection, if a tram approaches from the right, you may proceed as the left side has priority.",
+      "answer": 0,
+      "explanation": "Trams have priority over other vehicles.",
+      "points": 2
+    },
+    {
+      "q": "When passing a tram stopped at a stop, you must stop temporarily even if there is a safety zone.",
+      "answer": 0,
+      "explanation": "You may pass slowly without stopping.",
+      "points": 2
+    },
+    {
+      "q": "When passing a stopped vehicle, you must be cautious of doors suddenly opening or people emerging from behind.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If a vehicle must be parked on a highway due to an accident, hazard lights or similar must be activated.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a safety zone.",
+      "answer": 0,
+      "explanation": "This is an instruction sign indicating a priority road.",
+      "img": "assets/images/exams/karimen/14/img_171.jpg",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is allowed in a tunnel if there are marked lanes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If the center line is a white broken line, you may overtake by crossing into the right side of the road.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "You cannot park where there is less than 3.5 meters of space on the right side of the road, but stopping for loading/unloading with the driver ready to move is an exception.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If a property damage accident is settled on the spot, it is not necessary to report to the police.",
+      "answer": 0,
+      "explanation": "All accidents must be reported to the police.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the lane assignment for large trucks, specific medium trucks, and large special vehicles on expressways.",
+      "answer": 0,
+      "explanation": "This is a sign for lane assignments for towing vehicles on expressways.",
+      "img": "assets/images/exams/karimen/14/img_176.jpg",
+      "points": 2
+    },
+    {
+      "q": "The legal maximum speed is the highest speed set by law for roads without designated speed signs or markings.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is moving ahead of a vehicle in front by changing the path.",
+      "answer": 0,
+      "explanation": "Overtaking involves moving ahead without changing paths.",
+      "points": 2
+    },
+    {
+      "q": "If you have a large special vehicle license, you can drive a regular motorcycle.",
+      "answer": 0,
+      "explanation": "A large special vehicle license allows driving only large special vehicles, small special vehicles, and motorized bicycles.",
+      "points": 2
+    },
+    {
+      "q": "When inspecting a motorcycle chain, you must press the middle to check for excessive looseness or tightness and ensure proper lubrication.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a facility or factory handling hazardous materials ahead.",
+      "answer": 0,
+      "explanation": "This sign indicates that vehicles carrying hazardous materials cannot pass.",
+      "img": "assets/images/exams/karimen/14/img_181.jpg",
+      "points": 2
+    },
+    {
+      "q": "The 'R' on an automatic vehicle’s gear lever stands for reverse and is used for backing up.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When passing the crest of a blind uphill slope, you must sound the horn even without a 'sound horn' sign.",
+      "answer": 0,
+      "explanation": "You may pass without sounding the horn.",
+      "points": 2
+    },
+    {
+      "q": "If it is unclear whether pedestrians or bicycles are present at a pedestrian or bicycle crossing, you must stop temporarily.",
+      "answer": 0,
+      "explanation": "You may proceed at a speed that allows stopping if necessary.",
+      "points": 2
+    },
+    {
+      "q": "Tire chains should be fitted to the drive wheels.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This marking indicates approaching a safety zone or roadside obstacle.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/14/img_186.jpg",
+      "points": 2
+    },
+    {
+      "q": "When an emergency vehicle approaches on a one-way road, you must always pull over to the left side to yield.",
+      "answer": 0,
+      "explanation": "If it obstructs progress, you may pull to the right side.",
+      "points": 2
+    },
+    {
+      "q": "Driving on a wet road increases the free-running distance.",
+      "answer": 0,
+      "explanation": "It increases the braking distance.",
+      "points": 2
+    },
+    {
+      "q": "Parking is prohibited within 10 meters before and after the left side of a safety zone, but stopping is allowed.",
+      "answer": 0,
+      "explanation": "Both parking and stopping are prohibited.",
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited within 5 meters of a road curve.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This marking indicates a pedestrian or bicycle crossing.",
+      "answer": 0,
+      "explanation": "This marking indicates a priority road.",
+      "img": "assets/images/exams/karimen/14/img_191.jpg",
+      "points": 2
+    },
+    {
+      "q": "The maximum height of cargo on a regular motorcycle is 2.0 meters from the loading device.",
+      "answer": 0,
+      "explanation": "The maximum height is 2.0 meters from the ground.",
+      "points": 2
+    },
+    {
+      "q": "If a license is revoked or expires, it does not need to be returned.",
+      "answer": 0,
+      "explanation": "The license must be returned.",
+      "points": 2
+    },
+    {
+      "q": "When performing a two-stage right turn with a motorized bicycle, you must first move as close as possible to the left edge of the road.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A bus-only lane can be used by regular cars outside of designated hours.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that vehicles can park.",
+      "answer": 0,
+      "explanation": "This is a sign indicating that stopping is allowed.",
+      "img": "assets/images/exams/karimen/14/img_196.jpg",
+      "points": 2
+    },
+    {
+      "q": "Road markings are divided into two types: regulatory and instruction markings.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On highways, two-person riding on a motorcycle is allowed for those over 20 years old who have held a motorcycle license for at least three years.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If a vehicle breaks down and is parked on the shoulder of a highway, it is safer to stay inside the vehicle due to external dangers.",
+      "answer": 0,
+      "explanation": "Staying outside the vehicle is safer due to the risk of rear-end collisions.",
+      "points": 2
+    },
+    {
+      "q": "There is no time limit for stopping to pick up or drop off passengers.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

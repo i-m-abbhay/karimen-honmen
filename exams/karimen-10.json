@@ -1,0 +1,281 @@
+{
+  "id": "karimen-10",
+  "title": "Karimen Practice Test 10",
+  "type": "karimen",
+  "number": 10,
+  "source": "https://karimen-honmen.com/en/exam/karimen/10",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "The impact force of a vehicle collision is proportional to the square of the speed.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Centrifugal force is the force that causes a vehicle to veer inward when navigating a curve.",
+      "answer": 0,
+      "explanation": "Centrifugal force causes the vehicle to veer outward, not inward.",
+      "points": 2
+    },
+    {
+      "q": "The creep phenomenon occurs in manual transmission vehicles as well.",
+      "answer": 0,
+      "explanation": "The creep phenomenon is specific to automatic vehicles.",
+      "points": 2
+    },
+    {
+      "q": "Automatic vehicles do not require clutch operation.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Compared to four-wheeled vehicles, two-wheeled vehicles appear farther away than their actual distance due to their smaller size.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Carrying a heavy load increases the reaction distance compared to normal conditions.",
+      "answer": 0,
+      "explanation": "A heavy load increases braking distance, not reaction distance.",
+      "points": 2
+    },
+    {
+      "q": "Worn tires increase stopping distance.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In a horn-use zone, the horn must be sounded when passing the crest of a blind uphill slope.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A short-term stop where the vehicle can be driven immediately without continuous stopping is considered stopping.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Loading or unloading cargo within 5 minutes is considered stopping.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking is prohibited within 10 meters of the intake of a fire-fighting water tank.",
+      "answer": 0,
+      "explanation": "Parking is prohibited within 5 meters, not 10 meters.",
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited on the left side of a safety zone and within 10 meters before and after it.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At a blind intersection with traffic control, I proceeded straight without slowing down.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "After a traffic accident, even if there are no visible injuries or pain, a medical examination is necessary.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "U-turns, crossing, and reversing are prohibited on highways.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for three-wheeled ordinary vehicles on expressways is 80 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for large special vehicles on expressways is 100 km/h.",
+      "answer": 0,
+      "explanation": "The legal speed limit is 80 km/h.",
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for towing vehicles on expressways is 100 km/h.",
+      "answer": 0,
+      "explanation": "The legal speed limit is 80 km/h.",
+      "points": 2
+    },
+    {
+      "q": "Vehicle-only roads are not highways.",
+      "answer": 0,
+      "explanation": "Vehicle-only roads are considered highways.",
+      "points": 2
+    },
+    {
+      "q": "When passing an obstacle, the vehicle on the side with the obstacle must yield to the oncoming vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking a vehicle that is overtaking a bicycle constitutes double overtaking.",
+      "answer": 0,
+      "explanation": "Double overtaking applies when overtaking a vehicle that is overtaking another automobile.",
+      "points": 2
+    },
+    {
+      "q": "Parking is prohibited within 3 meters of the entrance or exit of a parking lot or similar facility.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Parking or stopping is prohibited within 10 meters before and after a railway crossing.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited within 50 meters before a pedestrian crossing.",
+      "answer": 0,
+      "explanation": "Overtaking is prohibited within 30 meters before a pedestrian crossing.",
+      "points": 2
+    },
+    {
+      "q": "At night, the headlights of your vehicle and oncoming vehicles may make the situation near the road center less visible, a phenomenon called evaporation.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving in the rain, it is better to maintain a longer following distance than on clear days.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In a horn-use zone, the horn must be sounded when passing a blind intersection.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When an oncoming vehicle is far compared to when it is near, the blind spot caused by the oncoming vehicle is larger.",
+      "answer": 0,
+      "explanation": "The blind spot is larger when the oncoming vehicle is closer.",
+      "points": 2
+    },
+    {
+      "q": "For the purpose of repositioning, a taxi can be driven with a standard license.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited on steep downhill slopes, but not on steep uphill slopes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Except when unavoidable to avoid danger, sudden braking is prohibited.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When the driver is fatigued, braking distance increases.",
+      "answer": 0,
+      "explanation": "Fatigue increases reaction distance, not braking distance.",
+      "points": 2
+    },
+    {
+      "q": "If the railway crossing signal is green, stopping or safety checks are unnecessary.",
+      "answer": 0,
+      "explanation": "Safety checks are still required even with a green signal.",
+      "points": 2
+    },
+    {
+      "q": "Light vehicles cannot make a right turn on a blue traffic signal.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A yellow arrow signal allows only trams to proceed in the arrow’s direction, not other vehicles.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At a red flashing signal, vehicles and trams must stop temporarily and proceed after a safety check.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When a police officer’s hand signal differs from the traffic signal, the hand signal takes precedence.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Even if the road is wet, reaction distance does not increase.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When a vehicle stopped at a red signal does not move after it turns green, I sounded the horn.",
+      "answer": 0,
+      "explanation": "Sounding the horn in this case is considered misuse.",
+      "points": 2
+    },
+    {
+      "q": "After taking medication with sedative effects, driving must be avoided.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On a one-way road, if an emergency vehicle approaches and moving to the left would obstruct it, move to the right to yield.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for ordinary motorcycles or motorized bicycles of 125cc or less when towing another vehicle is 30 km/h.",
+      "answer": 0,
+      "explanation": "The legal speed limit is 25 km/h.",
+      "points": 2
+    },
+    {
+      "q": "When passing a stopped kindergarten bus, proceed slowly and check for safety.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When there is a stopped vehicle in front of a pedestrian crossing, slow down and check for safety before moving ahead.",
+      "answer": 0,
+      "explanation": "You must stop temporarily and check for safety before moving ahead.",
+      "points": 2
+    },
+    {
+      "q": "When approaching a pedestrian crossing and it is clear no one is crossing, you may proceed without stopping.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Even if it is not raining, driving with a faulty wiper is prohibited.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On slippery roads, it is better to brake intermittently rather than applying the brakes fully at once.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When parking or stopping on a road with a roadside strip 0.75 meters or less in width, enter the strip and align with the left edge.",
+      "answer": 0,
+      "explanation": "Do not enter the strip; align with the left edge of the roadway.",
+      "points": 2
+    },
+    {
+      "q": "I rode a bicycle on a pedestrian-only roadside strip.",
+      "answer": 0,
+      "explanation": "Only pedestrians can use pedestrian-only roadside strips.",
+      "points": 2
+    },
+    {
+      "q": "I rode a bicycle on a roadside strip where parking or stopping is prohibited.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

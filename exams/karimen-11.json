@@ -1,0 +1,308 @@
+{
+  "id": "karimen-11",
+  "title": "Karimen Practice Test 11",
+  "type": "karimen",
+  "number": 11,
+  "source": "https://karimen-honmen.com/en/exam/karimen/11",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "When the traffic light changes from green to yellow while driving through an intersection, you may continue to pass.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If it is not raining, you may drive even if the windshield wipers are broken.",
+      "answer": 0,
+      "explanation": "It is prohibited because rain may start falling during driving.",
+      "points": 2
+    },
+    {
+      "q": "At a location with this sign, it is possible to overtake if you do not cross the center line to the right side of the road.",
+      "answer": 0,
+      "explanation": "Overtaking is prohibited even if you do not cross the center line.",
+      "img": "assets/images/exams/karimen/11/img_3.jpg",
+      "points": 2
+    },
+    {
+      "q": "While driving a regular car requires carrying a driver’s license, it is not required for a motorized bicycle.",
+      "answer": 0,
+      "explanation": "Carrying a driver’s license is also mandatory for motorized bicycles.",
+      "points": 2
+    },
+    {
+      "q": "Since overtaking must be done quickly to avoid danger, it is permitted to temporarily exceed the speed limit.",
+      "answer": 0,
+      "explanation": "You must not exceed the speed limit, even temporarily.",
+      "points": 2
+    },
+    {
+      "q": "The legal speed refers to the maximum and minimum speeds set by law for roads without designated speed signs or markings.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed for a towing vehicle is 50 km/h.",
+      "answer": 0,
+      "explanation": "The legal speed for a towing vehicle is 60 km/h.",
+      "points": 2
+    },
+    {
+      "q": "Braking distance is the distance from when the brakes are applied until the vehicle comes to a complete stop.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At an intersection with this sign, motorized bicycles must not perform a two-stage right turn.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/11/img_9.GIF",
+      "points": 2
+    },
+    {
+      "q": "Free-running distance is the sum of braking distance and stopping distance.",
+      "answer": 0,
+      "explanation": "Free-running distance plus braking distance equals stopping distance.",
+      "points": 2
+    },
+    {
+      "q": "Even without a temporary driving permit, you may practice driving on a low-traffic road if accompanied by someone with a large vehicle license held for over three years.",
+      "answer": 0,
+      "explanation": "Practicing driving on public roads without a valid temporary driving permit is not allowed, regardless of traffic volume or who accompanies you.",
+      "points": 2
+    },
+    {
+      "q": "If it is clear that there are no pedestrians near a safety zone, you do not need to drive slowly.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When passing an oncoming vehicle on a slope, the vehicle going uphill must yield because starting on a downhill is more difficult.",
+      "answer": 0,
+      "explanation": "The vehicle going downhill must yield.",
+      "points": 2
+    },
+    {
+      "q": "When the road surface is slippery, it is better to press the brake pedal all at once rather than in stages.",
+      "answer": 0,
+      "explanation": "It is better to press the brake pedal in stages.",
+      "points": 2
+    },
+    {
+      "q": "An automatic vehicle may move forward slowly due to the creep phenomenon even without pressing the accelerator pedal.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Driver’s licenses are classified into three types: first-class, second-class, and provisional licenses.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign is a 'sound horn' sign, and vehicles and trams must sound their horns at this location.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/11/img_17.jpg",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a height restriction, prohibiting vehicles taller than 2.2 meters from passing.",
+      "answer": 0,
+      "explanation": "This is a maximum width restriction sign.",
+      "img": "assets/images/exams/karimen/11/img_18.jpg",
+      "points": 2
+    },
+    {
+      "q": "At a railway crossing with a traffic light, you must stop even if the light is green.",
+      "answer": 0,
+      "explanation": "You can pass through if the light is green without stopping.",
+      "points": 2
+    },
+    {
+      "q": "Even in areas where parking is not prohibited, parking for more than 12 hours or 8 hours at night is prohibited.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates left turns are permitted, allowing left turns while being cautious of pedestrians and bicycles regardless of the traffic light color.",
+      "answer": 0,
+      "explanation": "This is a sign indicating the start of a one-way road.",
+      "img": "assets/images/exams/karimen/11/img_21.jpg",
+      "points": 2
+    },
+    {
+      "q": "On a road with three or more lanes in the same direction, the leftmost lane should generally be kept clear for overtaking, and other lanes should be used for driving.",
+      "answer": 0,
+      "explanation": "The rightmost lane should be kept clear for overtaking.",
+      "points": 2
+    },
+    {
+      "q": "When a stopped route bus signals to start moving, you must not obstruct its path unless sudden braking or steering is necessary to avoid danger.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "At a pedestrian crossing, you must drive slowly even if it is clear that there are no pedestrians or bicycles.",
+      "answer": 0,
+      "explanation": "You may proceed normally if it is clear there are no pedestrians or bicycles.",
+      "points": 2
+    },
+    {
+      "q": "You must not overtake or pass other vehicles at a pedestrian crossing, bicycle crossing, or within 50 meters before them.",
+      "answer": 0,
+      "explanation": "The restriction applies within 30 meters, not 50 meters.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that two regular bicycles may ride side by side.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/11/img_26.jpg",
+      "points": 2
+    },
+    {
+      "q": "You must not enter a railway crossing if there is a risk of being stuck due to traffic congestion, but it is permissible to enter a pedestrian or bicycle crossing.",
+      "answer": 0,
+      "explanation": "You must not enter pedestrian or bicycle crossings either.",
+      "points": 2
+    },
+    {
+      "q": "Motor vehicles and motorized bicycles must not travel on sidewalks, roadside strips, or bicycle paths, but they may cross them to enter or exit.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "For four-wheeled vehicles, the brake pedal should be pressed as hard as possible initially and then gradually as needed.",
+      "answer": 0,
+      "explanation": "The brake pedal should be pressed lightly initially.",
+      "points": 2
+    },
+    {
+      "q": "The legal speed for a regular motorcycle or motorized bicycle with a displacement of 125cc or less towing another vehicle is 20 km/h.",
+      "answer": 0,
+      "explanation": "The legal speed is 25 km/h.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that automobiles may pass.",
+      "answer": 0,
+      "explanation": "This sign indicates a highway or automobile-only road.",
+      "img": "assets/images/exams/karimen/11/img_31.jpg",
+      "points": 2
+    },
+    {
+      "q": "When a warning device starts sounding at a railway crossing, you should hurry to pass through the crossing.",
+      "answer": 0,
+      "explanation": "You must stop before the railway crossing.",
+      "points": 2
+    },
+    {
+      "q": "When parking a manual vehicle and leaving it, put it in low gear on flat ground or downhill, and in reverse gear uphill.",
+      "answer": 0,
+      "explanation": "On flat ground or downhill, use reverse gear; uphill, use low gear.",
+      "points": 2
+    },
+    {
+      "q": "When parking a vehicle, you must not park in a place where there is less than 4.5 meters of space on the right side of the road.",
+      "answer": 0,
+      "explanation": "The required space is 3.5 meters or more.",
+      "points": 2
+    },
+    {
+      "q": "When riding a motorcycle, short-sleeved shirts and shorts are preferable for ease of movement.",
+      "answer": 0,
+      "explanation": "Clothing with less exposure is preferable to protect against falls.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the minimum speed, and you must not drive below the indicated speed.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/11/img_36.jpg",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a no-parking zone for bicycles, prohibiting bicycle parking in this area.",
+      "answer": 0,
+      "explanation": "This is a no-bicycle passage sign.",
+      "img": "assets/images/exams/karimen/11/img_37.jpg",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the entrance to a one-way road, prohibiting passage from the opposite direction.",
+      "answer": 0,
+      "explanation": "This is a sign prohibiting travel in directions other than specified (no straight or right turns).",
+      "img": "assets/images/exams/karimen/11/img_38.jpg",
+      "points": 2
+    },
+    {
+      "q": "When carrying an infant in a passenger car, it is safer to install a child seat in the rear seat rather than the front seat.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On a wide sidewalk, parking is allowed, but a space of 0.75 meters or more must be left on the left side of the vehicle.",
+      "answer": 0,
+      "explanation": "Parking on sidewalks is not allowed; vehicles must park along the left edge of the roadway.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a pedestrian-only road, designated for pedestrian use.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/11/img_41.jpg",
+      "points": 2
+    },
+    {
+      "q": "You must drive slowly when passing a safety zone with pedestrians present.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When the traffic light is green, all vehicles can make a direct right turn.",
+      "answer": 0,
+      "explanation": "Light vehicles must perform a two-stage right turn, and motorized bicycles may vary by intersection.",
+      "points": 2
+    },
+    {
+      "q": "The maximum speed on an automobile-only road without a specific speed limit is 100 km/h.",
+      "answer": 0,
+      "explanation": "The maximum speed is the same as general roads, 60 km/h.",
+      "points": 2
+    },
+    {
+      "q": "I was driving at night without turning on my headlights.",
+      "answer": 0,
+      "explanation": "Driving at night without headlights is a traffic violation in Japan and poses a serious safety risk due to reduced visibility for both the driver and others.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that vehicles carrying hazardous materials such as explosives or toxic substances cannot park.",
+      "answer": 0,
+      "explanation": "This sign indicates that vehicles carrying hazardous materials cannot pass.",
+      "img": "assets/images/exams/karimen/11/img_46.jpg",
+      "points": 2
+    },
+    {
+      "q": "In the case of a traffic violation or accident, you may face criminal or civil liability but not administrative liability.",
+      "answer": 0,
+      "explanation": "You may face administrative liability such as license suspension or revocation.",
+      "points": 2
+    },
+    {
+      "q": "The use of child seats is mandatory, but exemptions apply when transporting to a hospital for emergency care.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed for motorized bicycles and regular motorcycles is 30 km/h.",
+      "answer": 0,
+      "explanation": "The legal speed for regular motorcycles is 60 km/h.",
+      "points": 2
+    },
+    {
+      "q": "When making a right turn to exit the roadway, a vehicle must approach the center of the road and drive slowly.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

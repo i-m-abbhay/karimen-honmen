@@ -1,0 +1,545 @@
+{
+  "id": "honmen-3",
+  "title": "Honmen Practice Test 3",
+  "type": "honmen",
+  "number": 3,
+  "source": "https://karimen-honmen.com/en/exam/honmen/3",
+  "passScore": 90,
+  "maxScore": 100,
+  "timeLimitMinutes": 50,
+  "questionCount": 95,
+  "questions": [
+    {
+      "q": "Children become absorbed in things that catch their attention and may dash out onto the road suddenly, so drivers must pay special attention when  driving in areas where children are present.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A person who obtains a large vehicle driver’s license may drive medium vehicles, quasi-medium vehicles, regular motor vehicles, special heavy equipment, special light equipment, and general mopeds in addition to large vehicles.",
+      "answer": 0,
+      "explanation": "Driving special heavy equipment with a large vehicle license is not allowed.",
+      "points": 1
+    },
+    {
+      "q": "It is more difficult to see at night than during the day, but there is less traffic, the roads are less crowded, and it is less dangerous at night, so it is not necessary to drive at a lower speed than during the day.",
+      "answer": 0,
+      "explanation": "One should drive at a lower speed at night than during the day because it tends to take more time to detect pedestrians and bicycles.",
+      "points": 1
+    },
+    {
+      "q": "Driving on expressways is comparatively less tiring for drivers because they do not need to watch out for pedestrians or traffic signals, so it is enough to rest once every 4 hours.",
+      "answer": 0,
+      "explanation": "It is not enough to rest once every 4 hours because driving on expressways causes tired eyes and psychological fatigue.",
+      "points": 1
+    },
+    {
+      "q": "If the road surface is wet from rain and the vehicle’s tires are worn, the stopping distance may increase to as much as twice what it would have been if the road surface were dry and the tires in good condition.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "In an intersection between roads with three lanes in each direction where the traffic signal is a red light and a green arrow pointing right, regular motor vehicles may proceed in the direction indicated by the arrow but general mopeds may not proceed.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Should a vehicle become immobilized inside a railway crossing due to a breakdown or similar, it is important for the driver to notify a train driver immediately and then move the vehicle promptly out of the crossing.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Where the vehicular lane is marked off by a yellow line, vehicles must not cross the yellow line to change lanes, even if an emergency vehicle is approaching.",
+      "answer": 0,
+      "explanation": "Vehicles may cross the yellow line to change lanes and yield the road to an approaching emergency vehicle.",
+      "points": 1
+    },
+    {
+      "q": "When turning the steering wheel while traveling around a corner or curve, if speed increases three times centrifugal force increases six times.",
+      "answer": 0,
+      "explanation": "Centrifugal force is proportional to the square of speed. When speed increases three times, its centrifugal force increase nine times.",
+      "points": 1
+    },
+    {
+      "q": "The correct driving posture for riders of two-wheeled vehicles is with knees apart and toes pointed out.",
+      "answer": 0,
+      "explanation": "A rider should press the knees against the fuel tank with the toes facing forward.",
+      "points": 1
+    },
+    {
+      "q": "Drivers of four-wheeled vehicles perceive two-wheeled vehicles to be closer and moving at a faster speed than they actually are.",
+      "answer": 0,
+      "explanation": "The distance to and speed of two-wheeled vehicles tend to be misjudged because they are small in size.",
+      "points": 1
+    },
+    {
+      "q": "Where there is a pavement marking as shown in Figure, drivers should not accelerate or overtake.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/b210.gif",
+      "points": 1
+    },
+    {
+      "q": "Where there is a signboard that has a blue arrow pointing to the left on a white background at the left edge of a road or on a traffic signal, vehicles may turn left while watching out for surrounding traffic such as pedestrians, even if the signal ahead is red or yellow.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When intending to overtake on a road with vehicular lanes, a driver must use the vehicular lane immediately to the right of the lane he or she is currently driving in.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If pedestrians are splashed with mud or water, it is the responsibility of the driver, even if the driver is slowing down.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The pavement marking shown in Figure designates the end of a no U-turn zone.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/B115-2.gif",
+      "points": 1
+    },
+    {
+      "q": "If an accident occurs but the injury to those in the other vehicle is slight or the drivers of both vehicles can reach an agreement, it is not necessary to report the accident to the police.",
+      "answer": 0,
+      "explanation": "Drivers must report accidents to the police. Otherwise, insurance may not be claimed because the necessary written traffic accident testimony is not obtained.",
+      "points": 1
+    },
+    {
+      "q": "Eyesight deteriorates when suddenly entering a dark place from a bright place, but does not change when entering a bright place from a dark place.",
+      "answer": 0,
+      "explanation": "Eyesight also deteriorates due to dazzle when entering a bright place from a dark place.",
+      "points": 1
+    },
+    {
+      "q": "When stopping on the shoulder of an expressway after a breakdown during the day, drivers of regular motor vehicles do not need to place an emergency warning reflector device as long as they turn on the hazard lights.",
+      "answer": 0,
+      "explanation": "Drivers must place an emergency warning reflector device to the rear of the stopped automobile on expressways.",
+      "points": 1
+    },
+    {
+      "q": "When towing a broken-down vehicle using a rope, the person at the wheel of the vehicle being towed is not required to hold a license.",
+      "answer": 0,
+      "explanation": "The person at the wheel of the vehicle being towed must hold a license that qualifies him or her to drive that type of vehicle.",
+      "points": 1
+    },
+    {
+      "q": "It is not true that all medicines are unsuitable for one who intends to drive, but it is best not to drive after taking medicine that causes drowsiness.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Driving while exceeding the seating capacity or loading restrictions noted on the motor vehicle inspection certificate can interfere with driving functions and may cause traffic accidents.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Where there is a pavement marking as shown in Figure, neither vehicle A nor vehicle B may enter the right side of the road for the purpose of overtaking.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/ev010.png",
+      "points": 1
+    },
+    {
+      "q": "To overtake, drivers should signal using their direction indicators and then, gently change lanes while accelerating.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The pavement marking shown in Figure designates that vehicles on the street have the right of way (and that vehicles at the upcoming intersection must yield to them).",
+      "answer": 0,
+      "explanation": "The marking designates that vehicles on the cross street at the upcoming intersection have the right of way.",
+      "img": "assets/images/exams/honmen/3/b211.gif",
+      "points": 1
+    },
+    {
+      "q": "When intending to turn right at an intersection as shown in Figure where traffic signal A is green but traffic signal B is red, the driver must stop inside the intersection and wait until traffic signal B turns green.",
+      "answer": 0,
+      "explanation": "When traffic signal A is green, it is not necessary to wait until traffic signal B turns green.",
+      "img": "assets/images/exams/honmen/3/h03_37.png",
+      "points": 1
+    },
+    {
+      "q": "Stopping distance becomes longer if it is raining or the driver is tired, so it is necessary to lengthen the distance between vehicles.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If an emergency vehicle is approaching on a one-way street that is not near an intersection, vehicles may give way to the emergency vehicle by moving to the right side of the road depending on the circumstances.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When proceeding through a railway crossing behind another vehicle, there is no need to bring the vehicle to a complete stop if safety can be ascertained.",
+      "answer": 0,
+      "explanation": "The driver must still bring the vehicle to a complete stop and check for safety before proceeding.",
+      "points": 1
+    },
+    {
+      "q": "Overtaking is prohibited in tunnels whether there is a vehicular lane or not.",
+      "answer": 0,
+      "explanation": "Overtaking in tunnels is only prohibited when there are no vehicular lanes.",
+      "points": 1
+    },
+    {
+      "q": "Where there is a traffic sign as shown in Figure, vehicles may park on the far side (behind) the traffic sign, but not on this side (in front) of the traffic sign.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/A316-106.gif",
+      "points": 1
+    },
+    {
+      "q": "When driving at high speed for a long period of time one’s ability to judge speed becomes dulled and there is a tendency to drive faster than one realizes. For this reason, it is a good idea to check the speedometer from time to time.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If the hand signals of police officers or traffic wardens disagree with traffic signals, the traffic signals take priority.",
+      "answer": 0,
+      "explanation": "When police officers or traffic wardens give hand signals that differ from traffic lights, drivers must follow the hand signals. Police directions take priority over traffic signals to ensure safety and proper traffic control.",
+      "points": 1
+    },
+    {
+      "q": "Vehicles that cannot reach a speed of 50 km/h or higher because of their construction or performance should not use national expressways.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When checking tires, check the tire pressure and tread depth and make sure that there are no cracks or any other damage, nails, stones, or any other foreign objects lodged in the tire, or abnormal wear.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If a truck traveling several vehicles ahead suddenly changes lanes or stops, it is best to think that something has happened ahead.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Optional insurance coverage causes drivers to become complacent, making accidents likely to occur, so it is best not to purchase optional insurance.",
+      "answer": 0,
+      "explanation": "Accidents are not caused intentionally. Drivers should prepare for emergencies and purchase optional insurance.",
+      "points": 1
+    },
+    {
+      "q": "When brakes are used frequently, such as on long downward slopes, the brake drums and brake linings heat up, bubbles form in the brake fluid, and the brakes may not work properly, so drivers should use engine braking appropriately.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When a tire is punctured while the vehicle is in motion, the driver should not apply the brakes in panic, but rather should first grip the steering wheel firmly, keep the vehicle body straight, ease up on the accelerator to reduce speed, and then stop by gently applying the brakes.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When driving on snow-covered roads, etc., a vehicle may slip or slide even when it is equipped with tire chains or snow tires, so it should maintain a sufficient vehicle distance, reduce its speed, and absolutely avoid sudden braking or swerving.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "On a road where there is a traffic sign as shown in Figure, all types of vehicles may proceed, but they must slow down when pedestrians are present.",
+      "answer": 0,
+      "explanation": "Only designated vehicles or vehicles that obtain permission from the chief of police may proceed.",
+      "img": "assets/images/exams/honmen/3/a325-4.gif",
+      "points": 1
+    },
+    {
+      "q": "When a general moped is executing a right turn at an intersection where there are two lanes in each direction and there are no traffic signs indicating the appropriate method for executing right turns, the general moped must initially approach the intersection close to the center of the road and slow down just inside the center point of the intersection.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Driving a vehicle that produces noise because of a malfunctioning muffler or excessive smoke is not permitted, as it may disturb other people.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The level of battery fluid does not decrease, so there is no need to check it.",
+      "answer": 0,
+      "explanation": "It is necessary to check the level of battery fluid because it decreases due to natural evaporation.",
+      "points": 1
+    },
+    {
+      "q": "There is no difference between points to note when riding double on a large-size motorcycle, regular motorcycle, or when riding single.",
+      "answer": 0,
+      "explanation": "There are differences in actions to take when riding double, such as drivers needing to make the same movement as their passenger.",
+      "points": 1
+    },
+    {
+      "q": "Just after starting or while the air conditioner is operating, the engine revolutions of automatic vehicles are high and jack-rabbit starts may occur, so drivers should be careful.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When driving an automobile past a safety zone, drivers must slow down whether or not pedestrians are present.",
+      "answer": 0,
+      "explanation": "Drivers don’t have to slow down unless pedestrians are present.",
+      "points": 1
+    },
+    {
+      "q": "In a time-limited parking zone where there is a traffic sign as shown in Figure, vehicles are not permitted to park for more than 1 hour between 8:00 a.m. and 8:00 p.m. after the driver has operated a parking meter or been issued a parking ticket.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/A318.gif",
+      "points": 1
+    },
+    {
+      "q": "On curves in mountain roads or similar, it is necessary while driving to anticipate that oncoming vehicles may cross the centerline.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Steel plates used in a construction site or similar become extremely slippery when wet, so drivers should sufficiently reduce speed before proceeding to avoid the necessity for sudden braking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Driving continuously at high speed with tires that are under inflated causes the dangerous “standing wave” phenomenon, so when driving at high speed, it is necessary to inflate the tires to a slightly higher pressure than that specified.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When direction indicator lights are difficult to see, at sunset or other times, it is best to also use a hand signal that corresponds to the direction indicator operation.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Drivers should use signals when intending to slow down or stop.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When getting into a vehicle, the driver should check that there is no one in front or behind the vehicle and that there are no children under the vehicle.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Drivers of four-wheeled vehicles tend to disregard two-wheeled vehicles.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "At night, when approaching intersections or curves with poor visibility, a driver should use the high beams or flash them to warn other drivers or pedestrians of the approach of the vehicle.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The novice driver sign, which drivers who have been driving less than one year on a regular driver’s license are required to display, may be affixed to either the front or rear of the vehicle.",
+      "answer": 0,
+      "explanation": "The novice driver sign must be affixed to both the front and rear of the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "If a traffic accident occurs, the driver should move the vehicle to a safe place out of the way and turn off the engine to prevent interference with other traffic so that no follow-on accidents occur.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The designated maximum speed for large vehicles on general roads is 60 km/h for both passenger vehicles and trucks.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The two traffic signs shown in Figure express the same meaning for all vehicles moving in the direction facing the signs.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/A302-1.gif",
+      "points": 1
+    },
+    {
+      "q": "Stopping is permitted within 10 meters of the signboard (marker post) of a bus stop or streetcar stop, even during business hours if it is to let passengers get in or out.",
+      "answer": 0,
+      "explanation": "Stopping or parking is not permitted in this area during business hours. One should not stop even to let passengers get in and out of the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "In a vehicle with hydraulic brakes, if the brake pedal gradually becomes lower when it is pressed strongly, this indicates that brake fluid is leaking, which is a dangerous condition.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When making a right turn from a one-way street, an automobile must initially approach the center of the road and proceed inside the center point of the intersection while slowing down.(Except roundabout.)",
+      "answer": 0,
+      "explanation": "In order to make a right turn from a one-way street, a driver should initially approach the right edge of the road.",
+      "points": 1
+    },
+    {
+      "q": "Vehicles crossing a sidewalk or side strip must stop immediately before the sidewalk or side strip and take care not to impede the flow of pedestrian traffic, whether or not any pedestrians are present.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "At the point where the main through lanes merge with traffic as shown in Figure, vehicle A must not impede the progress of vehicle B.",
+      "answer": 0,
+      "explanation": "Vehicle A is on the main through lane with the right of way. Vehicle B must not impede the progress of vehicle A.",
+      "img": "assets/images/exams/honmen/3/B109-2-1.gif",
+      "points": 1
+    },
+    {
+      "q": "When visibility is poor, such as when it is raining or at night, it is best to approach the vehicle ahead more closely than one would in clear weather or during the day in order to see it better.",
+      "answer": 0,
+      "explanation": "Maintain a sufficient distance between vehicles and pay attention to the brake lights of the vehicles ahead while driving.",
+      "points": 1
+    },
+    {
+      "q": "On a sharp curve where there is a pavement marking as shown in Figure, vehicles may enter the right side of the road and proceed but there may be oncoming traffic, so drivers must be careful.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/b202.gif",
+      "points": 1
+    },
+    {
+      "q": "When moving to the right-side lane and about to start overtaking, the driver should pay particular attention to traffic ahead and if he or she feels even a little uneasy, it is better not to begin overtaking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Bicycles may not use side strips as shown in Figure.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/ev002.png",
+      "points": 1
+    },
+    {
+      "q": "If vehicles are traveling in a group, they must not engage in behavior that presents a danger to others or disturbs them, such as zigzagging or cutting off other vehicles.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The three auxiliary signs shown in Figure express the same meaning.",
+      "answer": 0,
+      "explanation": "\"0\" The left sign designates the start while the middle and the right signs designate the end of the traffic regulation.",
+      "img": "assets/images/exams/honmen/3/a507-2.gif",
+      "points": 1
+    },
+    {
+      "q": "A passenger vehicle with a seating capacity of 5 people may carry, in addition to the driver, 1 adult and 4 children under 12 years of age.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "A vehicle overtaking another vehicle may pass on the left side if there is sufficient space on the left side of the vehicle ahead.",
+      "answer": 0,
+      "explanation": "Drivers must pass, in principle, on the right side of a vehicle when overtaking it.",
+      "points": 1
+    },
+    {
+      "q": "Where there is a traffic sign as shown in Figure, vehicles must turn left.",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/A311-2.gif",
+      "points": 1
+    },
+    {
+      "q": "When passing oncoming traffic on narrow roads that have a cliff on one side with a dangerous drop, the vehicle on the side opposite from the cliff side should stop initially and allow the vehicle on the cliff side to go ahead.",
+      "answer": 0,
+      "explanation": "The vehicle on the cliff side is in more danger. It should stop initially and allow the oncoming traffic to pass.",
+      "points": 1
+    },
+    {
+      "q": "When a vehicle’s rear wheels slip sideways to the right, it is best to turn the steering wheel to the left.",
+      "answer": 0,
+      "explanation": "The driver should turn the steering wheel to the right because it is necessary to turn it to the direction where the wheels slip sideways.",
+      "points": 1
+    },
+    {
+      "q": "Changing lanes or moving alongside an automobile or general moped in order to overtake is prohibited at or within 30 meters before an intersection (excluding intersections of roads with right of way), railway crossing, pedestrian crossing, or bicycle crossing.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "The traffic sign shown in Figure designates that the lane may be used by regular vehicles, even in heavy traffic, if no local buses can be seen ahead or to the rear.",
+      "answer": 0,
+      "explanation": "Regular vehicles in heavy traffic may not use the lane because traffic congestion may prevent them from immediately leaving the lane if a local bus approaches.",
+      "img": "assets/images/exams/honmen/3/A327-5.gif",
+      "points": 1
+    },
+    {
+      "q": "Operating a two-wheeled vehicle requires the skills of maintaining stability with one’s body while driving and not losing stability when stopping, which differ from the skills required for driving four-wheeled vehicles.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "When driving at night, it is necessary to pay particular attention to the tail lamps and brake lights of the vehicle ahead.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "An important point about driving safety is to know one’s own personality and habits and drive in a way takes them into consideration.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Forgetting to turn off a signal confuses other drivers and increases the chance of an accident, so after completing an action a driver must stop signaling as soon as possible.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "If a vehicle’s center of gravity becomes high and it leans to one side it is likely to turn over, so cargo must be loaded as low as possible and distributed to the left and right rather than on one side.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Any clothing is permitted when driving a vehicle as long as one is not naked.",
+      "answer": 0,
+      "explanation": "It is better to wear light clothing that will not impair the ability to control the vehicle.",
+      "points": 1
+    },
+    {
+      "q": "To apply the brakes when riding a two-wheeled vehicle, it is best to maintain the vehicle body perpendicular to the road, prevent the steering wheel from turning, and apply the brakes to the front and rear wheels simultaneously while engaging in engine braking.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "Parking and stopping are prohibited near the top of an uphill slope or on a steep downhill slope, but not on a steep uphill slope.",
+      "answer": 0,
+      "explanation": "Parking and stopping are prohibited on a steep uphill slope, too.",
+      "points": 1
+    },
+    {
+      "q": "Drivers must not think only of their own convenience, but rather must not disturb people living alongside the road by making unnecessary noise.",
+      "answer": 1,
+      "points": 1
+    },
+    {
+      "q": "In the situation shown in Figure, the regular motor vehicle must yield the road to the streetcar.",
+      "answer": 0,
+      "explanation": "The vehicle on the wider street has right of way. (If the cross street is the same width, the vehicle may not obstruct the progress of the streetcar.)",
+      "img": "assets/images/exams/honmen/3/ev009.png",
+      "points": 1
+    },
+    {
+      "q": "A driver approaching a pedestrian crossing where another vehicle is stopped immediately before it may slow down and proceed if he or she does not see any pedestrians attempting to cross.",
+      "answer": 0,
+      "explanation": "A driver must stop immediately before a pedestrian crossing, not slow down.",
+      "points": 1
+    },
+    {
+      "q": "The maximum permitted cargo height for regular motor vehicles (excluding three-wheeled vehicles and vehicles with an engine displacement of 660 cc or less) is, in principle, 3.8 meters from the cargo bed.",
+      "answer": 0,
+      "explanation": "Maximum permitted cargo height is 3.8 meters from the ground, not from the cargo bed.",
+      "points": 1
+    },
+    {
+      "q": "You are driving along at 50 km/h. What kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/K071.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 40 km/h. What kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/K028.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 40 km/h. What kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/K052.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 70 km/h. When you leave the main through lane, what kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/K093.jpg",
+      "points": 2
+    },
+    {
+      "q": "You are driving along at 30 km/h. When turning right at the intersection, what kinds of things should you be careful of?",
+      "answer": 1,
+      "img": "assets/images/exams/honmen/3/K006.jpg",
+      "points": 2
+    }
+  ]
+}

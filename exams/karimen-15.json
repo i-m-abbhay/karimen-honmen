@@ -1,0 +1,300 @@
+{
+  "id": "karimen-15",
+  "title": "Karimen Practice Test 15",
+  "type": "karimen",
+  "number": 15,
+  "source": "https://karimen-honmen.com/en/exam/karimen/15",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "There is no time limit for stopping to pick up or drop off passengers.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that parking is prohibited.",
+      "answer": 0,
+      "explanation": "This is a supplementary sign indicating the 'end' of a restriction.",
+      "img": "assets/images/exams/karimen/15/img_201.jpg",
+      "points": 2
+    },
+    {
+      "q": "The passenger capacity of a motorized bicycle is one person, but if there is a seat other than the driver's seat, the capacity is two people.",
+      "answer": 0,
+      "explanation": "Motorized bicycles are limited to one person only.",
+      "points": 2
+    },
+    {
+      "q": "Light vehicles are included in the category of automobiles.",
+      "answer": 0,
+      "explanation": "Light vehicles are considered 'vehicles' but not 'automobiles.'",
+      "points": 2
+    },
+    {
+      "q": "It is prohibited to stop or park within 5 meters before or after a pedestrian crossing or bicycle crossing lane.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving an automatic vehicle down a long slope, it is best to use only the foot brake.",
+      "answer": 0,
+      "explanation": "Use the engine brake and supplement with the foot brake.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a merging intersection ahead.",
+      "answer": 0,
+      "explanation": "This sign indicates a Y-shaped road intersection ahead.",
+      "img": "assets/images/exams/karimen/15/img_206.jpg",
+      "points": 2
+    },
+    {
+      "q": "When entering or exiting a tunnel, brightness changes suddenly, which may temporarily reduce visibility, so it is advisable to slow down.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When riding a two-wheeled vehicle, the helmet should be a standard size, strong, and heavy.",
+      "answer": 0,
+      "explanation": "Choose a helmet that is not heavy.",
+      "points": 2
+    },
+    {
+      "q": "For four-wheeled vehicles, seat adjustment should allow the knees to be fully extended when pressing the brake or clutch pedal.",
+      "answer": 0,
+      "explanation": "The knees should be slightly bent when pressing the pedals.",
+      "points": 2
+    },
+    {
+      "q": "Unlike first-class or second-class licenses, a provisional license has no validity period.",
+      "answer": 0,
+      "explanation": "The validity period of a provisional license is six months.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that the road ahead is under construction.",
+      "answer": 0,
+      "explanation": "This is a warning sign indicating uneven road surfaces ahead.",
+      "img": "assets/images/exams/karimen/15/img_211.jpg",
+      "points": 2
+    },
+    {
+      "q": "A large motorcycle is a two-wheeled vehicle with an engine displacement exceeding 250cc.",
+      "answer": 0,
+      "explanation": "A large motorcycle has an engine displacement exceeding 400cc.",
+      "points": 2
+    },
+    {
+      "q": "The license plate for commercial four-wheeled vehicles with a displacement of 660cc or less is black with yellow lettering.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In muddy or wet areas, care must be taken to avoid splashing water or mud on pedestrians by slowing down.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If no passengers are boarding or alighting from a stopped tram and a distance of at least 1.5 meters can be maintained, you may pass slowly without stopping.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a bicycle crossing lane.",
+      "answer": 0,
+      "explanation": "This sign indicates a bicycle-only lane.",
+      "img": "assets/images/exams/karimen/15/img_216.jpg",
+      "points": 2
+    },
+    {
+      "q": "On steep downhill slopes, vehicles must proceed slowly.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Motorized bicycles, light vehicles, and small special vehicles must travel in the leftmost lane unless turning right or due to road construction.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When an emergency vehicle approaches, there is no need to pull over to the left if traffic is light and the road is wide enough.",
+      "answer": 0,
+      "explanation": "Regardless of traffic or road width, vehicles must pull over to the left to yield.",
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for a motorcycle or motorized bicycle with a displacement of 125cc or less when towing another vehicle is 25 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This marking indicates a no-stopping zone, and vehicles or trams must not enter if they are likely to stop within it.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_221.jpg",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited on steep downhill slopes, but it is allowed near the top of uphill slopes.",
+      "answer": 0,
+      "explanation": "Overtaking is also prohibited near the top of uphill slopes.",
+      "points": 2
+    },
+    {
+      "q": "When traffic is heavy and there is a risk of being unable to exit a priority bus lane, vehicles must not use that lane.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving on snowy roads, it is best to avoid the tracks made by other vehicles as much as possible.",
+      "answer": 0,
+      "explanation": "It is safer to drive in the tracks made by other vehicles.",
+      "points": 2
+    },
+    {
+      "q": "On roads without sidewalks or shoulders, automobiles (except motorcycles) cannot travel on the shoulder.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the type of vehicle, in this case, large trucks, specific medium trucks, or large special vehicles.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_226.jpg",
+      "points": 2
+    },
+    {
+      "q": "Vehicles may travel on tram tracks if it is clear that no trams are passing.",
+      "answer": 0,
+      "explanation": "Travel on tram tracks is allowed only with a 'tram track passage permitted' sign.",
+      "points": 2
+    },
+    {
+      "q": "This is a directional supplementary sign indicating the direction of the route, facility, or place specified by the main sign.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_228.jpg",
+      "points": 2
+    },
+    {
+      "q": "The area between the outer edge of the roadway and the sidewalk is considered part of the roadway.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When turning right from a one-way road, you must first move to the left side of the road and signal.",
+      "answer": 0,
+      "explanation": "You must move to the right side of the road when turning right.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that animals may suddenly appear.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_231.jpg",
+      "points": 2
+    },
+    {
+      "q": "This marking indicates a bicycle crossing lane.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_232.jpg",
+      "points": 2
+    },
+    {
+      "q": "A flashing yellow signal allows vehicles to proceed slowly without stopping, while paying attention to other traffic.",
+      "answer": 0,
+      "explanation": "There is no obligation to stop or slow down at a flashing yellow signal.",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited at railway crossings and within 30 meters before them.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for ordinary trucks is 50 km/h.",
+      "answer": 0,
+      "explanation": "The legal speed limit for ordinary trucks is 60 km/h.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates that vehicles must not proceed in any direction other than the one indicated by the arrow.",
+      "answer": 0,
+      "explanation": "This sign indicates the direction-specific lanes at an intersection.",
+      "img": "assets/images/exams/karimen/15/img_236.jpg",
+      "points": 2
+    },
+    {
+      "q": "When stopping at a red light, vehicles are allowed to enter a no-stopping zone.",
+      "answer": 0,
+      "explanation": "Vehicles must avoid stopping in a no-stopping zone even at a red light.",
+      "points": 2
+    },
+    {
+      "q": "If mud or water splashes while passing through a muddy or wet area, the driver is not responsible if they were driving slowly.",
+      "answer": 0,
+      "explanation": "If splashing cannot be avoided by slowing down, the driver must stop temporarily.",
+      "points": 2
+    },
+    {
+      "q": "In case of a traffic violation or accident, the driver may face criminal, administrative, or civil liability.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Gross vehicle weight is the total weight of the vehicle, maximum load, and passenger capacity.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign is a guide sign indicating an emergency telephone on the highway.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_241.jpg",
+      "points": 2
+    },
+    {
+      "q": "If it is clear that no bicycles are crossing a bicycle crossing lane, overtaking is allowed in that lane.",
+      "answer": 0,
+      "explanation": "Overtaking is prohibited in bicycle crossing lanes regardless of bicycle presence.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates the maximum width, and vehicles exceeding the indicated width cannot pass.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_243.jpg",
+      "points": 2
+    },
+    {
+      "q": "A steep slope refers to a gradient of approximately 10% (6 degrees or more).",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Minicars with a displacement of 50cc or less are included in the category of motorized bicycles.",
+      "answer": 0,
+      "explanation": "Minicars, even with 50cc or less, are considered regular automobiles.",
+      "points": 2
+    },
+    {
+      "q": "This marking indicates a prohibition on bicycles entering an intersection, and regular bicycles must not cross the marking into the intersection.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/15/img_246.jpg",
+      "points": 2
+    },
+    {
+      "q": "With permission from the police chief, vehicles can travel slowly on pedestrian-only roads while being cautious of pedestrians.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Vehicles must not travel on tram tracks, but they may do so if necessary to prevent danger.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The load width of a motorized bicycle may protrude up to 0.15 meters on either side of the loading device.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

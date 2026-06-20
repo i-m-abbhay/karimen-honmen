@@ -1,0 +1,304 @@
+{
+  "id": "karimen-4",
+  "title": "Karimen Practice Test 4",
+  "type": "karimen",
+  "number": 4,
+  "source": "https://karimen-honmen.com/en/exam/karimen/4",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "Even when needed to avoid danger, a vehicle must slow down first before sounding the horn.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If a pedestrian is crossing at or near an intersection that has no pedestrian crossing, it is advisable for a vehicle to proceed and alert the pedestrian by sounding the horn.",
+      "answer": 0,
+      "explanation": "A vehicle must not sound the horn but must reduce speed or slow down so as not to hinder the progress of the crossing pedestrian.",
+      "points": 2
+    },
+    {
+      "q": "A lot of vehicles and people use roads, so even if one single driver or pedestrian travels as he or she likes, traffic may become confused and accidents may occur.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Persons who are traveling in wheelers for those with disablities, or walking with a guide dog or a white or yellow stick have a physical disablity. Vehicles must stop or slow down to allow these persons to pass safely.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The pavement marking shown in the figure designates a “no entry zone.”",
+      "answer": 0,
+      "explanation": "This pavement marking designates a “no stopping zone.”",
+      "img": "assets/images/exams/karimen/4/b107.gif",
+      "points": 2
+    },
+    {
+      "q": "If a driver is about to cut off a bicycle when passing one to execute a left turn, he or she may alert the cyclist by sounding the horn and then proceed.",
+      "answer": 0,
+      "explanation": "A driver must decelerate or stop the vehicle so as to give way to a bicycle and allow it to go first.",
+      "points": 2
+    },
+    {
+      "q": "A traffic sign as shown in the figure designates that general mopeds must execute a two-step right turn.",
+      "answer": 0,
+      "explanation": "This traffic sign designates a direct right turn for general mopeds. General mopeds must make a right turn in the same method as that of automobiles.",
+      "img": "assets/images/exams/karimen/4/a327-9.gif",
+      "points": 2
+    },
+    {
+      "q": "When a police officer at an intersection raises his or her arms straight up vertically after holding his or her arms horizontally in an east-west direction, traffic proceeding to the east or west must not, in principle, proceed beyond the designated stop position.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking is prohibited at a pedestrian crossing or within 30 meters before one.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Automobiles may cross sidewalks, side strips or bicycle paths to enter or leave roadside locations.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A traffic sign as shown in the figure designates that the road is closed to all traffic.",
+      "answer": 0,
+      "explanation": "This traffic sign indicates that the road is closed to vehicles, so pedestrians and remote control small-sized vehicles may proceed.",
+      "img": "assets/images/exams/karimen/4/A302.gif",
+      "points": 2
+    },
+    {
+      "q": "When there is an obstacle on one side of the road, a vehicle on the same side as the obstacle must stop or slow down before the obstacle and give way to a vehicle approaching the obstacle from the other direction.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When a traffic signal ahead is yellow, a vehicle may proceed while paying attention to other traffic.",
+      "answer": 0,
+      "explanation": "A vehicle must stop at the position to stop, but may proceed if the vehicle is not able to stop safely.",
+      "points": 2
+    },
+    {
+      "q": "When there is a streetcar stopped on the road, a vehicle may pass it if there are no passengers getting on or off the streetcar in a safety zone.",
+      "answer": 0,
+      "explanation": "A vehicle must slow down in a safety zone where a streetcar is stopped even when there are no passengers getting on or off in the zone.",
+      "points": 2
+    },
+    {
+      "q": "A driver must carry his or her driver’s license or Individual Number Card with driver's license information record (collectively referred to as driver's licenses) while driving. He or she, therefore, must not drive a vehicle on the grounds that they simply forgot to carry it.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When the red light of a traffic signal is flashing, a vehicle must stop at the designated stop position and proceed after ensuring safety.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "In the vehicular lanes shown in the figure, a vehicle traveling in lane A may change lanes into lane B, but a vehicle traveling in lane B must not change lanes into lane A.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/4/ev001.png",
+      "points": 2
+    },
+    {
+      "q": "When a driver is tired, it will take longer for him or her to respond to danger and make judgments. In that case, reaction distance becomes longer.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A traffic sign as shown in the figure indicates that there is an intersection ahead.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/4/A201-1-1.gif",
+      "points": 2
+    },
+    {
+      "q": "Even when a local bus stopped at a bus stop gives a signal to enter traffic, a vehicle may pass the bus by sounding the horn to alert the bus.",
+      "answer": 0,
+      "explanation": "A vehicle must decelerate or take similar action so as not to obstruct the progress of a local bus entering traffic.",
+      "points": 2
+    },
+    {
+      "q": "A vehicle must slow down along a steep downward and upward slope.",
+      "answer": 0,
+      "explanation": "A vehicle does not have to slow down along a steep upward slope.",
+      "points": 2
+    },
+    {
+      "q": "A traffic sign as shown in the figure designates “no U-turn.”",
+      "answer": 0,
+      "explanation": "This traffic sign designates “no vehicle crossing.”",
+      "img": "assets/images/exams/karimen/4/A312.gif",
+      "points": 2
+    },
+    {
+      "q": "When stopping before a pedestrian crossing or bicycle crossing, a vehicle must stop immediately before the thick white line (stop line), if there is one before the crossing.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When there is enough passing clearance on the left side of the vehicle ahead, a vehicle may overtake the vehicle ahead by passing on the left side.",
+      "answer": 0,
+      "explanation": "When overtaking, a vehicle, in principle, must pass on the right side of the vehicle overtaken.",
+      "points": 2
+    },
+    {
+      "q": "In the situation shown in the figure, vehicle B may proceed before vehicle A.",
+      "answer": 0,
+      "explanation": "Vehicle A has right of way on this road, so vehicle B must let vehicle A proceed first.",
+      "img": "assets/images/exams/karimen/4/C103-2.gif",
+      "points": 2
+    },
+    {
+      "q": "On a road with two lanes in each direction, regular motor vehicles must proceed in the right hand lane.",
+      "answer": 0,
+      "explanation": "Any type of vehicle, in principle, must proceed in the left-hand lane.",
+      "points": 2
+    },
+    {
+      "q": "After changing lanes, a driver must stop signaling about 3 seconds after the completion of the action.",
+      "answer": 0,
+      "explanation": "A driver must stop signaling as soon as he or she completes changing lanes.",
+      "points": 2
+    },
+    {
+      "q": "The pavement marking shown in the figure designates the end of a 50 km/h speed limit zone.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/4/B115-1.gif",
+      "points": 2
+    },
+    {
+      "q": "Where there is a traffic sign as shown in the figure, a vehicle other than local buses may proceed in that lane when traffic is light or if there are no local buses in the vicinity of the vehicle. (This does not apply to special light equipment, mopeds and light vehicles.)",
+      "answer": 0,
+      "explanation": "A vehicle other than local buses must not proceed in an exclusive lane unless proceeding in that lane is unavoidable due to road construction or when making a left turn.",
+      "img": "assets/images/exams/karimen/4/A327-4.gif",
+      "points": 2
+    },
+    {
+      "q": "One may not drive a vehicle wearing sandals with no back strap or high-heeled shoes.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A vehicle proceeding towards a signal as shown in the figure may proceed straight through and execute a left or right turn.",
+      "answer": 0,
+      "explanation": "Light vehicles or mopeds that use a two-step right turn method must not make a right turn.",
+      "img": "assets/images/exams/karimen/4/C001.gif",
+      "points": 2
+    },
+    {
+      "q": "When attempting to overtake, it is advisable for a driver to give a signal by turning on the direction indicator, and then checking safety to the rear.",
+      "answer": 0,
+      "explanation": "It is advisable for a driver to check safety to the rear first, and then give a signal.",
+      "points": 2
+    },
+    {
+      "q": "A traffic sign as shown in the figure indicates that there is a pedestrian crossing for students ahead.",
+      "answer": 0,
+      "explanation": "This traffic sign indicates that there are schools, kindergartens, or nursery schools close by.",
+      "img": "assets/images/exams/karimen/4/A208.gif",
+      "points": 2
+    },
+    {
+      "q": "At an intersection where there is a traffic sign as shown in the figure, a vehicle must not execute a right turn or proceed straight through the intersection.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/4/A311-2.gif",
+      "points": 2
+    },
+    {
+      "q": "The designated maximum speed limit for general mopeds is 30 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Where there is a traffic sign as shown in the figure, a vehicle must stop even when it is safe to the left and right.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/4/A330.gif",
+      "points": 2
+    },
+    {
+      "q": "A driver does not need to give a signal when reversing.",
+      "answer": 0,
+      "explanation": "A driver must activate the reversing lights or give a hand signal.",
+      "points": 2
+    },
+    {
+      "q": "There is a wheelbase differential when a vehicle executes a left or right turn.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When changing lanes on a road with light traffic, a driver must only give a signal and does not need to check for safety.",
+      "answer": 0,
+      "explanation": "A driver needs to ensure safety regardless of the volume of traffic.",
+      "points": 2
+    },
+    {
+      "q": "Overtaking a vehicle that is attempting to overtake a general moped is double overtaking.",
+      "answer": 0,
+      "explanation": "Overtaking a vehicle ahead that is attempting to overtake a general moped is not double overtaking.",
+      "points": 2
+    },
+    {
+      "q": "When executing a right turn on a one-way street, an automobile must initially approach the right edge of the road and slow down inside the center point of the intersection (following arrow markings, if there are any)(Except roundabout.).",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When tires wear down, the braking distance decreases because the ground contact area of tires becomes larger.",
+      "answer": 0,
+      "explanation": "Decreased tire tread depth reduces frictional force and increases breaking distance.",
+      "points": 2
+    },
+    {
+      "q": "The three traffic signals shown in the figures have the same meaning for traffic proceeding towards the front and back of these signals.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/4/C003-1.gif",
+      "points": 2
+    },
+    {
+      "q": "When it rains or a driver is tired, the driver must ensure a longer distance between vehicles because the stopping distance becomes longer.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A driver with a regular license may ride a general moped, but may not drive special light equipment.",
+      "answer": 0,
+      "explanation": "A driver with a regular license may also drive special light equipment.",
+      "points": 2
+    },
+    {
+      "q": "On a road where there are no vehicular lanes, automobiles must proceed on the left side of the road, unless moving further to the right is unavoidable, such as when overtaking or other similar situations.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A road where there are traffic signs as shown in the figure is closed to trucks with a maximum loading capacity of 2 tons or more and special heavy equipment.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/4/A305-4.gif",
+      "points": 2
+    },
+    {
+      "q": "Lap belts of a seatbelt should be tightly wrapped around a driver’s pelvis, because if wrapped around the abdomen, significant pressure that may be dangerous may be applied to the abdomen in the event of an accident.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "It is correct for a vehicle to proceed as indicated by the arrow in the figure when entering a gas station on the right side of the road.",
+      "answer": 0,
+      "explanation": "A vehicle must initially approach the center of the road before making a right turn.",
+      "img": "assets/images/exams/karimen/4/ev005.png",
+      "points": 2
+    },
+    {
+      "q": "Overtaking refers to changing lanes while proceeding and passing a vehicle traveling ahead, and is a complicated vehicle operation. It is preferable for a driver to attempt overtaking as little as possible.",
+      "answer": 1,
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Karimen Knowledge Hub — Fast Study & Quizzes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
+
+  <div id="ariaLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <div class="app">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar" id="sidebar">
+
+      <div class="sidebar-header">
+
+        <div class="logo">
+
+          <span class="logo-icon" id="logoIcon"></span>
+
+          <div>
+
+            <h1>Knowledge Hub</h1>
+
+            <p>Karimen & Honmen Prep</p>
+
+          </div>
+
+        </div>
+
+        <button class="icon-btn sidebar-close" id="sidebarClose" aria-label="Close menu"></button>
+
+      </div>
+
+
+
+      <div class="progress-overview">
+
+        <div class="progress-label">
+
+          <span>Overall Progress</span>
+
+          <span id="progressPercent">0%</span>
+
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-fill-studied" id="progressFillStudied"></div>
+          <div class="progress-fill-quiz" id="progressFillQuiz"></div>
+        </div>
+        <p class="progress-hint">Progress counts chapters studied and quizzes passed.</p>
+
+        <div class="progress-stats">
+
+          <span><span id="chaptersRead">0/21</span> studied</span>
+
+          <span><span id="quizzesPassed">0</span> passed</span>
+
+        </div>
+
+      </div>
+
+
+
+      <nav class="chapter-nav" id="chapterNav"></nav>
+
+
+
+      <div class="sidebar-actions">
+
+        <button class="btn btn-primary btn-block btn-with-icon sidebar-action-btn" id="btnExamList">
+
+          <span class="btn-icon" data-icon="clipboard-list"></span>
+
+          Practice Exams
+
+        </button>
+
+        <button class="btn btn-primary btn-block btn-with-icon sidebar-action-btn" id="btnSignsQuiz">
+
+          <span class="btn-icon" data-icon="traffic-cone"></span>
+
+          Signs Quiz
+
+        </button>
+
+        <div class="sidebar-actions-grid">
+
+          <button class="btn btn-secondary btn-block btn-with-icon sidebar-action-btn" id="btnFullQuiz">
+
+            <span class="btn-icon" data-icon="file-text"></span>
+
+            Quiz Mix
+
+          </button>
+
+          <button class="btn btn-secondary btn-block btn-with-icon sidebar-action-btn" id="btnQuickReview">
+
+            <span class="btn-icon" data-icon="zap"></span>
+
+            Review
+
+          </button>
+
+        </div>
+
+        <button class="btn btn-ghost btn-block btn-with-icon sidebar-action-btn sidebar-action-link" id="btnReportDiscrepancy">
+
+          <span class="btn-icon" data-icon="triangle-alert"></span>
+
+          Report issue
+
+        </button>
+
+        <div class="theme-toggle-wrap">
+          <button class="btn btn-ghost btn-block btn-with-icon theme-toggle-btn" id="btnThemeToggle" type="button">
+            <span class="btn-icon" data-icon="moon"></span>
+            Dark mode
+          </button>
+        </div>
+
+      </div>
+
+    </aside>
+
+
+
+    <!-- Main -->
+
+    <main class="main" id="mainContent">
+
+      <header class="topbar">
+
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu" data-icon="menu"></button>
+
+        <div class="topbar-title" id="topbarTitle" tabindex="-1">Dashboard</div>
+
+        <div class="mode-tabs">
+
+          <button class="mode-tab active btn-with-icon" data-mode="learn" aria-label="Learn mode">
+
+            <span class="btn-icon" data-icon="book-open"></span>
+
+            <span class="mode-tab-label">Learn</span>
+
+          </button>
+
+          <button class="mode-tab btn-with-icon" data-mode="quiz" aria-label="Quiz mode">
+
+            <span class="btn-icon" data-icon="help-circle"></span>
+
+            <span class="mode-tab-label">Quiz</span>
+
+          </button>
+
+        </div>
+
+      </header>
+
+
+
+      <!-- Dashboard -->
+
+      <section class="view active" id="viewDashboard">
+
+        <div class="onboarding-banner" id="onboardingBanner">
+          <div>
+            <strong>How to use this hub</strong>
+            <ol>
+              <li>Read chapters in order from the sidebar</li>
+              <li>Pass each chapter quiz (aim for 90%)</li>
+              <li>Take timed practice exams when ready</li>
+            </ol>
+          </div>
+          <button class="btn btn-ghost btn-sm onboarding-dismiss" id="btnDismissOnboarding" type="button">Dismiss</button>
+        </div>
+
+        <div class="continue-card hidden" id="continueCard">
+          <div>
+            <h3 id="continueTitle">Continue studying</h3>
+            <p id="continueMessage">Pick up where you left off.</p>
+          </div>
+          <button class="btn btn-primary" id="btnContinueStudy" type="button">Continue</button>
+        </div>
+
+        <div class="hero">
+
+          <h2>Master Japanese Driving Theory — Fast</h2>
+
+          <p>All 21 basic knowledge chapters in one place. Study each topic, then test yourself with chapter quizzes or a full practice exam.</p>
+
+          <div class="hero-actions">
+
+            <div class="hero-actions-primary">
+              <button class="btn btn-primary btn-lg" id="btnStartLearning">Start from Chapter 1</button>
+            </div>
+
+            <div class="hero-actions-secondary">
+              <button class="btn btn-outline btn-lg btn-with-icon" id="btnSignsQuizHero">
+                <span class="btn-icon" data-icon="traffic-cone"></span>
+                Signs Quiz
+              </button>
+              <button class="btn btn-outline btn-lg" id="btnExamListHero">Practice Exams</button>
+            </div>
+
+            <button class="btn btn-ghost btn-lg hero-more-toggle" id="btnHeroMore" type="button">More ways to practice</button>
+
+            <div class="hero-more-panel hidden" id="heroMorePanel">
+              <button class="btn btn-outline btn-lg" id="btnJumpQuiz">Chapter Quiz Mix</button>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="exam-library" id="examLibrary">
+
+          <div class="exam-library-header">
+
+            <h3 class="section-title-with-icon">
+
+              <span class="section-icon" data-icon="clipboard-list"></span>
+
+              Official-Style Practice Exams
+
+            </h3>
+
+            <button class="btn btn-ghost btn-sm" id="btnViewAllExams">View all →</button>
+
+          </div>
+
+          <div class="exam-library-grid" id="examLibraryGrid"></div>
+
+        </div>
+
+
+
+        <div class="dashboard-grid" id="dashboardGrid"></div>
+
+
+
+        <div class="exam-info">
+
+          <h3>Exam Quick Facts</h3>
+
+          <div class="exam-cards">
+
+            <div class="exam-card">
+
+              <h4>Karimen (仮免)</h4>
+
+              <p>50 true/false · 2 pts each · Pass: <strong>90/100</strong></p>
+
+            </div>
+
+            <div class="exam-card">
+
+              <h4>Honmen (本免)</h4>
+
+              <p>90 T/F + 5 situational · Pass: <strong>90/100</strong></p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- Learn View -->
+
+      <section class="view" id="viewLearn">
+
+        <div class="learn-header">
+
+          <button class="btn btn-ghost btn-with-icon" id="btnBackDashboard">
+
+            <span class="btn-icon" data-icon="arrow-left"></span>
+
+            All Chapters
+
+          </button>
+
+          <div class="learn-nav">
+
+            <button class="btn btn-ghost btn-with-icon" id="btnPrevChapter">
+
+              <span class="btn-icon" data-icon="arrow-left"></span>
+
+              Prev
+
+            </button>
+
+            <button class="btn btn-ghost btn-with-icon" id="btnNextChapter">
+
+              Next
+
+              <span class="btn-icon" data-icon="arrow-right"></span>
+
+            </button>
+
+          </div>
+
+        </div>
+
+        <article class="chapter-content" id="chapterContent"></article>
+
+        <div class="learn-footer">
+
+          <button class="btn btn-secondary btn-with-icon" id="btnMarkRead">
+
+            <span class="btn-icon" data-icon="check"></span>
+
+            Mark as Studied
+
+          </button>
+
+          <button class="btn btn-outline hidden btn-with-icon" id="btnSignsOnlyQuiz">
+
+            <span class="btn-icon" data-icon="traffic-cone"></span>
+
+            Signs Picture Quiz
+
+          </button>
+
+          <button class="btn btn-primary btn-with-icon" id="btnStartChapterQuiz">
+
+            Take Chapter Quiz
+
+            <span class="btn-icon" data-icon="arrow-right"></span>
+
+          </button>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- Quiz View -->
+
+      <section class="view" id="viewQuiz">
+
+        <div class="quiz-header">
+
+          <button class="btn btn-ghost btn-with-icon" id="btnQuizBack">
+
+            <span class="btn-icon" data-icon="arrow-left"></span>
+
+            Back
+
+          </button>
+
+          <div class="quiz-meta">
+
+            <span id="quizTitle">Quiz</span>
+
+            <span id="quizCounter">1 / 4</span>
+
+          </div>
+
+          <div class="quiz-score" id="quizScoreDisplay"></div>
+
+        </div>
+
+
+
+        <div class="quiz-body" id="quizBody">
+
+          <div class="quiz-question" id="quizQuestion"></div>
+
+          <div class="quiz-options" id="quizOptions"></div>
+
+          <div class="quiz-feedback hidden" id="quizFeedback"></div>
+
+          <button class="btn btn-primary btn-block quiz-next hidden btn-with-icon" id="btnQuizNext">
+
+            Next Question
+
+            <span class="btn-icon" data-icon="arrow-right"></span>
+
+          </button>
+
+        </div>
+
+
+
+        <div class="quiz-results hidden" id="quizResults">
+
+          <div class="results-icon" id="resultsIcon"></div>
+
+          <h2 id="resultsTitle">Quiz Complete!</h2>
+
+          <p class="results-score" id="resultsScore">4/4 correct</p>
+
+          <p id="resultsMessage"></p>
+
+          <div class="results-actions">
+
+            <button class="btn btn-secondary" id="btnRetryQuiz">Retry Quiz</button>
+
+            <button class="btn btn-primary" id="btnContinueLearning">Continue Learning</button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- Exam List -->
+
+      <section class="view" id="viewExamList">
+
+        <div class="exam-list-header">
+
+          <button class="btn btn-ghost btn-with-icon" id="btnExamListBack">
+
+            <span class="btn-icon" data-icon="arrow-left"></span>
+
+            Dashboard
+
+          </button>
+
+          <h2>Practice Exams</h2>
+
+          <p class="exam-list-intro">True/false exams from <a href="https://karimen-honmen.com" target="_blank" rel="noopener">karimen-honmen.com</a>. Use <kbd>0</kbd> for False and <kbd>1</kbd> for True; press <kbd>Enter</kbd> for next question.</p>
+
+          <div class="exam-filter-tabs">
+
+            <button class="exam-filter-tab active" data-filter="all">All</button>
+
+            <button class="exam-filter-tab" data-filter="karimen">Karimen (16)</button>
+
+            <button class="exam-filter-tab" data-filter="honmen">Honmen (16)</button>
+
+          </div>
+
+        </div>
+
+        <div class="exam-list-grid" id="examListGrid"></div>
+
+
+
+        <section class="exam-history-panel" id="examHistoryPanel">
+
+          <div class="exam-history-header">
+
+            <h3>Your exam history</h3>
+
+            <button class="btn btn-ghost btn-sm" id="btnClearExamHistory" type="button">Clear history</button>
+
+          </div>
+
+          <div class="exam-history-list" id="examHistoryList">
+
+            <p class="exam-history-empty">No exams completed yet. Scores are saved automatically on this device.</p>
+
+          </div>
+
+        </section>
+
+      </section>
+
+
+
+      <!-- Exam Runner -->
+
+      <section class="view" id="viewExamRun">
+
+        <div class="tf-exam-header">
+
+          <button class="btn btn-ghost btn-with-icon" id="btnExamRunBack">
+
+            <span class="btn-icon" data-icon="arrow-left"></span>
+
+            Exams
+
+          </button>
+
+          <div class="tf-exam-header-row">
+
+            <div class="tf-exam-meta">
+
+              <span id="tfExamTitle">Exam</span>
+
+              <span id="tfExamTimer">30:00</span>
+
+            </div>
+
+
+
+            <label class="tf-quick-feedback-toggle">
+
+              <input type="checkbox" id="quickFeedbackCheck" aria-label="Quick feedback">
+
+              <span class="toggle-switch" aria-hidden="true"></span>
+
+              Quick feedback
+
+            </label>
+
+
+
+            <button class="btn btn-primary" id="btnExamSubmit">Score</button>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="tf-exam-body" id="tfExamBody">
+
+          <div class="exam-nav-container" id="examNavContainer">
+
+            <div class="exam-nav-sheet-header">
+
+              <h4>All questions</h4>
+
+              <button class="icon-btn" id="btnCloseExamNav" type="button" aria-label="Close question list"></button>
+
+            </div>
+
+            <div class="tf-question-nav" id="tfQuestionNav"></div>
+
+          </div>
+
+          <div class="tf-question-panel">
+
+            <div class="tf-question-counter" id="tfQuestionCounter">Question 1 / 50</div>
+
+            <div class="tf-question-text" id="tfQuestionText"></div>
+
+            <div class="tf-question-image hidden" id="tfQuestionImage"></div>
+
+            <div class="tf-answer-row">
+
+              <button class="tf-answer-btn tf-true" data-answer="1" id="btnTfTrue" type="button">
+
+                <span class="tf-symbol">○</span>
+
+                <span>True</span>
+
+                <kbd>1</kbd>
+
+              </button>
+
+              <button class="tf-answer-btn tf-false" data-answer="0" id="btnTfFalse" type="button">
+
+                <span class="tf-symbol">×</span>
+
+                <span>False</span>
+
+                <kbd>0</kbd>
+
+              </button>
+
+            </div>
+
+            <button class="btn btn-primary btn-block tf-next-btn" id="btnTfNext" type="button" disabled>Next question</button>
+
+            <p class="tf-keyboard-hint">Press <kbd>0</kbd> False · <kbd>1</kbd> True · <kbd>Enter</kbd> next question</p>
+
+
+
+            <div class="tf-quick-feedback hidden" id="tfQuickFeedback"></div>
+
+          </div>
+
+        </div>
+
+
+
+        <button class="tf-nav-fab" id="btnExamNavFab" type="button" aria-label="Open question list" aria-expanded="false">
+
+          <span class="tf-nav-fab-label" id="tfNavFabLabel">Q 1 / 50</span>
+
+        </button>
+
+        <div class="exam-nav-sheet-overlay" id="examNavSheetOverlay" aria-hidden="true"></div>
+
+
+
+        <div class="tf-exam-results hidden" id="tfExamResults">
+
+          <div class="results-icon" id="tfResultsIcon"></div>
+
+          <h2 id="tfResultsTitle">Exam Complete</h2>
+
+          <p class="results-score" id="tfResultsScore">90 / 100</p>
+
+          <p id="tfResultsMessage"></p>
+
+          <div class="tf-review-list" id="tfReviewList"></div>
+
+          <div class="results-actions">
+
+            <button class="btn btn-secondary" id="btnExamRetry">Try Again</button>
+
+            <button class="btn btn-primary" id="btnExamDone">Back to Exams</button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- Quick Review -->
+
+      <section class="view" id="viewReview">
+
+        <div class="review-header">
+
+          <button class="btn btn-ghost btn-with-icon" id="btnReviewBack">
+
+            <span class="btn-icon" data-icon="arrow-left"></span>
+
+            Back
+
+          </button>
+
+          <h2 class="section-title-with-icon">
+
+            <span class="section-icon" data-icon="zap"></span>
+
+            Quick Review
+
+          </h2>
+
+          <span id="reviewCounter">1 / 21</span>
+
+        </div>
+
+        <button type="button" class="flashcard-btn" id="flashcard" aria-pressed="false" aria-label="Flashcard — click to reveal key facts">
+
+          <div class="flashcard-inner" id="flashcardInner">
+
+            <div class="flashcard-front">
+
+              <span class="flashcard-icon" id="reviewIcon"></span>
+
+              <h3 id="reviewTitle">Chapter Title</h3>
+
+              <p id="reviewSummary">Summary text</p>
+
+              <span class="flashcard-hint">Click to reveal key facts</span>
+
+            </div>
+
+            <div class="flashcard-back" id="reviewBack"></div>
+
+          </div>
+
+        </button>
+
+        <div class="review-nav">
+
+          <button class="btn btn-ghost btn-with-icon" id="btnReviewPrev">
+
+            <span class="btn-icon" data-icon="arrow-left"></span>
+
+            Previous
+
+          </button>
+
+          <button class="btn btn-primary btn-with-icon" id="btnReviewNext">
+
+            Next
+
+            <span class="btn-icon" data-icon="arrow-right"></span>
+
+          </button>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- Report Discrepancy -->
+
+      <section class="view" id="viewFeedback">
+
+        <div class="feedback-header">
+
+          <button class="btn btn-ghost btn-with-icon" id="btnFeedbackBack">
+
+            <span class="btn-icon" data-icon="arrow-left"></span>
+
+            Dashboard
+
+          </button>
+
+          <h2 class="section-title-with-icon">
+
+            <span class="section-icon" data-icon="triangle-alert"></span>
+
+            Report a Discrepancy
+
+          </h2>
+
+        </div>
+
+
+
+        <div class="feedback-page">
+
+          <p class="feedback-intro">Spotted a mistake in study material, a quiz answer, a practice exam, or a traffic sign? Tell me what you found and I will look into it.</p>
+
+
+
+          <div class="feedback-grid">
+
+            <div class="feedback-card">
+
+              <h3>Send a message</h3>
+
+              <p class="feedback-card-note">Fill in the details below. Gmail will open in your browser with everything pre-filled.</p>
+
+              <form class="feedback-form" id="feedbackForm">
+
+                <label class="feedback-field">
+
+                  <span>What kind of issue?</span>
+
+                  <select id="feedbackCategory" required>
+
+                    <option value="">Choose a category…</option>
+
+                    <option value="Study chapter">Study chapter content</option>
+
+                    <option value="Chapter quiz">Chapter quiz</option>
+
+                    <option value="Practice exam">Practice exam</option>
+
+                    <option value="Traffic sign or image">Traffic sign or image</option>
+
+                    <option value="Other">Other</option>
+
+                  </select>
+
+                </label>
+
+
+
+                <label class="feedback-field">
+
+                  <span>Where did you see it? <em>(optional)</em></span>
+
+                  <input type="text" id="feedbackLocation" placeholder="e.g. Chapter 5, Karimen Exam 15 Q23">
+
+                </label>
+
+
+
+                <label class="feedback-field">
+
+                  <span>Describe the discrepancy</span>
+
+                  <textarea id="feedbackMessage" rows="6" required placeholder="What is wrong? What should it say instead?"></textarea>
+
+                </label>
+
+
+
+                <div class="feedback-actions-row">
+                  <button type="submit" class="btn btn-primary btn-with-icon">
+                    <span class="btn-icon" data-icon="send"></span>
+                    Compose in Gmail
+                  </button>
+                  <button type="button" class="btn btn-secondary" id="btnCopyFeedback">Copy message</button>
+                  <button type="button" class="btn btn-outline hidden" id="btnShareFeedback">Share</button>
+                </div>
+
+                <div class="feedback-copy-block hidden" id="feedbackCopyBlock">
+                  <p id="feedbackCopyPreview"></p>
+                  <button type="button" class="btn btn-ghost btn-sm" id="btnCopyEmail">Copy email address</button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+
+            <div class="feedback-card feedback-contact">
+
+              <h3>Contact me directly</h3>
+
+              <p class="feedback-card-note">Prefer to reach out on your own? Use email or LinkedIn.</p>
+
+
+
+              <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=abhay.tiwari.er@gmail.com&su=Karimen%20Knowledge%20Hub%20discrepancy" target="_blank" rel="noopener noreferrer">
+
+                <span class="contact-link-icon" data-icon="mail"></span>
+
+                <span>
+
+                  <strong>Email</strong>
+
+                  <span>abhay.tiwari.er@gmail.com</span>
+
+                </span>
+
+              </a>
+
+
+
+              <a class="contact-link" href="https://www.linkedin.com/in/imabbhay/" target="_blank" rel="noopener noreferrer">
+
+                <span class="contact-link-icon" data-icon="external-link"></span>
+
+                <span>
+
+                  <strong>LinkedIn</strong>
+
+                  <span>linkedin.com/in/imabbhay</span>
+
+                </span>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+
+
+  <div class="overlay" id="overlay"></div>
+
+  <div class="exam-loading-overlay hidden" id="examLoadingOverlay">Loading exam…</div>
+
+  <div class="modal-overlay hidden" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <h3 id="modalTitle"></h3>
+      <p id="modalBody"></p>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="modalCancel" type="button">Cancel</button>
+        <button class="btn btn-primary" id="modalConfirm" type="button">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="icons.js"></script>
+
+  <script src="data.js"></script>
+
+  <script src="signs-content.js"></script>
+
+  <script src="exams-catalog.js"></script>
+
+  <script src="exam-storage.js"></script>
+
+  <script src="app.js"></script>
+
+  <script src="exam.js"></script>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,294 @@
+{
+  "id": "karimen-8",
+  "title": "Karimen Practice Test 8",
+  "type": "karimen",
+  "number": 8,
+  "source": "https://karimen-honmen.com/en/exam/karimen/8",
+  "passScore": 90,
+  "maxScore": 100,
+  "pointsPerQuestion": 2,
+  "timeLimitMinutes": 30,
+  "questionCount": 50,
+  "questions": [
+    {
+      "q": "This sign is a warning sign indicating uneven road surfaces.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/8/img_351.jpg",
+      "points": 2
+    },
+    {
+      "q": "Trams are not considered automobiles.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The maximum load capacity of an ordinary vehicle is 500 kg.",
+      "answer": 0,
+      "explanation": "The maximum load capacity is specified in the vehicle registration document.",
+      "points": 2
+    },
+    {
+      "q": "An ordinary license allows driving a vehicle with a capacity of 11 passengers.",
+      "answer": 0,
+      "explanation": "A medium license is required for vehicles with 11 or more passengers.",
+      "points": 2
+    },
+    {
+      "q": "The maximum speed on a vehicle-only road without a specified speed limit is 100 km/h.",
+      "answer": 0,
+      "explanation": "The maximum speed is 60 km/h.",
+      "points": 2
+    },
+    {
+      "q": "During a medium license suspension period, you can still drive a motorized bicycle.",
+      "answer": 0,
+      "explanation": "Driving any vehicle, including motorized bicycles, is prohibited during a license suspension.",
+      "points": 2
+    },
+    {
+      "q": "Driving with a heavy load increases braking distance.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Wearing a seatbelt is mandatory when reversing a vehicle.",
+      "answer": 0,
+      "explanation": "Seatbelt use is exempted when reversing.",
+      "points": 2
+    },
+    {
+      "q": "A medium license is required to drive a vehicle with a maximum load capacity of 4 tons.",
+      "answer": 0,
+      "explanation": "A non-restricted quasi-medium license is also sufficient.",
+      "points": 2
+    },
+    {
+      "q": "The brakes of a motorcycle have interconnected front and rear brakes.",
+      "answer": 0,
+      "explanation": "The front and rear brakes operate independently.",
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a bicycle crossing lane.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/8/img_361.jpg",
+      "points": 2
+    },
+    {
+      "q": "Driving with an expired license is considered unlicensed driving.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "If cargo falls onto a highway, you should request its removal via an emergency telephone.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The minimum speed for large motorcycles on the main lanes of expressways is 30 km/h.",
+      "answer": 0,
+      "explanation": "The minimum speed is 50 km/h.",
+      "points": 2
+    },
+    {
+      "q": "Stopping to wait for cargo or for passengers to board or alight is considered parking.",
+      "answer": 0,
+      "explanation": "Stopping to wait for cargo is parking, but stopping for passengers is considered stopping, not parking.",
+      "points": 2
+    },
+    {
+      "q": "In a no-overtaking zone, overtaking a motorized bicycle with an automobile is also prohibited.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "On slippery roads, it is preferable to brake intermittently to reduce speed.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When starting an automatic vehicle, shift the gear lever to 'D' without pressing the brake pedal.",
+      "answer": 0,
+      "explanation": "The brake pedal must be firmly pressed when shifting to 'D'.",
+      "points": 2
+    },
+    {
+      "q": "When driving, wearing sandals or high heels is prohibited as they may interfere with driving.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The maximum speed for large special vehicles on general roads is 60 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "This sign indicates a horn-use zone, where vehicles and trams must sound their horns.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/8/img_371.jpg",
+      "points": 2
+    },
+    {
+      "q": "When driving at night on busy roads, it is advisable to switch headlights to low beam.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Overtaking a vehicle that is overtaking a motorized bicycle or light vehicle does not constitute double overtaking.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "As speed increases, stopping distance lengthens, but braking distance shortens.",
+      "answer": 0,
+      "explanation": "Both stopping and braking distances increase with speed.",
+      "points": 2
+    },
+    {
+      "q": "Police motorcycles are not considered emergency vehicles.",
+      "answer": 0,
+      "explanation": "Police motorcycles are included as emergency vehicles.",
+      "points": 2
+    },
+    {
+      "q": "Trams must proceed slowly at locations with this sign.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/8/img_376.jpg",
+      "points": 2
+    },
+    {
+      "q": "Carts or rickshaws are considered automobiles.",
+      "answer": 0,
+      "explanation": "Carts and rickshaws are classified as light vehicles, not automobiles.",
+      "points": 2
+    },
+    {
+      "q": "When calculating passenger capacity, three children under 12 years old are counted as two adults.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "The legal speed limit for ordinary motorcycles or motorized bicycles of 125cc or less when towing another vehicle is 25 km/h.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A steep slope refers to a gradient of approximately 10% (about 6 degrees) or more.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A priority road is one with this sign or a road with a lane or center line extending into an intersection.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/8/img_381.jpg",
+      "points": 2
+    },
+    {
+      "q": "Overtaking is allowed near road curves if visibility is clear.",
+      "answer": 0,
+      "explanation": "Overtaking is prohibited near curves regardless of visibility.",
+      "points": 2
+    },
+    {
+      "q": "If the vehicle ahead is overtaking a motorized bicycle, overtaking that vehicle does not constitute double overtaking.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "A U-turn refers to reversing a vehicle.",
+      "answer": 0,
+      "explanation": "A U-turn refers to turning the vehicle around to go in the opposite direction.",
+      "points": 2
+    },
+    {
+      "q": "You must be at least 20 years old and have held a motorcycle license for at least 3 years to carry a passenger on a motorcycle on general roads.",
+      "answer": 0,
+      "explanation": "The requirement is 1 year for general roads; 3 years applies to highways.",
+      "points": 2
+    },
+    {
+      "q": "This sign prohibits vehicles from crossing to the right but allows crossing to the left side of the road.",
+      "answer": 1,
+      "img": "assets/images/exams/karimen/8/img_386.jpg",
+      "points": 2
+    },
+    {
+      "q": "If a tire punctures while driving, hold the steering wheel firmly, correct the vehicle’s direction, shift to a low gear to reduce speed, and brake intermittently.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "Using the horn for greetings is prohibited.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving in fog, use high-beam headlights and follow the center line or the tail lights of the vehicle ahead.",
+      "answer": 0,
+      "explanation": "Low-beam headlights should be used to prevent glare from reflection.",
+      "points": 2
+    },
+    {
+      "q": "When starting an automatic vehicle, the gear lever should be in 'N' or 'P'.",
+      "answer": 0,
+      "explanation": "The gear lever must be in 'P' when starting.",
+      "points": 2
+    },
+    {
+      "q": "In an automatic vehicle, if the gear lever is not in 'P' or 'N', the vehicle may move slowly even without pressing the accelerator, a phenomenon called creep.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When a vehicle’s speed doubles, the centrifugal force also doubles.",
+      "answer": 0,
+      "explanation": "Centrifugal force is proportional to the square of the speed, so it increases fourfold.",
+      "points": 2
+    },
+    {
+      "q": "Tire pressure for highway driving should be slightly lower.",
+      "answer": 0,
+      "explanation": "Tire pressure should be slightly higher for highway driving.",
+      "points": 2
+    },
+    {
+      "q": "If cargo falls onto the main lane of a highway, stop the vehicle and remove the cargo yourself immediately.",
+      "answer": 0,
+      "explanation": "Use an emergency telephone to request cargo removal.",
+      "points": 2
+    },
+    {
+      "q": "In principle, parking is prohibited if there is less than 3.5 meters of clearance on the right side of the road.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When the road is wet, the reaction distance increases.",
+      "answer": 0,
+      "explanation": "The braking distance increases on wet roads, not the reaction distance.",
+      "points": 2
+    },
+    {
+      "q": "At a railway crossing with a signal, stopping or checking for safety is not necessary.",
+      "answer": 0,
+      "explanation": "Safety checks are still required even with a signal.",
+      "points": 2
+    },
+    {
+      "q": "When passing on a narrow slope, the downhill vehicle must stop temporarily to yield to the uphill vehicle.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When passing on a slope with a passing bay, the vehicle on the side with the passing bay must yield, regardless of whether it is going uphill or downhill.",
+      "answer": 1,
+      "points": 2
+    },
+    {
+      "q": "When driving at night, keep your gaze as close as possible to monitor road conditions.",
+      "answer": 0,
+      "explanation": "Look as far ahead as possible to detect obstacles early.",
+      "points": 2
+    }
+  ]
+}
