@@ -1,4 +1,5 @@
 // ===== Image-Based and Situation-Based Test Module =====
+// Version 2.0 - MCQ format for situations
 
 const specialTestState = {
   type: null, // 'image' | 'situation'
@@ -52,9 +53,15 @@ async function getAllImageQuestions() {
 
 // Get situation questions from dedicated data file
 function getSituationQuestions() {
-  if (typeof SITUATION_QUESTIONS !== 'undefined') {
-    return SITUATION_QUESTIONS;
+  if (typeof SITUATION_QUESTIONS !== 'undefined' && Array.isArray(SITUATION_QUESTIONS)) {
+    // Validate that questions have the correct structure
+    const valid = SITUATION_QUESTIONS.filter(q => 
+      q.scenario && Array.isArray(q.statements) && q.statements.length > 0
+    );
+    console.log('Loaded', valid.length, 'situation questions');
+    return valid;
   }
+  console.warn('SITUATION_QUESTIONS not loaded or invalid');
   return [];
 }
 
@@ -100,13 +107,24 @@ async function startImageTest() {
 }
 
 async function startSituationTest() {
+  console.log('Starting Situation Test...');
   const overlay = specialTest$('#examLoadingOverlay');
   if (overlay) overlay.classList.remove('hidden');
   
   try {
     const allQuestions = getSituationQuestions();
+    console.log('Got', allQuestions.length, 'situation questions');
+    
     if (!allQuestions.length) {
-      alert('No situation-based questions available. Please try again later.');
+      alert('No situation-based questions available. Please make sure situation-data.js is loaded.');
+      if (overlay) overlay.classList.add('hidden');
+      return;
+    }
+    
+    // Verify first question has correct structure
+    if (!allQuestions[0].scenario || !allQuestions[0].statements) {
+      alert('Situation questions have incorrect format. Please refresh the page.');
+      if (overlay) overlay.classList.add('hidden');
       return;
     }
     
@@ -120,6 +138,8 @@ async function startSituationTest() {
     specialTestState.score = 0;
     specialTestState.submitted = false;
     specialTestState.questionAnswered = false;
+    
+    console.log('State type set to:', specialTestState.type);
     
     specialTest$('#specialTestTitle').textContent = 'Situation-Based Test';
     specialTest$('#specialTestSubtitle').textContent = 'Select ALL correct statements for each scenario';
@@ -157,9 +177,18 @@ function renderImageTest() {
   specialTest$('#specialTestCounter').textContent = `Question ${specialTestState.index + 1} / ${total}`;
   specialTest$('#specialTestScore').textContent = `Score: ${specialTestState.score}`;
   
-  // Show T/F controls, hide MCQ controls
-  specialTest$('#imageTestControls').classList.remove('hidden');
-  specialTest$('#situationTestControls').classList.add('hidden');
+  // IMPORTANT: Show T/F controls, hide MCQ controls
+  const imageControls = specialTest$('#imageTestControls');
+  const sitControls = specialTest$('#situationTestControls');
+  
+  if (imageControls) {
+    imageControls.style.display = 'block';
+    imageControls.classList.remove('hidden');
+  }
+  if (sitControls) {
+    sitControls.style.display = 'none';
+    sitControls.classList.add('hidden');
+  }
   
   // Render question
   const questionEl = specialTest$('#specialTestQuestion');
@@ -221,12 +250,25 @@ function renderSituationTest() {
   const total = specialTestState.questions.length;
   const selected = specialTestState.answers[specialTestState.index] || [];
   
+  // Validate question has correct structure
+  if (!q.scenario || !q.statements) {
+    console.error('Invalid situation question format:', q);
+    return;
+  }
+  
   specialTest$('#specialTestCounter').textContent = `Scenario ${specialTestState.index + 1} / ${total}`;
   specialTest$('#specialTestScore').textContent = `Score: ${specialTestState.score}`;
   
-  // Hide T/F controls, show MCQ controls
-  specialTest$('#imageTestControls').classList.add('hidden');
-  specialTest$('#situationTestControls').classList.remove('hidden');
+  // IMPORTANT: Hide T/F controls, show MCQ controls
+  const imageControls = specialTest$('#imageTestControls');
+  const sitControls = specialTest$('#situationTestControls');
+  
+  if (imageControls) imageControls.style.display = 'none';
+  if (sitControls) sitControls.style.display = 'block';
+  
+  // Also use classList as backup
+  if (imageControls) imageControls.classList.add('hidden');
+  if (sitControls) sitControls.classList.remove('hidden');
   
   // Render scenario
   const questionEl = specialTest$('#specialTestQuestion');
