@@ -2657,6 +2657,7 @@ body {
   text-align: center;
   font-size: 0.8rem;
   color: var(--text-muted);
+  margin-top: 0.75rem;
 }
 
 .special-keyboard-hint kbd {
@@ -2665,6 +2666,138 @@ body {
   background: var(--surface);
   border-radius: 4px;
 }
+
+/* Situation Test Specific Styles */
+.situation-instruction {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.situation-img {
+  max-height: 350px;
+}
+
+.situation-statements {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.situation-statement {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.situation-statement:hover:not([class*="correct"]):not([class*="incorrect"]):not([class*="missed"]) {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+.situation-statement input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+  accent-color: var(--primary);
+}
+
+.situation-statement.selected {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+.situation-statement.correct {
+  border-color: var(--success);
+  background: var(--success-light);
+}
+
+.situation-statement.incorrect {
+  border-color: var(--accent);
+  background: var(--accent-light);
+}
+
+.situation-statement.missed {
+  border-color: var(--warning);
+  background: var(--warning-light);
+}
+
+.statement-text {
+  flex: 1;
+  line-height: 1.5;
+}
+
+.statement-result {
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.situation-statement.correct .statement-result { color: var(--success); }
+.situation-statement.incorrect .statement-result { color: var(--accent); }
+.situation-statement.missed .statement-result { color: var(--warning); }
+
+/* Review Statements */
+.review-statements {
+  margin: 1rem 0;
+}
+
+.review-statement {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.review-statement.correct {
+  background: var(--success-light);
+  border-left: 3px solid var(--success);
+}
+
+.review-statement.incorrect {
+  background: var(--accent-light);
+  border-left: 3px solid var(--accent);
+}
+
+.review-statement.missed {
+  background: var(--warning-light);
+  border-left: 3px solid var(--warning);
+}
+
+.review-statement.neutral {
+  background: var(--bg);
+  border-left: 3px solid var(--border);
+}
+
+.review-statement-check {
+  font-size: 1rem;
+  min-width: 1.25rem;
+}
+
+.review-statement-text {
+  flex: 1;
+}
+
+.review-statement-status {
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.review-statement.correct .review-statement-status { color: var(--success); }
+.review-statement.incorrect .review-statement-status { color: var(--accent); }
+.review-statement.missed .review-statement-status { color: var(--warning); }
 
 /* Special Test Results */
 .special-test-results {

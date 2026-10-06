@@ -687,23 +687,33 @@
             <div class="special-test-image" id="specialTestImage"></div>
             <div class="special-test-question" id="specialTestQuestion"></div>
             
-            <div class="special-answer-row">
-              <button class="special-answer-btn special-true" id="btnSpecialTrue" type="button">
-                <span class="special-symbol">○</span>
-                <span>True</span>
-                <kbd>1</kbd>
-              </button>
-              <button class="special-answer-btn special-false" id="btnSpecialFalse" type="button">
-                <span class="special-symbol">×</span>
-                <span>False</span>
-                <kbd>0</kbd>
-              </button>
+            <!-- Image Test: True/False Controls -->
+            <div id="imageTestControls">
+              <div class="special-answer-row">
+                <button class="special-answer-btn special-true" id="btnSpecialTrue" type="button">
+                  <span class="special-symbol">○</span>
+                  <span>True</span>
+                  <kbd>1</kbd>
+                </button>
+                <button class="special-answer-btn special-false" id="btnSpecialFalse" type="button">
+                  <span class="special-symbol">×</span>
+                  <span>False</span>
+                  <kbd>0</kbd>
+                </button>
+              </div>
+              <p class="special-keyboard-hint">Press <kbd>0</kbd> False · <kbd>1</kbd> True · <kbd>Enter</kbd> next</p>
+            </div>
+            
+            <!-- Situation Test: MCQ Controls -->
+            <div id="situationTestControls" class="hidden">
+              <div class="situation-statements" id="situationStatements"></div>
+              <button class="btn btn-primary btn-block" id="btnSituationSubmit" type="button">Check My Answers</button>
+              <p class="special-keyboard-hint">Select all TRUE statements, then press <kbd>Enter</kbd> to check</p>
             </div>
             
             <div class="special-test-feedback hidden" id="specialTestFeedback"></div>
             
             <button class="btn btn-primary btn-block special-next-btn" id="btnSpecialNext" type="button" disabled>Next Question</button>
-            <p class="special-keyboard-hint">Press <kbd>0</kbd> False · <kbd>1</kbd> True · <kbd>Enter</kbd> next question</p>
           </div>
         </div>
 
@@ -980,6 +990,8 @@
   <script src="app.js"></script>
 
   <script src="exam.js"></script>
+
+  <script src="situation-data.js"></script>
 
   <script src="special-tests.js"></script>
 

@@ -4,9 +4,10 @@ const specialTestState = {
   type: null, // 'image' | 'situation'
   questions: [],
   index: 0,
-  answers: [],
+  answers: [], // For image: single answer; For situation: array of selected indices
   score: 0,
-  submitted: false
+  submitted: false,
+  questionAnswered: false
 };
 
 function specialTest$(sel) { return document.querySelector(sel); }
@@ -49,42 +50,12 @@ async function getAllImageQuestions() {
   return imageQuestions;
 }
 
-// Extract all situation-based questions from loaded exams
-async function getAllSituationQuestions() {
-  const situationQuestions = [];
-  
-  if (typeof EXAM_CATALOG === 'undefined') return situationQuestions;
-  
-  for (const entry of EXAM_CATALOG) {
-    try {
-      let exam;
-      if (typeof examCache !== 'undefined' && examCache[entry.id]) {
-        exam = examCache[entry.id];
-      } else {
-        const resp = await fetch(entry.file);
-        if (resp.ok) {
-          exam = await resp.json();
-        }
-      }
-      
-      if (exam && exam.questions) {
-        exam.questions.forEach((q, idx) => {
-          if (q.img && q.q.includes("What kinds of things should you be careful of")) {
-            situationQuestions.push({
-              ...q,
-              examId: entry.id,
-              examTitle: entry.title,
-              originalIndex: idx
-            });
-          }
-        });
-      }
-    } catch (e) {
-      console.warn(`Could not load exam ${entry.id}:`, e);
-    }
+// Get situation questions from dedicated data file
+function getSituationQuestions() {
+  if (typeof SITUATION_QUESTIONS !== 'undefined') {
+    return SITUATION_QUESTIONS;
   }
-  
-  return situationQuestions;
+  return [];
 }
 
 function shuffleArray(arr) {
@@ -133,24 +104,25 @@ async function startSituationTest() {
   if (overlay) overlay.classList.remove('hidden');
   
   try {
-    const allQuestions = await getAllSituationQuestions();
+    const allQuestions = getSituationQuestions();
     if (!allQuestions.length) {
       alert('No situation-based questions available. Please try again later.');
       return;
     }
     
-    // Use all situation questions (usually around 16-20)
+    // Shuffle and use all situation questions
     const selected = shuffleArray(allQuestions);
     
     specialTestState.type = 'situation';
     specialTestState.questions = selected;
     specialTestState.index = 0;
-    specialTestState.answers = Array(selected.length).fill(null);
+    specialTestState.answers = selected.map(() => []); // Array of arrays for multiple selections
     specialTestState.score = 0;
     specialTestState.submitted = false;
+    specialTestState.questionAnswered = false;
     
     specialTest$('#specialTestTitle').textContent = 'Situation-Based Test';
-    specialTest$('#specialTestSubtitle').textContent = 'Real driving scenarios - What should you be careful of?';
+    specialTest$('#specialTestSubtitle').textContent = 'Select ALL correct statements for each scenario';
     specialTest$('#topbarTitle').textContent = 'Situation Test';
     
     renderSpecialTest();
@@ -168,12 +140,26 @@ function showSpecialTestView() {
 }
 
 function renderSpecialTest() {
+  if (specialTestState.type === 'situation') {
+    renderSituationTest();
+  } else {
+    renderImageTest();
+  }
+  renderSpecialTestNav();
+  updateSpecialTestNextBtn();
+}
+
+function renderImageTest() {
   const q = specialTestState.questions[specialTestState.index];
   const total = specialTestState.questions.length;
   const selected = specialTestState.answers[specialTestState.index];
   
   specialTest$('#specialTestCounter').textContent = `Question ${specialTestState.index + 1} / ${total}`;
   specialTest$('#specialTestScore').textContent = `Score: ${specialTestState.score}`;
+  
+  // Show T/F controls, hide MCQ controls
+  specialTest$('#imageTestControls').classList.remove('hidden');
+  specialTest$('#situationTestControls').classList.add('hidden');
   
   // Render question
   const questionEl = specialTest$('#specialTestQuestion');
@@ -228,10 +214,94 @@ function renderSpecialTest() {
   } else {
     feedbackEl.classList.add('hidden');
   }
+}
+
+function renderSituationTest() {
+  const q = specialTestState.questions[specialTestState.index];
+  const total = specialTestState.questions.length;
+  const selected = specialTestState.answers[specialTestState.index] || [];
   
-  // Update navigation
-  renderSpecialTestNav();
-  updateSpecialTestNextBtn();
+  specialTest$('#specialTestCounter').textContent = `Scenario ${specialTestState.index + 1} / ${total}`;
+  specialTest$('#specialTestScore').textContent = `Score: ${specialTestState.score}`;
+  
+  // Hide T/F controls, show MCQ controls
+  specialTest$('#imageTestControls').classList.add('hidden');
+  specialTest$('#situationTestControls').classList.remove('hidden');
+  
+  // Render scenario
+  const questionEl = specialTest$('#specialTestQuestion');
+  questionEl.innerHTML = `<strong>${q.scenario}</strong><p class="situation-instruction">Select ALL statements that are TRUE:</p>`;
+  
+  // Render image
+  const imgEl = specialTest$('#specialTestImage');
+  if (q.img) {
+    imgEl.innerHTML = `<img src="${q.img}" alt="Driving scenario" class="special-test-img situation-img">`;
+    imgEl.classList.remove('hidden');
+  } else {
+    imgEl.classList.add('hidden');
+  }
+  
+  // Render statement checkboxes
+  const statementsEl = specialTest$('#situationStatements');
+  const isAnswered = specialTestState.questionAnswered;
+  
+  statementsEl.innerHTML = q.statements.map((stmt, idx) => {
+    const isSelected = selected.includes(idx);
+    const showResult = isAnswered;
+    let classes = 'situation-statement';
+    if (isSelected) classes += ' selected';
+    if (showResult) {
+      if (stmt.correct && isSelected) classes += ' correct';
+      else if (stmt.correct && !isSelected) classes += ' missed';
+      else if (!stmt.correct && isSelected) classes += ' incorrect';
+    }
+    
+    return `
+      <label class="${classes}" data-index="${idx}">
+        <input type="checkbox" ${isSelected ? 'checked' : ''} ${isAnswered ? 'disabled' : ''}>
+        <span class="statement-text">${stmt.text}</span>
+        ${showResult ? `<span class="statement-result">${stmt.correct ? '✓ Correct' : '✗ Incorrect'}</span>` : ''}
+      </label>
+    `;
+  }).join('');
+  
+  // Add event listeners for checkboxes
+  if (!isAnswered) {
+    statementsEl.querySelectorAll('input[type="checkbox"]').forEach((cb, idx) => {
+      cb.addEventListener('change', () => toggleSituationStatement(idx));
+    });
+  }
+  
+  // Update submit button
+  const submitBtn = specialTest$('#btnSituationSubmit');
+  submitBtn.disabled = isAnswered || selected.length === 0;
+  submitBtn.classList.toggle('hidden', isAnswered);
+  
+  // Render feedback
+  const feedbackEl = specialTest$('#specialTestFeedback');
+  if (isAnswered) {
+    const correctIndices = q.statements.map((s, i) => s.correct ? i : -1).filter(i => i >= 0);
+    const allCorrect = correctIndices.length === selected.length && 
+                       correctIndices.every(i => selected.includes(i));
+    
+    feedbackEl.classList.remove('hidden', 'correct-fb', 'incorrect-fb');
+    feedbackEl.classList.add(allCorrect ? 'correct-fb' : 'incorrect-fb');
+    
+    const correctCount = selected.filter(i => q.statements[i].correct).length;
+    const totalCorrect = correctIndices.length;
+    
+    let html = allCorrect
+      ? `${typeof icon === 'function' ? icon('circle-check', { size: 18, class: 'feedback-icon' }) : '✓'} <strong>Perfect!</strong> You identified all ${totalCorrect} correct statements.`
+      : `${typeof icon === 'function' ? icon('circle-x', { size: 18, class: 'feedback-icon' }) : '✗'} You got ${correctCount}/${totalCorrect} correct statements.`;
+    
+    if (q.explanation) {
+      html += `<p class="special-test-explanation">${q.explanation}</p>`;
+    }
+    
+    feedbackEl.innerHTML = html;
+  } else {
+    feedbackEl.classList.add('hidden');
+  }
 }
 
 function renderSpecialTestNav() {
@@ -239,31 +309,61 @@ function renderSpecialTestNav() {
   if (!nav) return;
   
   nav.innerHTML = specialTestState.questions.map((q, i) => {
-    const answered = specialTestState.answers[i] !== null;
+    let answered;
+    if (specialTestState.type === 'situation') {
+      // For situation: check if this question was submitted
+      answered = i < specialTestState.index || (i === specialTestState.index && specialTestState.questionAnswered);
+    } else {
+      answered = specialTestState.answers[i] !== null;
+    }
     const current = i === specialTestState.index;
     return `<button type="button" class="special-nav-btn${current ? ' current' : ''}${answered ? ' answered' : ''}" data-index="${i}">${i + 1}</button>`;
   }).join('');
   
   nav.querySelectorAll('.special-nav-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      specialTestState.index = +btn.dataset.index;
+      const newIndex = +btn.dataset.index;
+      // For situations, only allow going back to review answered questions
+      if (specialTestState.type === 'situation' && newIndex > specialTestState.index && !specialTestState.questionAnswered) {
+        return; // Can't skip ahead
+      }
+      specialTestState.index = newIndex;
+      if (specialTestState.type === 'situation') {
+        specialTestState.questionAnswered = newIndex < specialTestState.questions.length && 
+          (specialTestState.answers[newIndex]?.length > 0 || newIndex < getLastAnsweredSituationIndex());
+      }
       renderSpecialTest();
     });
   });
+}
+
+function getLastAnsweredSituationIndex() {
+  // Find the last question that was answered
+  for (let i = specialTestState.questions.length - 1; i >= 0; i--) {
+    if (specialTestState.answers[i]?.length > 0) return i;
+  }
+  return -1;
 }
 
 function updateSpecialTestNextBtn() {
   const btn = specialTest$('#btnSpecialNext');
   if (!btn) return;
   
-  const answered = specialTestState.answers[specialTestState.index] !== null;
+  let answered;
+  if (specialTestState.type === 'situation') {
+    answered = specialTestState.questionAnswered;
+  } else {
+    answered = specialTestState.answers[specialTestState.index] !== null;
+  }
+  
   const isLast = specialTestState.index >= specialTestState.questions.length - 1;
   
   btn.disabled = !answered;
-  btn.textContent = isLast ? 'See Results' : 'Next Question';
+  btn.textContent = isLast ? 'See Results' : (specialTestState.type === 'situation' ? 'Next Scenario' : 'Next Question');
 }
 
 function selectSpecialAnswer(value) {
+  if (specialTestState.type === 'situation') return; // Use MCQ for situations
   if (specialTestState.answers[specialTestState.index] !== null) return;
   
   specialTestState.answers[specialTestState.index] = value;
@@ -275,11 +375,51 @@ function selectSpecialAnswer(value) {
   renderSpecialTest();
 }
 
+function toggleSituationStatement(idx) {
+  if (specialTestState.questionAnswered) return;
+  
+  const selected = specialTestState.answers[specialTestState.index] || [];
+  const newSelected = selected.includes(idx)
+    ? selected.filter(i => i !== idx)
+    : [...selected, idx];
+  
+  specialTestState.answers[specialTestState.index] = newSelected;
+  renderSituationTest();
+  renderSpecialTestNav();
+  updateSpecialTestNextBtn();
+}
+
+function submitSituationAnswer() {
+  if (specialTestState.questionAnswered) return;
+  
+  const q = specialTestState.questions[specialTestState.index];
+  const selected = specialTestState.answers[specialTestState.index] || [];
+  
+  // Check if answer is correct (must select exactly the correct statements)
+  const correctIndices = q.statements.map((s, i) => s.correct ? i : -1).filter(i => i >= 0);
+  const allCorrect = correctIndices.length === selected.length && 
+                     correctIndices.every(i => selected.includes(i));
+  
+  if (allCorrect) {
+    specialTestState.score++;
+  }
+  
+  specialTestState.questionAnswered = true;
+  renderSituationTest();
+  renderSpecialTestNav();
+  updateSpecialTestNextBtn();
+}
+
 function nextSpecialQuestion() {
-  if (specialTestState.answers[specialTestState.index] === null) return;
+  if (specialTestState.type === 'situation') {
+    if (!specialTestState.questionAnswered) return;
+  } else {
+    if (specialTestState.answers[specialTestState.index] === null) return;
+  }
   
   if (specialTestState.index < specialTestState.questions.length - 1) {
     specialTestState.index++;
+    specialTestState.questionAnswered = false; // Reset for next question
     renderSpecialTest();
     window.scrollTo(0, 0);
   } else {
@@ -316,33 +456,84 @@ function showSpecialTestResults() {
   
   const typeLabel = specialTestState.type === 'image' ? 'image-based' : 'situation-based';
   specialTest$('#specialResultsMessage').textContent = passed
-    ? `You scored ${pct}% on ${typeLabel} questions. Great visual recognition!`
-    : `You scored ${pct}%. Review the ${typeLabel} questions you missed and try again.`;
+    ? `You scored ${pct}% on ${typeLabel} questions. ${specialTestState.type === 'situation' ? 'Excellent hazard perception!' : 'Great visual recognition!'}`
+    : `You scored ${pct}%. Review the ${typeLabel === 'situation-based' ? 'scenarios' : 'questions'} you missed and try again.`;
   
   // Render review list
   const reviewList = specialTest$('#specialReviewList');
-  reviewList.innerHTML = specialTestState.questions.map((q, i) => {
-    const user = specialTestState.answers[i];
-    const correct = user === q.answer;
-    const userLabel = user === null ? '—' : user === 1 ? '○ True' : '× False';
-    const correctLabel = q.answer === 1 ? '○ True' : '× False';
-    const img = q.img ? `<img src="${q.img}" alt="Question ${i + 1}" class="special-review-img">` : '';
-    const expl = q.explanation && !correct ? `<p class="special-review-expl">${q.explanation}</p>` : '';
-    
-    return `
-      <details class="special-review-item${correct ? ' correct' : ' incorrect'}">
-        <summary>
-          <span class="special-review-num">Q${i + 1}</span>
-          <span class="special-review-verdict">${correct ? '✓' : '✗'}</span>
-          <span class="special-review-answers">You: ${userLabel} · Answer: ${correctLabel}</span>
-        </summary>
-        <div class="special-review-body">
-          ${img}
-          <p>${q.q}</p>
-          ${expl}
-        </div>
-      </details>`;
-  }).join('');
+  
+  if (specialTestState.type === 'situation') {
+    reviewList.innerHTML = specialTestState.questions.map((q, i) => {
+      const selected = specialTestState.answers[i] || [];
+      const correctIndices = q.statements.map((s, idx) => s.correct ? idx : -1).filter(idx => idx >= 0);
+      const allCorrect = correctIndices.length === selected.length && 
+                         correctIndices.every(idx => selected.includes(idx));
+      
+      const img = q.img ? `<img src="${q.img}" alt="Scenario ${i + 1}" class="special-review-img">` : '';
+      
+      const statementsHtml = q.statements.map((stmt, idx) => {
+        const wasSelected = selected.includes(idx);
+        let statusClass = '';
+        let statusText = '';
+        if (stmt.correct && wasSelected) {
+          statusClass = 'correct';
+          statusText = '✓ Correct';
+        } else if (stmt.correct && !wasSelected) {
+          statusClass = 'missed';
+          statusText = '✗ Missed';
+        } else if (!stmt.correct && wasSelected) {
+          statusClass = 'incorrect';
+          statusText = '✗ Wrong';
+        } else {
+          statusClass = 'neutral';
+          statusText = '—';
+        }
+        return `<div class="review-statement ${statusClass}">
+          <span class="review-statement-check">${wasSelected ? '☑' : '☐'}</span>
+          <span class="review-statement-text">${stmt.text}</span>
+          <span class="review-statement-status">${statusText}</span>
+        </div>`;
+      }).join('');
+      
+      return `
+        <details class="special-review-item${allCorrect ? ' correct' : ' incorrect'}">
+          <summary>
+            <span class="special-review-num">S${i + 1}</span>
+            <span class="special-review-verdict">${allCorrect ? '✓' : '✗'}</span>
+            <span class="special-review-answers">${allCorrect ? 'All correct' : 'Some errors'}</span>
+          </summary>
+          <div class="special-review-body">
+            ${img}
+            <p><strong>${q.scenario}</strong></p>
+            <div class="review-statements">${statementsHtml}</div>
+            ${q.explanation ? `<p class="special-review-expl">${q.explanation}</p>` : ''}
+          </div>
+        </details>`;
+    }).join('');
+  } else {
+    reviewList.innerHTML = specialTestState.questions.map((q, i) => {
+      const user = specialTestState.answers[i];
+      const correct = user === q.answer;
+      const userLabel = user === null ? '—' : user === 1 ? '○ True' : '× False';
+      const correctLabel = q.answer === 1 ? '○ True' : '× False';
+      const img = q.img ? `<img src="${q.img}" alt="Question ${i + 1}" class="special-review-img">` : '';
+      const expl = q.explanation && !correct ? `<p class="special-review-expl">${q.explanation}</p>` : '';
+      
+      return `
+        <details class="special-review-item${correct ? ' correct' : ' incorrect'}">
+          <summary>
+            <span class="special-review-num">Q${i + 1}</span>
+            <span class="special-review-verdict">${correct ? '✓' : '✗'}</span>
+            <span class="special-review-answers">You: ${userLabel} · Answer: ${correctLabel}</span>
+          </summary>
+          <div class="special-review-body">
+            ${img}
+            <p>${q.q}</p>
+            ${expl}
+          </div>
+        </details>`;
+    }).join('');
+  }
 }
 
 function retrySpecialTest() {
@@ -371,6 +562,7 @@ function initSpecialTests() {
   specialTest$('#btnSpecialTestBack')?.addEventListener('click', exitSpecialTest);
   specialTest$('#btnSpecialTrue')?.addEventListener('click', () => selectSpecialAnswer(1));
   specialTest$('#btnSpecialFalse')?.addEventListener('click', () => selectSpecialAnswer(0));
+  specialTest$('#btnSituationSubmit')?.addEventListener('click', submitSituationAnswer);
   specialTest$('#btnSpecialNext')?.addEventListener('click', nextSpecialQuestion);
   specialTest$('#btnSpecialRetry')?.addEventListener('click', retrySpecialTest);
   specialTest$('#btnSpecialDone')?.addEventListener('click', exitSpecialTest);
@@ -381,15 +573,24 @@ function initSpecialTests() {
     if (specialTestState.submitted) return;
     if (e.target.matches('input, textarea, select')) return;
     
-    if (e.key === '1') {
+    // Only T/F shortcuts for image tests
+    if (specialTestState.type === 'image') {
+      if (e.key === '1') {
+        e.preventDefault();
+        selectSpecialAnswer(1);
+      } else if (e.key === '0') {
+        e.preventDefault();
+        selectSpecialAnswer(0);
+      }
+    }
+    
+    if (e.key === 'Enter') {
       e.preventDefault();
-      selectSpecialAnswer(1);
-    } else if (e.key === '0') {
-      e.preventDefault();
-      selectSpecialAnswer(0);
-    } else if (e.key === 'Enter') {
-      e.preventDefault();
-      nextSpecialQuestion();
+      if (specialTestState.type === 'situation' && !specialTestState.questionAnswered) {
+        submitSituationAnswer();
+      } else {
+        nextSpecialQuestion();
+      }
     }
   });
 }
