@@ -18,6 +18,8 @@
 
   <link rel="stylesheet" href="styles.css">
 
+  <!-- jsPDF for PDF generation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 
 <body>
@@ -124,6 +126,14 @@
 
         </div>
 
+        <button class="btn btn-secondary btn-block btn-with-icon sidebar-action-btn" id="btnDownloadPDF">
+
+          <span class="btn-icon" data-icon="download"></span>
+
+          Revision PDF
+
+        </button>
+
         <button class="btn btn-ghost btn-block btn-with-icon sidebar-action-btn sidebar-action-link" id="btnReportDiscrepancy">
 
           <span class="btn-icon" data-icon="triangle-alert"></span>
@@ -227,6 +237,10 @@
 
             <div class="hero-more-panel hidden" id="heroMorePanel">
               <button class="btn btn-outline btn-lg" id="btnJumpQuiz">Chapter Quiz Mix</button>
+              <button class="btn btn-outline btn-lg btn-with-icon" id="btnDownloadPDFHero">
+                <span class="btn-icon" data-icon="download"></span>
+                Revision PDF
+              </button>
             </div>
 
           </div>
@@ -893,6 +907,8 @@
   <script src="app.js"></script>
 
   <script src="exam.js"></script>
+
+  <script src="pdf-generator.js"></script>
 
 </body>
 
