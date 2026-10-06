@@ -338,6 +338,424 @@
       y += 3;
     }
 
+    // ============ DIAGRAM DRAWING FUNCTIONS ============
+    
+    function drawSpeedLimitDiagram() {
+      checkPageBreak(75);
+      const startX = CONFIG.margin;
+      const barWidth = 25;
+      const maxBarHeight = 50;
+      const baseY = y + 60;
+      
+      doc.setFontSize(CONFIG.fontSize.subTitle);
+      doc.setTextColor(...CONFIG.colors.primary);
+      doc.setFont('helvetica', 'bold');
+      doc.text('Speed Limits at a Glance', CONFIG.pageWidth / 2, y, { align: 'center' });
+      y += 8;
+      doc.setFont('helvetica', 'normal');
+      
+      const speeds = [
+        { label: 'Car', value: 60, color: [59, 130, 246] },
+        { label: 'Moped', value: 30, color: [234, 179, 8] },
+        { label: 'Highway', value: 100, color: [34, 197, 94] },
+        { label: 'Hwy Min', value: 50, color: [107, 114, 128] },
+        { label: 'Cargo', value: 90, color: [168, 85, 247] },
+        { label: 'Trailer', value: 80, color: [239, 68, 68] }
+      ];
+      
+      const totalWidth = speeds.length * (barWidth + 8);
+      let barX = (CONFIG.pageWidth - totalWidth) / 2;
+      
+      speeds.forEach(item => {
+        const barHeight = (item.value / 100) * maxBarHeight;
+        
+        // Draw bar
+        doc.setFillColor(...item.color);
+        doc.rect(barX, baseY - barHeight, barWidth, barHeight, 'F');
+        
+        // Draw value on top
+        doc.setFontSize(9);
+        doc.setTextColor(...item.color);
+        doc.setFont('helvetica', 'bold');
+        doc.text(`${item.value}`, barX + barWidth/2, baseY - barHeight - 2, { align: 'center' });
+        
+        // Draw label below
+        doc.setFontSize(7);
+        doc.setTextColor(...CONFIG.colors.text);
+        doc.setFont('helvetica', 'normal');
+        doc.text(item.label, barX + barWidth/2, baseY + 5, { align: 'center' });
+        
+        barX += barWidth + 8;
+      });
+      
+      // Unit label
+      doc.setFontSize(8);
+      doc.setTextColor(...CONFIG.colors.lightText);
+      doc.text('km/h', CONFIG.pageWidth / 2, baseY + 12, { align: 'center' });
+      
+      y = baseY + 18;
+    }
+
+    function drawDistanceZonesDiagram() {
+      checkPageBreak(85);
+      const centerX = CONFIG.pageWidth / 2;
+      const roadY = y + 45;
+      
+      doc.setFontSize(CONFIG.fontSize.subTitle);
+      doc.setTextColor(...CONFIG.colors.primary);
+      doc.setFont('helvetica', 'bold');
+      doc.text('No Stopping/Parking Zones - Distance Rules', centerX, y, { align: 'center' });
+      y += 10;
+      
+      // Draw road
+      doc.setFillColor(180, 180, 180);
+      doc.rect(CONFIG.margin + 10, roadY - 8, CONFIG.pageWidth - 2*CONFIG.margin - 20, 16, 'F');
+      doc.setDrawColor(255, 255, 255);
+      doc.setLineDashPattern([3, 3], 0);
+      doc.line(CONFIG.margin + 10, roadY, CONFIG.pageWidth - CONFIG.margin - 10, roadY);
+      doc.setLineDashPattern([], 0);
+      
+      // Intersection box
+      doc.setFillColor(200, 200, 200);
+      doc.rect(centerX - 15, roadY - 15, 30, 30, 'F');
+      doc.setFontSize(7);
+      doc.setTextColor(80, 80, 80);
+      doc.text('Intersection', centerX, roadY + 2, { align: 'center' });
+      
+      // 5m zone (red)
+      doc.setFillColor(254, 202, 202);
+      doc.rect(centerX - 45, roadY - 12, 25, 10, 'F');
+      doc.rect(centerX + 20, roadY - 12, 25, 10, 'F');
+      doc.setFontSize(8);
+      doc.setTextColor(...CONFIG.colors.danger);
+      doc.setFont('helvetica', 'bold');
+      doc.text('5m', centerX - 32, roadY - 5, { align: 'center' });
+      doc.text('5m', centerX + 32, roadY - 5, { align: 'center' });
+      
+      // Legend
+      const legendY = roadY + 25;
+      doc.setFontSize(8);
+      doc.setFont('helvetica', 'normal');
+      
+      // 5m items
+      doc.setFillColor(254, 202, 202);
+      doc.rect(CONFIG.margin + 5, legendY, 8, 5, 'F');
+      doc.setTextColor(...CONFIG.colors.text);
+      doc.text('5m: Intersections, Curves, Ped. paths', CONFIG.margin + 16, legendY + 4);
+      
+      // 10m items
+      doc.setFillColor(254, 249, 195);
+      doc.rect(CONFIG.margin + 5, legendY + 8, 8, 5, 'F');
+      doc.text('10m: Railway crossings, Safety zones, Bus stops', CONFIG.margin + 16, legendY + 12);
+      
+      // Parking only items
+      doc.setFillColor(219, 234, 254);
+      doc.rect(CONFIG.margin + 5, legendY + 16, 8, 5, 'F');
+      doc.text('1m/3m/5m: Fire alarms, Entrances, Construction (parking only)', CONFIG.margin + 16, legendY + 20);
+      
+      y = legendY + 28;
+    }
+
+    function drawPoliceSignalsDiagram() {
+      checkPageBreak(90);
+      const centerX = CONFIG.pageWidth / 2;
+      
+      doc.setFontSize(CONFIG.fontSize.subTitle);
+      doc.setTextColor(...CONFIG.colors.primary);
+      doc.setFont('helvetica', 'bold');
+      doc.text('Police Hand Signals - Quick Reference', centerX, y, { align: 'center' });
+      y += 12;
+      
+      // Two columns for the two positions
+      const col1X = CONFIG.margin + 35;
+      const col2X = CONFIG.pageWidth - CONFIG.margin - 35;
+      const figureY = y + 25;
+      
+      // Arms Horizontal
+      doc.setFontSize(10);
+      doc.setTextColor(...CONFIG.colors.text);
+      doc.setFont('helvetica', 'bold');
+      doc.text('Arms Horizontal', col1X, y, { align: 'center' });
+      
+      // Draw stick figure with horizontal arms
+      doc.setDrawColor(60, 60, 60);
+      doc.setLineWidth(1.5);
+      // Head
+      doc.circle(col1X, figureY - 12, 5);
+      // Body
+      doc.line(col1X, figureY - 7, col1X, figureY + 8);
+      // Arms horizontal
+      doc.line(col1X - 15, figureY - 2, col1X + 15, figureY - 2);
+      // Legs
+      doc.line(col1X, figureY + 8, col1X - 8, figureY + 18);
+      doc.line(col1X, figureY + 8, col1X + 8, figureY + 18);
+      doc.setLineWidth(0.5);
+      
+      // Direction indicators for horizontal
+      doc.setFontSize(8);
+      // Front/Back = RED
+      doc.setFillColor(...CONFIG.colors.danger);
+      doc.circle(col1X, figureY - 25, 4, 'F');
+      doc.circle(col1X, figureY + 28, 4, 'F');
+      doc.setTextColor(255, 255, 255);
+      doc.setFont('helvetica', 'bold');
+      doc.text('R', col1X, figureY - 23.5, { align: 'center' });
+      doc.text('R', col1X, figureY + 29.5, { align: 'center' });
+      
+      // Sides = GREEN
+      doc.setFillColor(...CONFIG.colors.success);
+      doc.circle(col1X - 25, figureY - 2, 4, 'F');
+      doc.circle(col1X + 25, figureY - 2, 4, 'F');
+      doc.setTextColor(255, 255, 255);
+      doc.text('G', col1X - 25, figureY - 0.5, { align: 'center' });
+      doc.text('G', col1X + 25, figureY - 0.5, { align: 'center' });
+      
+      // Arms Vertical
+      doc.setTextColor(...CONFIG.colors.text);
+      doc.text('Arms Vertical', col2X, y, { align: 'center' });
+      
+      // Draw stick figure with vertical arm
+      doc.setDrawColor(60, 60, 60);
+      doc.setLineWidth(1.5);
+      // Head
+      doc.circle(col2X, figureY - 12, 5);
+      // Body
+      doc.line(col2X, figureY - 7, col2X, figureY + 8);
+      // One arm up, one down
+      doc.line(col2X, figureY - 2, col2X, figureY - 20);
+      doc.line(col2X, figureY - 2, col2X - 10, figureY + 5);
+      // Legs
+      doc.line(col2X, figureY + 8, col2X - 8, figureY + 18);
+      doc.line(col2X, figureY + 8, col2X + 8, figureY + 18);
+      doc.setLineWidth(0.5);
+      
+      // Direction indicators for vertical
+      doc.setFontSize(8);
+      // Front/Back = RED
+      doc.setFillColor(...CONFIG.colors.danger);
+      doc.circle(col2X, figureY - 32, 4, 'F');
+      doc.circle(col2X, figureY + 28, 4, 'F');
+      doc.setTextColor(255, 255, 255);
+      doc.text('R', col2X, figureY - 30.5, { align: 'center' });
+      doc.text('R', col2X, figureY + 29.5, { align: 'center' });
+      
+      // Sides = YELLOW
+      doc.setFillColor(...CONFIG.colors.warning);
+      doc.circle(col2X - 20, figureY - 2, 4, 'F');
+      doc.circle(col2X + 20, figureY - 2, 4, 'F');
+      doc.setTextColor(80, 80, 80);
+      doc.text('Y', col2X - 20, figureY - 0.5, { align: 'center' });
+      doc.text('Y', col2X + 20, figureY - 0.5, { align: 'center' });
+      
+      // Legend
+      y = figureY + 38;
+      doc.setFontSize(9);
+      doc.setTextColor(...CONFIG.colors.text);
+      doc.setFont('helvetica', 'normal');
+      
+      const legendStartX = CONFIG.margin + 20;
+      doc.setFillColor(...CONFIG.colors.danger);
+      doc.circle(legendStartX, y, 3, 'F');
+      doc.text('R = RED (Stop)', legendStartX + 6, y + 1);
+      
+      doc.setFillColor(...CONFIG.colors.success);
+      doc.circle(legendStartX + 50, y, 3, 'F');
+      doc.text('G = GREEN (Go)', legendStartX + 56, y + 1);
+      
+      doc.setFillColor(...CONFIG.colors.warning);
+      doc.circle(legendStartX + 105, y, 3, 'F');
+      doc.text('Y = YELLOW (Caution)', legendStartX + 111, y + 1);
+      
+      y += 8;
+      doc.setFont('helvetica', 'bold');
+      doc.setTextColor(...CONFIG.colors.danger);
+      doc.text('KEY: Front/Back of officer = ALWAYS RED!', centerX, y, { align: 'center' });
+      
+      y += 10;
+    }
+
+    function drawStoppingVsParkingDiagram() {
+      checkPageBreak(70);
+      const centerX = CONFIG.pageWidth / 2;
+      const boxWidth = 80;
+      const boxHeight = 50;
+      const gap = 10;
+      
+      doc.setFontSize(CONFIG.fontSize.subTitle);
+      doc.setTextColor(...CONFIG.colors.primary);
+      doc.setFont('helvetica', 'bold');
+      doc.text('Stopping vs Parking - The 5-Minute Rule', centerX, y, { align: 'center' });
+      y += 10;
+      
+      // Stopping box (green)
+      const stopX = centerX - boxWidth - gap/2;
+      doc.setFillColor(220, 252, 231);
+      doc.roundedRect(stopX, y, boxWidth, boxHeight, 3, 3, 'F');
+      doc.setDrawColor(...CONFIG.colors.success);
+      doc.roundedRect(stopX, y, boxWidth, boxHeight, 3, 3, 'S');
+      
+      doc.setFontSize(11);
+      doc.setTextColor(...CONFIG.colors.success);
+      doc.setFont('helvetica', 'bold');
+      doc.text('STOPPING', stopX + boxWidth/2, y + 10, { align: 'center' });
+      
+      doc.setFontSize(8);
+      doc.setTextColor(...CONFIG.colors.text);
+      doc.setFont('helvetica', 'normal');
+      const stopItems = ['Passenger on/off (ANY time)', 'Loading ≤ 5 min', 'Driver can move NOW'];
+      stopItems.forEach((item, i) => {
+        doc.text('• ' + item, stopX + 5, y + 20 + i*8);
+      });
+      
+      // Parking box (red)
+      const parkX = centerX + gap/2;
+      doc.setFillColor(254, 226, 226);
+      doc.roundedRect(parkX, y, boxWidth, boxHeight, 3, 3, 'F');
+      doc.setDrawColor(...CONFIG.colors.danger);
+      doc.roundedRect(parkX, y, boxWidth, boxHeight, 3, 3, 'S');
+      
+      doc.setFontSize(11);
+      doc.setTextColor(...CONFIG.colors.danger);
+      doc.setFont('helvetica', 'bold');
+      doc.text('PARKING', parkX + boxWidth/2, y + 10, { align: 'center' });
+      
+      doc.setFontSize(8);
+      doc.setTextColor(...CONFIG.colors.text);
+      doc.setFont('helvetica', 'normal');
+      const parkItems = ['Waiting/loading > 5 min', 'Driver leaves vehicle', 'Cannot move immediately'];
+      parkItems.forEach((item, i) => {
+        doc.text('• ' + item, parkX + 5, y + 20 + i*8);
+      });
+      
+      // 5 minute divider
+      y += boxHeight + 5;
+      doc.setFillColor(...CONFIG.colors.warning);
+      doc.roundedRect(centerX - 25, y, 50, 12, 2, 2, 'F');
+      doc.setFontSize(10);
+      doc.setTextColor(80, 80, 80);
+      doc.setFont('helvetica', 'bold');
+      doc.text('5 MIN', centerX, y + 8, { align: 'center' });
+      
+      y += 18;
+    }
+
+    function drawPriorityDiagram() {
+      checkPageBreak(75);
+      const centerX = CONFIG.pageWidth / 2;
+      
+      doc.setFontSize(CONFIG.fontSize.subTitle);
+      doc.setTextColor(...CONFIG.colors.primary);
+      doc.setFont('helvetica', 'bold');
+      doc.text('Intersection Priority Rules', centerX, y, { align: 'center' });
+      y += 12;
+      
+      // Priority hierarchy as numbered boxes
+      const boxWidth = 160;
+      const boxHeight = 12;
+      const startX = (CONFIG.pageWidth - boxWidth) / 2;
+      
+      const priorities = [
+        { num: '1', text: 'Priority Road Sign', color: [34, 197, 94] },
+        { num: '2', text: 'Centerline extends into intersection', color: [59, 130, 246] },
+        { num: '3', text: 'Wider road has priority', color: [168, 85, 247] },
+        { num: '4', text: 'Traffic from LEFT goes first', color: [234, 179, 8] },
+        { num: '5', text: 'Straight/Left > Turning Right', color: [239, 68, 68] }
+      ];
+      
+      priorities.forEach((item, i) => {
+        // Number circle
+        doc.setFillColor(...item.color);
+        doc.circle(startX + 8, y + 6, 6, 'F');
+        doc.setFontSize(10);
+        doc.setTextColor(255, 255, 255);
+        doc.setFont('helvetica', 'bold');
+        doc.text(item.num, startX + 8, y + 8, { align: 'center' });
+        
+        // Text box
+        doc.setFillColor(249, 250, 251);
+        doc.roundedRect(startX + 18, y, boxWidth - 18, boxHeight, 2, 2, 'F');
+        doc.setFontSize(9);
+        doc.setTextColor(...CONFIG.colors.text);
+        doc.setFont('helvetica', 'normal');
+        doc.text(item.text, startX + 22, y + 8);
+        
+        // Arrow down (except last)
+        if (i < priorities.length - 1) {
+          doc.setTextColor(...CONFIG.colors.lightText);
+          doc.text('↓', startX + 8, y + boxHeight + 4, { align: 'center' });
+        }
+        
+        y += boxHeight + 6;
+      });
+      
+      y += 5;
+    }
+
+    function drawCargoLimitsDiagram() {
+      checkPageBreak(65);
+      const centerX = CONFIG.pageWidth / 2;
+      
+      doc.setFontSize(CONFIG.fontSize.subTitle);
+      doc.setTextColor(...CONFIG.colors.primary);
+      doc.setFont('helvetica', 'bold');
+      doc.text('Cargo Limits - Visual Guide', centerX, y, { align: 'center' });
+      y += 12;
+      
+      // Car diagram
+      const carX = CONFIG.margin + 40;
+      const carY = y + 15;
+      
+      // Simple car shape
+      doc.setFillColor(200, 200, 200);
+      doc.roundedRect(carX, carY, 40, 15, 2, 2, 'F');
+      doc.roundedRect(carX + 8, carY - 8, 24, 10, 2, 2, 'F');
+      
+      // Dimension arrows
+      doc.setDrawColor(...CONFIG.colors.primary);
+      doc.setFontSize(7);
+      doc.setTextColor(...CONFIG.colors.primary);
+      
+      // Length arrow (120%)
+      doc.line(carX - 5, carY + 20, carX + 45, carY + 20);
+      doc.text('120% length', carX + 20, carY + 25, { align: 'center' });
+      
+      // Width arrow (120%)
+      doc.line(carX - 10, carY - 5, carX - 10, carY + 18);
+      doc.text('120%', carX - 15, carY + 5, { align: 'right' });
+      
+      // Height indicator
+      doc.setTextColor(...CONFIG.colors.danger);
+      doc.text('Max 3.8m', carX + 50, carY - 5);
+      doc.text('from ground', carX + 50, carY);
+      
+      // Motorcycle diagram
+      const bikeX = CONFIG.pageWidth - CONFIG.margin - 60;
+      const bikeY = carY;
+      
+      // Simple bike shape
+      doc.setFillColor(200, 200, 200);
+      doc.circle(bikeX, bikeY + 10, 6);
+      doc.circle(bikeX + 25, bikeY + 10, 6);
+      doc.rect(bikeX + 5, bikeY + 2, 15, 8, 'F');
+      
+      // Dimensions
+      doc.setTextColor(...CONFIG.colors.primary);
+      doc.text('+30cm', bikeX + 30, bikeY + 5);
+      doc.text('+15cm each side', bikeX + 5, bikeY + 25, { align: 'center' });
+      doc.setTextColor(...CONFIG.colors.danger);
+      doc.text('Max 2m height', bikeX + 5, bikeY - 8, { align: 'center' });
+      
+      y = carY + 35;
+      
+      // Weight limits
+      doc.setFontSize(8);
+      doc.setTextColor(...CONFIG.colors.text);
+      doc.setFont('helvetica', 'normal');
+      doc.text('Motorcycle weight: ≤50cc = 30kg max | >50cc = 60kg max', centerX, y, { align: 'center' });
+      
+      y += 10;
+    }
+
     // ============ PAGE 1: Title Page ============
     y = 60;
     doc.setFontSize(28);
@@ -385,9 +803,10 @@
     doc.setFontSize(CONFIG.fontSize.normal);
     doc.setFont('helvetica', 'normal');
     const contents = [
-      '1. Important Numbers to Remember',
-      '2. Chapter Key Facts Summary',
-      '3. Complete Quiz Q&A with Answers'
+      '1. Visual Memory Aids (Diagrams)',
+      '2. Important Numbers to Remember',
+      '3. Chapter Key Facts Summary',
+      '4. Complete Quiz Q&A with Answers'
     ];
     contents.forEach(item => {
       doc.text(item, CONFIG.pageWidth / 2, y, { align: 'center' });
@@ -405,9 +824,50 @@
     
     addPageNumber();
 
-    // ============ SECTION 1: Important Numbers ============
+    // ============ SECTION 1: Visual Memory Aids ============
     addPage();
-    drawSectionTitle('SECTION 1: Important Numbers to Remember', CONFIG.colors.danger);
+    drawSectionTitle('SECTION 1: Visual Memory Aids', CONFIG.colors.primary);
+    y += 3;
+    
+    doc.setFontSize(CONFIG.fontSize.small);
+    doc.setTextColor(...CONFIG.colors.lightText);
+    doc.text('Visual diagrams to help you remember key concepts quickly', CONFIG.margin, y);
+    y += 12;
+
+    // Speed limits diagram
+    drawSpeedLimitDiagram();
+    y += 8;
+    
+    // Stopping vs Parking diagram
+    drawStoppingVsParkingDiagram();
+    
+    // New page for more diagrams
+    addPage();
+    drawSectionTitle('SECTION 1: Visual Memory Aids (continued)', CONFIG.colors.primary);
+    y += 8;
+    
+    // Police signals diagram
+    drawPoliceSignalsDiagram();
+    y += 5;
+    
+    // Priority diagram
+    drawPriorityDiagram();
+    
+    // New page for distance and cargo diagrams
+    addPage();
+    drawSectionTitle('SECTION 1: Visual Memory Aids (continued)', CONFIG.colors.primary);
+    y += 8;
+    
+    // Distance zones diagram
+    drawDistanceZonesDiagram();
+    y += 8;
+    
+    // Cargo limits diagram
+    drawCargoLimitsDiagram();
+
+    // ============ SECTION 2: Important Numbers ============
+    addPage();
+    drawSectionTitle('SECTION 2: Important Numbers to Remember', CONFIG.colors.danger);
     y += 3;
     
     doc.setFontSize(CONFIG.fontSize.small);
@@ -423,9 +883,9 @@
       y += 5;
     });
 
-    // ============ SECTION 2: Chapter Key Facts ============
+    // ============ SECTION 3: Chapter Key Facts ============
     addPage();
-    drawSectionTitle('SECTION 2: Chapter Key Facts Summary', CONFIG.colors.success);
+    drawSectionTitle('SECTION 3: Chapter Key Facts Summary', CONFIG.colors.success);
     y += 3;
     
     doc.setFontSize(CONFIG.fontSize.small);
@@ -459,7 +919,7 @@
 
     // ============ SECTION 3: Quiz Q&A ============
     addPage();
-    drawSectionTitle('SECTION 3: Complete Quiz Questions & Answers', CONFIG.colors.primary);
+    drawSectionTitle('SECTION 4: Complete Quiz Questions & Answers', CONFIG.colors.primary);
     y += 3;
     
     doc.setFontSize(CONFIG.fontSize.small);
