@@ -227,10 +227,42 @@
 
             <div class="hero-more-panel hidden" id="heroMorePanel">
               <button class="btn btn-outline btn-lg" id="btnJumpQuiz">Chapter Quiz Mix</button>
+              <button class="btn btn-outline btn-lg btn-with-icon" id="btnImageTestHero">
+                <span class="btn-icon" data-icon="image"></span>
+                Image Test
+              </button>
+              <button class="btn btn-outline btn-lg btn-with-icon" id="btnSituationTestHero">
+                <span class="btn-icon" data-icon="car"></span>
+                Situation Test
+              </button>
             </div>
 
           </div>
 
+        </div>
+
+        <!-- Special Tests Section -->
+        <div class="special-tests-section">
+          <div class="special-tests-header">
+            <h3 class="section-title-with-icon">
+              <span class="section-icon" data-icon="image"></span>
+              Visual & Situation Tests
+            </h3>
+          </div>
+          <div class="special-tests-grid">
+            <div class="special-test-card">
+              <div class="special-test-icon" data-icon="image"></div>
+              <h4>Image-Based Test</h4>
+              <p>30 questions with traffic signs and visual diagrams. Test your sign recognition skills.</p>
+              <button class="btn btn-primary btn-block" id="btnImageTest" type="button">Start Image Test</button>
+            </div>
+            <div class="special-test-card">
+              <div class="special-test-icon" data-icon="car"></div>
+              <h4>Situation-Based Test</h4>
+              <p>Real driving scenarios. "What should you be careful of?" — just like the Honmen exam.</p>
+              <button class="btn btn-primary btn-block" id="btnSituationTest" type="button">Start Situation Test</button>
+            </div>
+          </div>
         </div>
 
 
@@ -631,7 +663,62 @@
 
       </section>
 
+      <!-- Special Tests (Image & Situation) -->
+      <section class="view" id="viewSpecialTest">
+        <div class="special-test-header">
+          <button class="btn btn-ghost btn-with-icon" id="btnSpecialTestBack">
+            <span class="btn-icon" data-icon="arrow-left"></span>
+            Dashboard
+          </button>
+          <div class="special-test-meta">
+            <h2 id="specialTestTitle">Special Test</h2>
+            <p id="specialTestSubtitle">Visual recognition questions</p>
+          </div>
+          <div class="special-test-stats">
+            <span id="specialTestCounter">Question 1 / 30</span>
+            <span id="specialTestScore">Score: 0</span>
+          </div>
+        </div>
 
+        <div class="special-test-body" id="specialTestBody">
+          <div class="special-test-nav" id="specialTestNav"></div>
+          
+          <div class="special-test-panel">
+            <div class="special-test-image" id="specialTestImage"></div>
+            <div class="special-test-question" id="specialTestQuestion"></div>
+            
+            <div class="special-answer-row">
+              <button class="special-answer-btn special-true" id="btnSpecialTrue" type="button">
+                <span class="special-symbol">○</span>
+                <span>True</span>
+                <kbd>1</kbd>
+              </button>
+              <button class="special-answer-btn special-false" id="btnSpecialFalse" type="button">
+                <span class="special-symbol">×</span>
+                <span>False</span>
+                <kbd>0</kbd>
+              </button>
+            </div>
+            
+            <div class="special-test-feedback hidden" id="specialTestFeedback"></div>
+            
+            <button class="btn btn-primary btn-block special-next-btn" id="btnSpecialNext" type="button" disabled>Next Question</button>
+            <p class="special-keyboard-hint">Press <kbd>0</kbd> False · <kbd>1</kbd> True · <kbd>Enter</kbd> next question</p>
+          </div>
+        </div>
+
+        <div class="special-test-results hidden" id="specialTestResults">
+          <div class="results-icon" id="specialResultsIcon"></div>
+          <h2 id="specialResultsTitle">Test Complete!</h2>
+          <p class="results-score" id="specialResultsScore">25 / 30</p>
+          <p id="specialResultsMessage"></p>
+          <div class="special-review-list" id="specialReviewList"></div>
+          <div class="results-actions">
+            <button class="btn btn-secondary" id="btnSpecialRetry">Try Again</button>
+            <button class="btn btn-primary" id="btnSpecialDone">Back to Dashboard</button>
+          </div>
+        </div>
+      </section>
 
       <!-- Quick Review -->
 
@@ -893,6 +980,8 @@
   <script src="app.js"></script>
 
   <script src="exam.js"></script>
+
+  <script src="special-tests.js"></script>
 
 </body>
 
