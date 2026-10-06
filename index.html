@@ -20,6 +20,7 @@
 
   <!-- jsPDF for PDF generation -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
 </head>
 
 <body>
@@ -989,6 +990,52 @@
     </div>
   </div>
 
+  <dialog class="pdf-dialog" id="pdfDialog" aria-labelledby="pdfDialogTitle">
+    <form method="dialog" id="pdfForm">
+      <h3 id="pdfDialogTitle">Build your revision PDF</h3>
+      <p class="pdf-dialog-hint">Pick what goes into the PDF. Your choice is remembered.</p>
+
+      <fieldset class="pdf-fieldset">
+        <legend>Sections</legend>
+        <label><input type="checkbox" name="section" value="diagrams" checked> Visual memory aids (diagrams)</label>
+        <label><input type="checkbox" name="section" value="numbers" checked> Important numbers</label>
+        <label><input type="checkbox" name="section" value="facts" checked> Chapter key facts</label>
+        <label><input type="checkbox" name="section" value="signs" checked> Traffic signs (with pictures)</label>
+        <label><input type="checkbox" name="section" value="quiz" checked> Chapter quiz Q&amp;A</label>
+        <label><input type="checkbox" name="section" value="exams" checked> Practice exam Q&amp;A tables</label>
+        <label><input type="checkbox" name="section" value="quickref" checked> Quick reference card</label>
+      </fieldset>
+
+      <fieldset class="pdf-fieldset" id="pdfExamPicker">
+        <legend>Practice exams</legend>
+        <div class="pdf-exam-group">
+          <div class="pdf-exam-head">
+            <strong>Karimen</strong>
+            <button type="button" class="btn btn-ghost btn-sm" data-pick="karimen" data-on="1">All</button>
+            <button type="button" class="btn btn-ghost btn-sm" data-pick="karimen" data-on="">None</button>
+          </div>
+          <div class="pdf-exam-grid" data-type="karimen"></div>
+        </div>
+        <div class="pdf-exam-group">
+          <div class="pdf-exam-head">
+            <strong>Honmen</strong>
+            <button type="button" class="btn btn-ghost btn-sm" data-pick="honmen" data-on="1">All</button>
+            <button type="button" class="btn btn-ghost btn-sm" data-pick="honmen" data-on="">None</button>
+          </div>
+          <div class="pdf-exam-grid" data-type="honmen"></div>
+        </div>
+        <label><input type="checkbox" name="opt" value="images" checked> Question pictures</label>
+        <label><input type="checkbox" name="opt" value="explanations" checked> Explanations</label>
+      </fieldset>
+
+      <p class="pdf-dialog-summary" id="pdfSummary" aria-live="polite"></p>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" value="cancel" formnovalidate>Cancel</button>
+        <button class="btn btn-primary" value="ok" id="pdfGenerate">Generate PDF</button>
+      </div>
+    </form>
+  </dialog>
+
 
 
   <script src="icons.js"></script>
@@ -1009,7 +1056,7 @@
 
   <script src="special-tests.js?v=3"></script>
 
-  <script src="pdf-generator.js?v=2"></script>
+  <script src="pdf-generator.js?v=3"></script>
 
 </body>
 

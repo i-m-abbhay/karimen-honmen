@@ -2237,6 +2237,67 @@ body {
   justify-content: flex-end;
 }
 
+/* ===== PDF picker dialog ===== */
+.pdf-dialog {
+  margin: auto;
+  border: none;
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  width: min(480px, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  background: var(--bg-card);
+  color: var(--text);
+  box-shadow: var(--shadow-lg);
+}
+
+.pdf-dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
+.pdf-dialog h3 { color: var(--primary); margin-bottom: 0.25rem; }
+.pdf-dialog-hint { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+
+.pdf-fieldset {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.pdf-fieldset legend { font-weight: 600; padding: 0 0.35rem; }
+.pdf-fieldset label { display: flex; align-items: center; gap: 0.5rem; cursor: pointer; }
+.pdf-fieldset input { accent-color: var(--primary); width: 1rem; height: 1rem; }
+.pdf-fieldset:disabled { opacity: 0.45; }
+
+.pdf-exam-head { display: flex; align-items: center; gap: 0.25rem; }
+.pdf-exam-head strong { margin-right: auto; }
+.pdf-exam-head .btn-sm { width: auto; margin-top: 0; }
+
+.pdf-exam-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0.3rem;
+  margin: 0.35rem 0 0.5rem;
+}
+
+.pdf-fieldset .pdf-chip { position: relative; justify-content: center; }
+.pdf-chip input { position: absolute; opacity: 0; }
+
+.pdf-chip span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.pdf-chip input:checked + span { background: var(--primary); border-color: var(--primary); color: #fff; }
+.pdf-chip input:focus-visible + span { outline: 2px solid var(--primary); outline-offset: 2px; }
+.pdf-dialog-summary { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+
 /* ===== Onboarding & continue ===== */
 .onboarding-banner {
   background: linear-gradient(135deg, var(--primary-light), var(--bg-card));
