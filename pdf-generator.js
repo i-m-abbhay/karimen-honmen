@@ -1,4 +1,4 @@
-// PDF Generator for Karimen Knowledge Hub
+// PDF Generator for Karimen + Honmen Knowledge Hub
 // Creates a comprehensive revision PDF with all study material
 
 (function() {
@@ -211,7 +211,7 @@
       doc.setFontSize(CONFIG.fontSize.small);
       doc.setTextColor(...CONFIG.colors.lightText);
       doc.text(`Page ${pageNum}`, CONFIG.pageWidth - CONFIG.margin, CONFIG.pageHeight - 10, { align: 'right' });
-      doc.text('Karimen Knowledge Hub - Revision Guide', CONFIG.margin, CONFIG.pageHeight - 10);
+      doc.text('Karimen + Honmen Revision Guide', CONFIG.margin, CONFIG.pageHeight - 10);
     }
 
     function checkPageBreak(neededHeight = 20) {
@@ -343,7 +343,7 @@
     doc.setFontSize(28);
     doc.setTextColor(...CONFIG.colors.primary);
     doc.setFont('helvetica', 'bold');
-    doc.text('Karimen Knowledge Hub', CONFIG.pageWidth / 2, y, { align: 'center' });
+    doc.text('Karimen + Honmen', CONFIG.pageWidth / 2, y, { align: 'center' });
     
     y += 15;
     doc.setFontSize(20);
@@ -627,7 +627,7 @@
     addPageNumber();
 
     // Save the PDF
-    doc.save('Karimen-Revision-Guide.pdf');
+    doc.save('Karimen-Honmen-Revision-Guide.pdf');
   }
 
   // Show loading state while generating PDF
