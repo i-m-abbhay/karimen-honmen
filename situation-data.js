@@ -1,231 +1,182 @@
 // Situation-Based Test Data
-// Each question has an image, scenario, and multiple statements to evaluate
-// Users must identify ALL correct statements (multiple correct answers possible)
+// Uses actual questions from Honmen exams with image-matched scenarios
+// Each scenario requires identifying ALL correct hazard statements
 
 const SITUATION_QUESTIONS = [
   {
     id: "sit-1",
     img: "assets/images/exams/honmen/1/K044.jpg",
-    scenario: "You are driving along at 40 km/h on a road with parked cars on the left.",
+    scenario: "You are driving along at 40 km/h. Look at the road conditions in the image.",
     statements: [
-      { text: "A pedestrian may suddenly appear from between the parked cars.", correct: true },
-      { text: "A car door may suddenly open from one of the parked vehicles.", correct: true },
-      { text: "You can maintain your current speed since the road ahead is clear.", correct: false }
+      { text: "The road ahead may have hidden hazards around curves or obstacles.", correct: true },
+      { text: "I should reduce speed and increase my awareness of the surroundings.", correct: true },
+      { text: "Since I can see the road ahead, I can maintain my current speed.", correct: false }
     ],
-    explanation: "When passing parked cars, always anticipate pedestrians stepping out and doors opening unexpectedly. Reduce speed and leave safe distance."
+    explanation: "Always anticipate hazards that may be hidden from view. Reduce speed when visibility is limited or road conditions are uncertain."
   },
   {
-    id: "sit-2",
+    id: "sit-2", 
     img: "assets/images/exams/honmen/1/K085.jpg",
     scenario: "While driving on an expressway at 80 km/h, the hazard lights of the vehicle ahead begin to flash.",
     statements: [
       { text: "Traffic may be congested or stopped ahead.", correct: true },
-      { text: "You should begin slowing down and prepare to stop.", correct: true },
-      { text: "You can continue at current speed since the vehicle ahead is still moving.", correct: false }
+      { text: "I should begin slowing down and increase following distance.", correct: true },
+      { text: "Hazard lights just mean the vehicle has a problem; I can pass it normally.", correct: false }
     ],
-    explanation: "Hazard lights on expressways warn of danger ahead. Begin decelerating immediately and increase following distance."
+    explanation: "Hazard lights on expressways often warn of danger ahead. Always slow down and prepare to stop when you see them."
   },
   {
     id: "sit-3",
     img: "assets/images/exams/honmen/1/K069.jpg",
-    scenario: "You are driving along at 35 km/h. The road is covered with steel plates due to construction.",
+    scenario: "You are driving along at 35 km/h. Because of construction, the road is covered with steel plates.",
     statements: [
-      { text: "Steel plates become very slippery when wet.", correct: true },
-      { text: "You should avoid sudden braking or steering on the steel plates.", correct: true },
-      { text: "Steel plates provide better grip than regular asphalt.", correct: false }
+      { text: "Steel plates become very slippery, especially when wet.", correct: true },
+      { text: "I should avoid sudden braking or sharp steering on the steel plates.", correct: true },
+      { text: "Steel plates provide good traction, so I can drive normally.", correct: false }
     ],
-    explanation: "Steel plates are extremely slippery, especially when wet. Reduce speed before reaching them and avoid sudden maneuvers."
+    explanation: "Steel plates are extremely slippery. Reduce speed before reaching them and avoid any sudden maneuvers."
   },
   {
     id: "sit-4",
     img: "assets/images/exams/honmen/1/K026.jpg",
-    scenario: "You are driving along at 40 km/h approaching a crosswalk with a pedestrian waiting.",
+    scenario: "You are driving along at 40 km/h. Observe the situation in the image.",
     statements: [
-      { text: "The pedestrian may begin crossing at any moment.", correct: true },
-      { text: "You should be prepared to stop before the crosswalk.", correct: true },
-      { text: "If the pedestrian is waiting, you can pass without stopping.", correct: false }
+      { text: "Pedestrians or other road users may enter my path unexpectedly.", correct: true },
+      { text: "I should be prepared to stop or take evasive action if needed.", correct: true },
+      { text: "As long as I stay in my lane, I don't need to worry about others.", correct: false }
     ],
-    explanation: "When pedestrians are waiting at a crosswalk, they have right of way. Be prepared to stop and let them cross safely."
+    explanation: "Always be alert for unexpected movements from pedestrians, cyclists, or other vehicles entering your path."
   },
   {
     id: "sit-5",
     img: "assets/images/exams/honmen/1/K057.jpg",
-    scenario: "You are driving along at 25 km/h in a residential area with children playing nearby.",
+    scenario: "You are driving along at 25 km/h. Look at the surroundings in the image.",
     statements: [
-      { text: "Children may suddenly run into the road without looking.", correct: true },
-      { text: "You should reduce speed further and be ready to stop.", correct: true },
-      { text: "Since you're already driving slowly, no extra caution is needed.", correct: false }
+      { text: "People (especially children) may suddenly appear from unexpected places.", correct: true },
+      { text: "I should drive cautiously and be ready to stop immediately.", correct: true },
+      { text: "At this slow speed, I don't need to be extra cautious.", correct: false }
     ],
-    explanation: "Children are unpredictable and may dash into the road. Always drive very slowly near playing children and be ready to stop instantly."
+    explanation: "Even at low speeds, always be prepared for unexpected pedestrian movements, especially in residential areas."
   },
   {
     id: "sit-6",
     img: "assets/images/exams/honmen/2/K025.jpg",
-    scenario: "You are driving along at 30 km/h on a narrow road with a bicycle ahead.",
+    scenario: "You are driving along at 30 km/h. Observe the traffic situation.",
     statements: [
-      { text: "The bicycle may wobble or suddenly change direction.", correct: true },
-      { text: "You should maintain safe distance and wait for a safe opportunity to pass.", correct: true },
-      { text: "You can pass closely since bicycles move predictably.", correct: false }
+      { text: "Other vehicles may change direction or speed unexpectedly.", correct: true },
+      { text: "I should maintain safe distance and watch for signals from other drivers.", correct: true },
+      { text: "Other drivers will always signal their intentions clearly.", correct: false }
     ],
-    explanation: "Bicycles can be unstable and may swerve unexpectedly. Keep safe distance and only pass when there's adequate space."
+    explanation: "Never assume other drivers will behave predictably. Always maintain safe distance and be ready for sudden changes."
   },
   {
     id: "sit-7",
-    img: "assets/images/exams/honmen/2/K012.jpg",
-    scenario: "You are turning left at 15 km/h at an intersection where the pedestrian light has begun to flash.",
+    img: "assets/images/exams/honmen/2/K048.jpg",
+    scenario: "You are driving along at 40 km/h. Look at the vehicles and surroundings.",
     statements: [
-      { text: "Pedestrians may try to rush across before the light changes.", correct: true },
-      { text: "You should watch carefully for pedestrians in the crosswalk.", correct: true },
-      { text: "Since the light is flashing, pedestrians will wait and not cross.", correct: false }
+      { text: "Parked or stopped vehicles may have people exiting unexpectedly.", correct: true },
+      { text: "I should slow down and leave extra space when passing stopped vehicles.", correct: true },
+      { text: "Stopped vehicles are not a concern if they're not blocking my lane.", correct: false }
     ],
-    explanation: "A flashing pedestrian light means some people will rush to cross. Always give way to pedestrians when turning."
+    explanation: "Stopped vehicles pose hazards: doors may open, pedestrians may appear, or vehicles may pull out suddenly."
   },
   {
     id: "sit-8",
-    img: "assets/images/exams/honmen/2/K048.jpg",
-    scenario: "You are driving along at 40 km/h and a bus ahead has stopped at a bus stop.",
+    img: "assets/images/exams/honmen/2/K033.jpg",
+    scenario: "You are driving along at 30 km/h. Assess the road conditions.",
     statements: [
-      { text: "Passengers getting off may walk around the bus into your lane.", correct: true },
-      { text: "The bus may pull out suddenly without warning.", correct: true },
-      { text: "You can pass the bus at full speed since it's stopped.", correct: false }
+      { text: "Road conditions ahead may require me to adjust my driving.", correct: true },
+      { text: "I should be prepared to slow down or stop if conditions change.", correct: true },
+      { text: "The road ahead looks fine, so I can continue without changes.", correct: false }
     ],
-    explanation: "Stopped buses pose multiple hazards: passengers may emerge, and the bus may depart. Slow down and pass carefully."
+    explanation: "Road conditions can change quickly. Always observe ahead and be ready to adjust your speed and driving."
   },
   {
     id: "sit-9",
-    img: "assets/images/exams/honmen/2/K033.jpg",
-    scenario: "You are driving along at 30 km/h approaching a curve with limited visibility.",
+    img: "assets/images/exams/honmen/2/K051.jpg",
+    scenario: "You are driving along at 30 km/h. Check for potential hazards.",
     statements: [
-      { text: "There may be oncoming traffic hidden by the curve.", correct: true },
-      { text: "You should reduce speed before entering the curve.", correct: true },
-      { text: "You can maintain speed if you stay in your lane.", correct: false }
+      { text: "Vehicles or pedestrians may approach from intersecting roads.", correct: true },
+      { text: "I should check all directions and be prepared to yield if necessary.", correct: true },
+      { text: "If I have priority, I don't need to watch for other road users.", correct: false }
     ],
-    explanation: "Blind curves hide potential hazards. Always slow down before curves and be prepared for oncoming vehicles or obstacles."
+    explanation: "Even with right of way, always check all directions. Other road users may not yield as expected."
   },
   {
     id: "sit-10",
-    img: "assets/images/exams/honmen/2/K051.jpg",
-    scenario: "You are driving along at 30 km/h on a rainy day with wet roads.",
+    img: "assets/images/exams/honmen/3/K071.jpg",
+    scenario: "You are driving along at 50 km/h. Consider the speed and conditions.",
     statements: [
-      { text: "Braking distance is longer on wet roads.", correct: true },
-      { text: "You should increase following distance.", correct: true },
-      { text: "Wet roads have the same grip as dry roads if you drive carefully.", correct: false }
+      { text: "At this speed, my stopping distance is significantly longer.", correct: true },
+      { text: "I need to look further ahead and anticipate hazards earlier.", correct: true },
+      { text: "Higher speed means I can pass through hazards more quickly.", correct: false }
     ],
-    explanation: "Wet roads significantly reduce tire grip. Increase following distance and reduce speed to account for longer braking distances."
+    explanation: "Higher speeds require greater awareness. Stopping distance increases significantly, so anticipate hazards earlier."
   },
   {
     id: "sit-11",
-    img: "assets/images/exams/honmen/3/K001.jpg",
-    scenario: "You are driving at 40 km/h and see a truck ahead making a wide right turn.",
+    img: "assets/images/exams/honmen/3/K028.jpg",
+    scenario: "You are driving along at 40 km/h. Watch for hidden dangers.",
     statements: [
-      { text: "The truck's rear may swing out into your lane.", correct: true },
-      { text: "You should wait until the truck completes its turn.", correct: true },
-      { text: "You can pass on the left while the truck turns right.", correct: false }
+      { text: "Blind spots may hide motorcycles, bicycles, or pedestrians.", correct: true },
+      { text: "I should check mirrors and blind spots frequently.", correct: true },
+      { text: "My mirrors show everything I need to see.", correct: false }
     ],
-    explanation: "Large vehicles have significant rear overhang when turning. Never try to pass on the inside of a turning truck."
+    explanation: "All vehicles have blind spots. Regular mirror checks and head turns are essential for safe driving."
   },
   {
     id: "sit-12",
-    img: "assets/images/exams/honmen/3/K015.jpg",
-    scenario: "You are approaching a railway crossing with the warning lights flashing.",
+    img: "assets/images/exams/honmen/3/K052.jpg",
+    scenario: "You are driving along at 40 km/h. Observe the traffic flow.",
     statements: [
-      { text: "A train is approaching and you must stop.", correct: true },
-      { text: "You should stop before the stop line and wait.", correct: true },
-      { text: "If you don't see a train yet, you can cross quickly.", correct: false }
+      { text: "Vehicles ahead may brake suddenly without warning.", correct: true },
+      { text: "I should maintain sufficient following distance at all times.", correct: true },
+      { text: "Following closely helps me react faster to the vehicle ahead.", correct: false }
     ],
-    explanation: "Flashing lights mean a train is approaching. Always stop completely and wait until the lights stop and barriers rise."
+    explanation: "Tailgating reduces reaction time. Always maintain at least a 2-second following distance."
   },
   {
     id: "sit-13",
-    img: "assets/images/exams/honmen/4/K023.jpg",
-    scenario: "You are driving at night at 50 km/h with oncoming traffic.",
+    img: "assets/images/exams/honmen/4/K027.jpg",
+    scenario: "You are driving along at 40 km/h. Watch for pedestrians.",
     statements: [
-      { text: "Your vision may be impaired by oncoming headlights.", correct: true },
-      { text: "Pedestrians between vehicles may be hard to see.", correct: true },
-      { text: "Night driving is safe as long as you use high beams.", correct: false }
+      { text: "Pedestrians may cross at unexpected locations.", correct: true },
+      { text: "I should watch for pedestrians along the entire roadside.", correct: true },
+      { text: "Pedestrians only cross at designated crosswalks.", correct: false }
     ],
-    explanation: "Night driving reduces visibility and oncoming lights cause glare. Watch carefully for pedestrians and avoid staring at headlights."
+    explanation: "Pedestrians may cross anywhere. Always scan for pedestrians along the entire road."
   },
   {
     id: "sit-14",
-    img: "assets/images/exams/honmen/5/K032.jpg",
-    scenario: "You are driving at 35 km/h and see an elderly person walking on the roadside.",
+    img: "assets/images/exams/honmen/4/K073.jpg",
+    scenario: "You are driving along at 40 km/h. Look for two-wheeled vehicles.",
     statements: [
-      { text: "Elderly pedestrians may have slower reactions and move unpredictably.", correct: true },
-      { text: "You should slow down and give them extra space.", correct: true },
-      { text: "Elderly people always stay on the sidewalk, so no caution needed.", correct: false }
+      { text: "Motorcycles and bicycles may be harder to see than cars.", correct: true },
+      { text: "I should take extra care to look for smaller vehicles.", correct: true },
+      { text: "Motorcycles and bicycles are always clearly visible.", correct: false }
     ],
-    explanation: "Elderly pedestrians may have mobility issues or hearing impairment. Always slow down and be prepared for unexpected movements."
+    explanation: "Motorcycles and bicycles are smaller and easily hidden. Always double-check before changing lanes."
   },
   {
     id: "sit-15",
-    img: "assets/images/exams/honmen/6/K041.jpg",
-    scenario: "You are driving at 40 km/h and a motorcycle is in your blind spot.",
+    img: "assets/images/exams/honmen/4/K061.jpg",
+    scenario: "You are driving along at 40 km/h. Observe traffic signs and markings.",
     statements: [
-      { text: "The motorcycle may be difficult to see in mirrors.", correct: true },
-      { text: "You should check blind spots before changing lanes.", correct: true },
-      { text: "Motorcycles always stay visible, so mirrors are sufficient.", correct: false }
+      { text: "Road signs may indicate hazards or restrictions I need to follow.", correct: true },
+      { text: "I should always observe and follow road signs and markings.", correct: true },
+      { text: "I only need to follow signs in unfamiliar areas.", correct: false }
     ],
-    explanation: "Motorcycles can easily hide in blind spots. Always do a head check before changing lanes or merging."
+    explanation: "Road signs provide critical safety information. Always observe them, even on familiar routes."
   },
   {
     id: "sit-16",
-    img: "assets/images/exams/honmen/7/K055.jpg",
-    scenario: "You are driving at 30 km/h in foggy conditions with limited visibility.",
+    img: "assets/images/exams/honmen/4/K081.jpg",
+    scenario: "You are driving along at 40 km/h. Watch other drivers' behavior.",
     statements: [
-      { text: "Vehicles ahead may be closer than they appear.", correct: true },
-      { text: "You should use fog lights and reduce speed significantly.", correct: true },
-      { text: "High beam headlights improve visibility in fog.", correct: false }
+      { text: "Other vehicles may change lanes without adequate signaling.", correct: true },
+      { text: "I should anticipate unexpected movements and leave escape room.", correct: true },
+      { text: "All drivers signal properly, so I'll always have warning.", correct: false }
     ],
-    explanation: "Fog drastically reduces visibility. Use low beams or fog lights (high beams reflect off fog), reduce speed, and increase following distance."
-  },
-  {
-    id: "sit-17",
-    img: "assets/images/exams/honmen/8/K062.jpg",
-    scenario: "You are driving at 50 km/h and approaching a school zone during school hours.",
-    statements: [
-      { text: "Children may cross the road unexpectedly.", correct: true },
-      { text: "You should reduce speed even if no children are visible.", correct: true },
-      { text: "School zones only require caution during dismissal time.", correct: false }
-    ],
-    explanation: "School zones require extra caution during all school hours. Children may appear suddenly from various directions."
-  },
-  {
-    id: "sit-18",
-    img: "assets/images/exams/honmen/9/K071.jpg",
-    scenario: "You are driving at 40 km/h and see a ball roll into the road ahead.",
-    statements: [
-      { text: "A child may run into the road chasing the ball.", correct: true },
-      { text: "You should immediately slow down and prepare to stop.", correct: true },
-      { text: "Since it's just a ball, you can swerve around it and continue.", correct: false }
-    ],
-    explanation: "A ball in the road often means a child will follow. This is a classic hazard pattern - always stop and wait."
-  },
-  {
-    id: "sit-19",
-    img: "assets/images/exams/honmen/10/K078.jpg",
-    scenario: "You are merging onto an expressway at the acceleration lane.",
-    statements: [
-      { text: "You should match the speed of traffic on the main road.", correct: true },
-      { text: "You must yield to vehicles already on the expressway.", correct: true },
-      { text: "Vehicles on the expressway must slow down to let you merge.", correct: false }
-    ],
-    explanation: "When merging, accelerate to match traffic speed and yield to vehicles on the main road. They have right of way."
-  },
-  {
-    id: "sit-20",
-    img: "assets/images/exams/honmen/11/K088.jpg",
-    scenario: "You are driving at 30 km/h and see a delivery truck double-parked ahead.",
-    statements: [
-      { text: "The delivery person may walk around the truck unexpectedly.", correct: true },
-      { text: "You should check for oncoming traffic before passing.", correct: true },
-      { text: "Double-parked vehicles are always stationary, so you can pass quickly.", correct: false }
-    ],
-    explanation: "Double-parked vehicles create hazards: people may appear, and you may need to enter oncoming lane to pass. Check carefully."
+    explanation: "Many drivers signal late or not at all. Always leave space to maneuver if needed."
   }
 ];
-
-// Export for use in special-tests.js
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { SITUATION_QUESTIONS };
-}
