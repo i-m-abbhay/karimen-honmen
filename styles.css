@@ -1511,6 +1511,7 @@ body {
 
 .quiz-feedback {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 0.35rem;
   margin-top: 1.25rem;
@@ -1520,6 +1521,17 @@ body {
 }
 .quiz-feedback.correct-fb { background: var(--success-light); color: var(--success); }
 .quiz-feedback.incorrect-fb { background: var(--accent-light); color: var(--accent); }
+
+.quiz-feedback-explanation {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  background: var(--bg);
+  padding: 0.75rem;
+  border-radius: 6px;
+  line-height: 1.5;
+  width: 100%;
+}
 
 .quiz-next { margin-top: 1rem; }
 
