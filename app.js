@@ -589,6 +589,9 @@ function selectAnswer(index) {
   if (!correct && q.img) {
     fb.innerHTML += `<div class="quiz-feedback-sign"><img src="${q.img}" alt="${correctLabel}"></div>`;
   }
+  if (q.explanation) {
+    fb.innerHTML += `<p class="quiz-feedback-explanation">${q.explanation}</p>`;
+  }
 
   $('#quizScoreDisplay').textContent = `Score: ${state.quizScore}`;
   $('#btnQuizNext').classList.remove('hidden');
